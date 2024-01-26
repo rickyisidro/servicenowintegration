@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="recommended_control" label="Recommended Control" language="en" table="x_935283_pia_risk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>recommended_control</element>
+            <help/>
+            <hint/>
+            <label>Recommended Control</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <plural>Recommended Controls</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-30 00:29:27</sys_created_on>
+            <sys_id>f3e2458f97bda110c617b8e6f053aff7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recommended Control</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_risk_recommended_control_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-30 00:29:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

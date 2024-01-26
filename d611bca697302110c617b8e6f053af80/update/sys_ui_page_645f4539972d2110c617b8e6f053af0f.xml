@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_935283_pia_show_field_display.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+<g:ui_form>		
+	<g:evaluate var="jvar_agreement" jelly="true">		
+			var tcContent;
+			//var bpeTC = new x_brni_bpe.BPETCUtils();
+			//bpeTC.getAgreementContent();	
+		g_scratchpad.latest_comments;
+		alert("test");
+	</g:evaluate>
+	
+	<style type="text/css">
+		.checkboxes label {
+		  display: block;
+		  padding-right: 10px;
+		  padding-left: 22px;
+		  text-indent: -15px;
+		}
+		.checkboxes input {
+		  vertical-align: middle;
+		}
+		.checkboxes label span {
+		  vertical-align: middle;
+		}
+		
+		body:before {
+			position:absolute;
+			top : 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			content:"";
+			pointer-events: none;
+			z-index:100;
+			opacity: .5
+		}
+
+		div.parent {
+		  position: relative;
+		  height: 200px;		 
+		}		
+
+		div.relative {
+		  position: relative;
+		  width: 90%;
+		  bottom: 8px;		  
+		} 		
+		
+		div.absolute {
+		  position: absolute;
+		  width: 50%;
+		  bottom: 10px;		  
+		} 		
+				
+		#x_brni_bpe_best_practice {
+			top: 0px !important;
+		}		
+		
+		table {
+			background-color: white;
+		}
+			
+		.bpe-checkbox-wrapper {
+			width: 20px;
+			display: flex;
+		}
+	</style>
+
+   <!-- Get values from dialog preferences passed in -->
+<!--	
+   <g:evaluate var="jvar_cancel_url"
+     expression= "RP.getWindowProperties().get('cancel_url')" />
+	 <input type="hidden" id="cancel_url" value="${jvar_cancel_url}" /> -->
+	<input type="hidden" name='jvarfeatures' id='jvarfeatures' value="${jvar_features_content}" />
+	
+   <table width="100%">
+     <tr>  	 
+       <td>		   
+          <div style="width:450px; height:400px; overflow:auto; border: 1px solid gray;">
+			  <div style="padding:25px;">
+				  <p style="font-size: 14pt; color:#3faa9c;">Previous Field Value</p>
+				  <div style="width:400px; height:280px; overflow:auto">
+					  <span id="script_tc_content" style="font-size: 9pt;" ></span>						  
+					  <script>						    
+						  $('script_tc_content').innerHTML = '${jvar_agreement}';
+					  </script>
+				  </div>				  
+			  </div>
+          </div>
+       </td>
+	 </tr>
+     <tr>
+       <td colspan="2">
+       </td>
+     </tr>
+     <tr id="dialog_buttons">
+        <td colspan="2" align="right">
+           <!-- Pull in 'dialog_buttons_ok_cancel' UI Macro for submit/cancel buttons -->
+           <g:dialog_buttons_ok_cancel ok="return termsOK()" cancel="termsCancel()" ok_type="button" cancel_type="button"/>
+        </td>
+     </tr>
+  </table>
+</g:ui_form>
+</j:jelly>	]]></html>
+        <name>show_field_display</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-13 17:57:46</sys_created_on>
+        <sys_id>645f4539972d2110c617b8e6f053af0f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>show_field_display</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_page_645f4539972d2110c617b8e6f053af0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-13 18:43:21</sys_updated_on>
+    </sys_ui_page>
+</record_update>

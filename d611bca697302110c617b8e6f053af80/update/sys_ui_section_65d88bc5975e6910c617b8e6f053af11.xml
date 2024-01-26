@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="65d88bc5975e6910c617b8e6f053af11" sys_domain="global" table="x_935283_pia_access_to_internal_entity_systems" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>3e098fc5975e6910c617b8e6f053af0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <text>Access to Internal Entity Systems</text>
+            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>fe098fc5975e6910c617b8e6f053af0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <text>Please articulate whether personnel of the business partner will need access to any internal corporate systems of your Entity in order to fulfill its contractual obligations and functions
+** NOTE: If access to an internal corporate system is necessary, please provide (a) the Name of the System, (b) the purpose for which access is necessary, and (c) a description of the processing to be performed by the personnel of the business partner</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3e098fc5975e6910c617b8e6f053af0d</element>
+            <position>0</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>b6098fc5975e6910c617b8e6f053af13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fe098fc5975e6910c617b8e6f053af0d</element>
+            <position>1</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>ba098fc5975e6910c617b8e6f053af13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>system_name</element>
+            <position>2</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>be098fc5975e6910c617b8e6f053af13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_access</element>
+            <position>3</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>b2098fc5975e6910c617b8e6f053af14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_processing_to_be_performed</element>
+            <position>4</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:56</sys_created_on>
+            <sys_id>b6098fc5975e6910c617b8e6f053af14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_pip</element>
+            <position>5</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:39:33</sys_created_on>
+            <sys_id>bf29c7c5975e6910c617b8e6f053af24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:39:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>existence_of_sub_contractors</element>
+            <position>6</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:40:40</sys_created_on>
+            <sys_id>4079c709975e6910c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_access_to_internal_entity_systems" sys_domain="global" view="Default view">65d88bc5975e6910c617b8e6f053af11</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:40:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_935283_pia_access_to_internal_entity_systems</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-18 01:38:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65d88bc5975e6910c617b8e6f053af11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_access_to_internal_entity_systems</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_65d88bc5975e6910c617b8e6f053af11</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-18 01:38:01</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

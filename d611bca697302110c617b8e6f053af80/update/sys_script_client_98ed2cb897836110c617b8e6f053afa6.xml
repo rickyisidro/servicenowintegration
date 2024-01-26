@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_boolean_22_thresholdanalysis</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set focus to Threshold analysis tab</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    if (newValue == 'true') {
+        g_form.addInfoMessage("Showing Next section: Threshold Analysis, accomplish the section then Save the form");
+		g_form.addInfoMessage("After completing Threshold Analysis, complete the Section 3");
+        var tabIndex = g_tabs2Sections.findTabIndexByName('22_thresholdanalysis');
+        g_tabs2Sections.setActive(tabIndex);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ralmeyda</sys_created_by>
+        <sys_created_on>2023-05-24 02:30:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98ed2cb897836110c617b8e6f053afa6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Set focus to Threshold analysis tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_client_98ed2cb897836110c617b8e6f053afa6</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:07</sys_updated_on>
+        <table>x_935283_pia_privacy_impact_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

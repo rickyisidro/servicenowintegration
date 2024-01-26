@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="d926465697032110c617b8e6f053af6e" sys_domain="global" table="x_935283_pia_dps_operation" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 22:31:45</sys_created_on>
+            <sys_id>ecae4760977ff910c617b8e6f053af3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
+            <text>Once this Section is completed, proceed to Processing Purposes.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 22:31:45</sys_created_on>
+            <sys_id>60ae4760977ff910c617b8e6f053afa2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
+            <text>After completing the form, Save the form to view Stakeholder tab</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ecae4760977ff910c617b8e6f053af3d</element>
+            <position>0</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 22:31:45</sys_created_on>
+            <sys_id>7cae4760977ff910c617b8e6f053afb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">d926465697032110c617b8e6f053af6e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>60ae4760977ff910c617b8e6f053afa2</element>
+            <position>1</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 22:31:45</sys_created_on>
+            <sys_id>f0ae4760977ff910c617b8e6f053afb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">d926465697032110c617b8e6f053af6e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_lifecycle_type</element>
+            <position>2</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 22:31:45</sys_created_on>
+            <sys_id>74ae4760977ff910c617b8e6f053afb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">d926465697032110c617b8e6f053af6e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_935283_pia_dps_operation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-05-29 00:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d926465697032110c617b8e6f053af6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_dps_operation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_d926465697032110c617b8e6f053af6e</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_the_data_processing_sytem_owned_or_outsourced" label="Is the Data processing sytem owned or outsourced" language="en" table="x_935283_pia_dps_operation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
+            <help/>
+            <hint/>
+            <label>Is the Data processing sytem owned or outsourced</label>
+            <language>en</language>
+            <name>x_935283_pia_dps_operation</name>
+            <plural>Is the Data processing sytem owned or outsourced</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:39:51</sys_created_on>
+            <sys_id>3c651cf897462110c617b8e6f053af83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is the Data processing sytem owned or outsourced</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_dps_operation_is_the_data_processing_sytem_owned_or_outsourced_en</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:39:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

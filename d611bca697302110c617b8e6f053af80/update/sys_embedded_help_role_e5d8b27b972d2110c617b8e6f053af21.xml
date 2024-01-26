@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_935283_pia.summary_of_the_processing_purposes_user" name="x_935283_pia.summary_of_the_processing_purposes_user">edd8b27b972d2110c617b8e6f053af1f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>fbautista</sys_created_by>
+        <sys_created_on>2023-03-20 06:44:21</sys_created_on>
+        <sys_id>e5d8b27b972d2110c617b8e6f053af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edd8b27b972d2110c617b8e6f053af1f</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e5d8b27b972d2110c617b8e6f053af21</sys_update_name>
+        <sys_updated_by>fbautista</sys_updated_by>
+        <sys_updated_on>2023-03-20 06:44:21</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

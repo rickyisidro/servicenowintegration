@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="resources_needed_dependency" label="Resources needed/dependency" language="en" table="x_935283_pia_risk_rtp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>resources_needed_dependency</element>
+            <help/>
+            <hint/>
+            <label>Resources needed/dependency</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_rtp</name>
+            <plural>Resources needed/dependencies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-11 05:55:20</sys_created_on>
+            <sys_id>5690808397462110c617b8e6f053af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resources needed/dependency</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_risk_rtp_resources_needed_dependency_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-11 05:55:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="classification" label="Classification" language="en" table="x_935283_pia_lawful_basis">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>classification</element>
+            <help/>
+            <hint/>
+            <label>Classification</label>
+            <language>en</language>
+            <name>x_935283_pia_lawful_basis</name>
+            <plural>Classifications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-20 07:54:00</sys_created_on>
+            <sys_id>8ec88bbf976d2110c617b8e6f053afd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Classification</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_lawful_basis_classification_en</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-20 07:54:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

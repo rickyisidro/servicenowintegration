@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_935283_pia_pam">phase=pam_draft^EQ<item display_value="PAM Draft" endquery="false" field="phase" goto="false" newquery="false" operator="=" or="false" value="pam_draft"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>PAM Draft</label>
+        <name>PAM Draft</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-12 02:47:31</sys_created_on>
+        <sys_id>6df245b9970b7d10c617b8e6f053af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PAM Draft</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_process_flow_6df245b9970b7d10c617b8e6f053af51</sys_update_name>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:47:31</sys_updated_on>
+        <table>x_935283_pia_pam</table>
+    </sys_process_flow>
+</record_update>

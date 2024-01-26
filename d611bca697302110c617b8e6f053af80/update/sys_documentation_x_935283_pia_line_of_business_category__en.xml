@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Line of business Category" language="en" table="x_935283_pia_line_of_business_category">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Line of business Category</label>
+            <language>en</language>
+            <name>x_935283_pia_line_of_business_category</name>
+            <plural>Line of business Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-02-23 16:15:52</sys_created_on>
+            <sys_id>bdeb8c4897d9e110c617b8e6f053af2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Line of business Category</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_line_of_business_category__en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-02-23 16:15:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

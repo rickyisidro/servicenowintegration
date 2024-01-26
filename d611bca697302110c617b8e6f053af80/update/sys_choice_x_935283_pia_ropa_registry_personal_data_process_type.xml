@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="personal_data_process_type" table="x_935283_pia_ropa_registry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>personal_data_process_type</element>
+            <name>x_935283_pia_ropa_registry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-27 06:53:38</sys_created_on>
+            <sys_id>821efa4e97712110c617b8e6f053afc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>personal_data_process_type</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_ropa_registry_personal_data_process_type</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-27 06:53:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>personal_data_process_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manual</label>
+            <language>en</language>
+            <name>x_935283_pia_ropa_registry</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-27 06:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c60e360297b12110c617b8e6f053afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-27 06:53:38</sys_updated_on>
+            <value>manual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>personal_data_process_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electronic</label>
+            <language>en</language>
+            <name>x_935283_pia_ropa_registry</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-27 06:54:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>503e720297b12110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-27 06:54:03</sys_updated_on>
+            <value>electronic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>personal_data_process_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both</label>
+            <language>en</language>
+            <name>x_935283_pia_ropa_registry</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-27 06:54:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b04e3e8e97712110c617b8e6f053afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-27 06:54:22</sys_updated_on>
+            <value>both</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

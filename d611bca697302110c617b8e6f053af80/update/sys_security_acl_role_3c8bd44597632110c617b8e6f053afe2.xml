@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-18 16:19:16</sys_created_on>
+        <sys_id>3c8bd44597632110c617b8e6f053afe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_935283_pia_intake.x_935283_pia.intake_user</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_security_acl display_value="x_935283_pia_intake">f08bd44597632110c617b8e6f053afe0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3c8bd44597632110c617b8e6f053afe2</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:25</sys_updated_on>
+        <sys_user_role display_value="x_935283_pia.intake_user" name="x_935283_pia.intake_user">e88b14c197632110c617b8e6f053af1a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

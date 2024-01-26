@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>take_me_to_the_pia_intake_form</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	var link = 'https://dev139490.service-now.com/sp?id=sc_cat_item&sys_id=32fc1cc597632110c617b8e6f053af10&pia=' + current.getUniqueValue();
+	template.print('<font face="helvetica">');
+	
+	var backgroundColor = 'background-color: #278efc;';
+	var border = 'border: 1px solid #0368d4;';
+	var color = 'color: #ffffff;';
+	var fontSize = 'font-size: 16px;';
+	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+	var textDecoration = 'text-decoration: none; border-radius: 3px;';
+	var webKitBorder = '-webkit-border-radius: 3px;';
+	var mozBorder = '-moz-border-radius: 3px;';
+	var display = 'display: inline-block;';
+	var padding = 'padding: 5px;';
+	
+	if (email_action.name == "Incident Survey") {
+		color = 'color: #343d47;';
+		backgroundColor = 'background-color: #e6e8ea;';
+		border = 'border: 1px solid #bdc0c4;';
+	}
+	email.setFrom("No Reply PLDT PIA <dev139490@service-now.com>");
+	template.print('<a href="' + link + '"');
+	template.print('style="' + backgroundColor + border + color + fontSize + fontFamily + textDecoration + webKitBorder + mozBorder + display + padding);
+	template.print('">');
+	template.print(gs.getMessage('Take me to the PIA Intake Form'));
+	template.print('</a>');
+	template.print('</font>');
+	template.print('<br><br>');
+	template.print('<p><font size="3" color="#808080" face="helvetica">');
+	template.print(gs.getMessage('Thank you.'));
+	template.print('</font></p>');
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-06-21 17:19:04</sys_created_on>
+        <sys_id>cef5888697e7a110c617b8e6f053afd3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>take_me_to_the_pia_intake_form</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_email_cef5888697e7a110c617b8e6f053afd3</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:30</sys_updated_on>
+    </sys_script_email>
+</record_update>

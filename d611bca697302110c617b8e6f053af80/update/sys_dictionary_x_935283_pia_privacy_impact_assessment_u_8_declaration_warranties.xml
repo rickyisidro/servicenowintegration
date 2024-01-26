@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_8_declaration_warranties" table="x_935283_pia_privacy_impact_assessment">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Declarations and Warranties</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>By accomplishing this PIA, I, [Name of Project Owner]:&#13;
+&#13;
+(1)	Warrant that all information I have provided about the Project is true and correct as of the date of the PIA's submission; &#13;
+&#13;
+(2)	Acknowledge that the declaration of any false, incomplete, or misleading information shall result in disciplinary action in accordance with the applicable provisions of your Entity’s Code of Discipline and other related corporate policies, without prejudice to the filing of civil and/or criminal actions when warranted; and&#13;
+&#13;
+(3)	Acknowledge that this PIA is subject to the further assessment of the PO-PPRM Center. In the event that additional risks are observed, I commit to (a) participate in further cross-examination, and/or (b) implement any additional remediating measures that may be identified by the PO-PPRM Center through the Privacy Assessment Memo. &#13;
+</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_8_declaration_warranties</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="HTML">html</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>65536</max_length>
+        <name>x_935283_pia_privacy_impact_assessment</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>fbautista</sys_created_by>
+        <sys_created_on>2023-03-21 01:53:13</sys_created_on>
+        <sys_id>bacf76449731a110c617b8e6f053af70</sys_id>
+        <sys_name>Declarations and Warranties</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_dictionary_x_935283_pia_privacy_impact_assessment_u_8_declaration_warranties</sys_update_name>
+        <sys_updated_by>fbautista</sys_updated_by>
+        <sys_updated_on>2023-03-21 02:03:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>

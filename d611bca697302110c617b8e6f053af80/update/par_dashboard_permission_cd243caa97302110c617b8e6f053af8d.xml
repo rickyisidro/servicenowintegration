@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Privacy Impact Assessment">8424f8aadc302110bcd74b9bfc839e93</dashboard>
+        <group/>
+        <role display_value="x_935283_pia.pia_admin" name="x_935283_pia.pia_admin">d44134e697302110c617b8e6f053af44</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 17:05:05</sys_created_on>
+        <sys_id>cd243caa97302110c617b8e6f053af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8424f8aadc302110bcd74b9bfc839e93</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>par_dashboard_permission_cd243caa97302110c617b8e6f053af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 17:05:05</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

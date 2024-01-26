@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>doStuff</name>
+        <scoped_name>x_935283_pia_doStuff</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-03-13 07:36:24</sys_created_on>
+        <sys_id>e061c36597252110c617b8e6f053afbf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>doStuff</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_macro_e061c36597252110c617b8e6f053afbf</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-03-13 07:48:58</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<html>
+  <head>
+  <script>
+	  function doStuff(){
+			// Do math here if you want to put some figured amount in the HTML of your page.
+			gel('placeholder').innerHTML = "Latest details: <b>" + g_scratchpad.latest_comments + "</b>";
+	  }
+  </script>
+  </head>
+  <body onload="doStuff()">
+    <div id="placeholder">
+    </div>
+  </body>
+</html>
+
+</j:jelly>
+
+]]></xml>
+    </sys_ui_macro>
+</record_update>

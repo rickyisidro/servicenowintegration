@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="stakeholder" label="Stakeholder" language="en" table="x_935283_pia_section_7_project_point_persons_stakeholders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stakeholder</element>
+            <help/>
+            <hint/>
+            <label>Stakeholder</label>
+            <language>en</language>
+            <name>x_935283_pia_section_7_project_point_persons_stakeholders</name>
+            <plural>Stakeholders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:14:50</sys_created_on>
+            <sys_id>15f33be497333d10c617b8e6f053aff3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Stakeholder</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_section_7_project_point_persons_stakeholders_stakeholder_en</sys_update_name>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:14:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

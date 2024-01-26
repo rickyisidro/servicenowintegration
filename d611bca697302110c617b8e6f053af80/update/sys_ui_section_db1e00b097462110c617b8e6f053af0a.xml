@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="db1e00b097462110c617b8e6f053af0a" sys_domain="global" table="x_935283_pia_dps_operation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_data_processing_system</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-28 01:03:15</sys_created_on>
+            <sys_id>d1c0ea9097ae6510c617b8e6f053afb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">db1e00b097462110c617b8e6f053af0a</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-28 01:03:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_mediums</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-28 01:03:15</sys_created_on>
+            <sys_id>d5c0ea9097ae6510c617b8e6f053afb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">db1e00b097462110c617b8e6f053af0a</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-28 01:03:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-28 01:03:15</sys_created_on>
+            <sys_id>d9c0ea9097ae6510c617b8e6f053afb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">db1e00b097462110c617b8e6f053af0a</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-28 01:03:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_935283_pia_dps_operation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db1e00b097462110c617b8e6f053af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_dps_operation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_db1e00b097462110c617b8e6f053af0a</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:08:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

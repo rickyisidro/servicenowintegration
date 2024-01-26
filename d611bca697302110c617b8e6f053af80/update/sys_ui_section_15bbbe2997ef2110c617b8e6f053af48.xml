@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="15bbbe2997ef2110c617b8e6f053af48" sys_domain="global" table="x_935283_pia_intake" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_control_number</element>
+            <position>0</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>c8dde23b97ebf510c617b8e6f053af20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>executive_summary</element>
+            <position>1</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>40dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_objectives</element>
+            <position>2</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>c0dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>benefits_to_the_company</element>
+            <position>3</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>44dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>benefits_to_the_data_subjects</element>
+            <position>4</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>c4dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>5</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>48dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>6</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>c8dde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_project_include_a_facility_for_data_subjects_to_exercise_their_privacy</element>
+            <position>7</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>4cdde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sec_6_q1_please_explain_why_you_answered_yes_no</element>
+            <position>8</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>ccdde23b97ebf510c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pia.data_subjects</element>
+            <position>9</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2024-01-12 12:12:55</sys_created_on>
+            <sys_id>40dde23b97ebf510c617b8e6f053af22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_intake" sys_domain="global" view="Default view">15bbbe2997ef2110c617b8e6f053af48</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2024-01-12 12:12:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_935283_pia_intake</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-06-20 17:16:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15bbbe2997ef2110c617b8e6f053af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_intake</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_15bbbe2997ef2110c617b8e6f053af48</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-06-20 17:16:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

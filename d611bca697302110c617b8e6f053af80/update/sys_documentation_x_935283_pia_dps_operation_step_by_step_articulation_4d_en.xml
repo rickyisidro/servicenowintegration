@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="step_by_step_articulation_4d" label="Step-By-Step Articulation of the Data Disposal" language="en" table="x_935283_pia_dps_operation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>step_by_step_articulation_4d</element>
+            <help/>
+            <hint/>
+            <label>Step-By-Step Articulation of the Data Disposal</label>
+            <language>en</language>
+            <name>x_935283_pia_dps_operation</name>
+            <plural>Step-By-Step Articulation of the Data Disposals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 00:51:53</sys_created_on>
+            <sys_id>7b31185097fea110c617b8e6f053afae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Step-By-Step Articulation of the Data Disposal</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_dps_operation_step_by_step_articulation_4d_en</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 00:51:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Label</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	g_form.setLabelOf('purpose_test_question_2', "What would the impact be if your organization couldn’t go ahead with the processing?");
+	g_form.setLabelOf('necessity_test_question_1', "Can your organization achieve the same purpose without the processing?");
+	g_form.setLabelOf('necessity_test_question_2', "Can your organization achieve the same purpose by processing less data, or by processing the data using another less intrusive methodology?");
+	g_form.setLabelOf('balancing_test_question_1', "Is your organization's intended purpose and method widely known and/or understood by the data subjects?");
+	g_form.setLabelOf('balancing_test_question_2', "Is your organization capable of explaining the processing (its purpose and benefits) to the data subjects? I.e., Right to be Informed)?");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-04-27 19:55:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b99d950976a6510c617b8e6f053aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Label</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_client_5b99d950976a6510c617b8e6f053aff3</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-04-27 19:55:19</sys_updated_on>
+        <table>x_935283_pia_section_lawful_basis</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_processing_system_category" label="Data Processing System Category" language="en" table="x_935283_pia_collection_medium">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_processing_system_category</element>
+            <help/>
+            <hint/>
+            <label>Data Processing System Category</label>
+            <language>en</language>
+            <name>x_935283_pia_collection_medium</name>
+            <plural>Data Processing System Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-28 14:32:55</sys_created_on>
+            <sys_id>b3c0fd62977d2110c617b8e6f053af0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Processing System Category</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_collection_medium_data_processing_system_category_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-28 14:32:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

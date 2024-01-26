@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d2a74f3e97022110c617b8e6f053af3c" sys_domain="global" table="x_935283_pia_step_by_step_articulation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>step_number</element>
+            <position>0</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-11 01:46:34</sys_created_on>
+            <sys_id>96a74f3e97022110c617b8e6f053af43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_step_by_step_articulation" sys_domain="global" view="Default view">d2a74f3e97022110c617b8e6f053af3c</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-11 01:46:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>step_description</element>
+            <position>1</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-11 01:46:34</sys_created_on>
+            <sys_id>5ea74f3e97022110c617b8e6f053af43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_step_by_step_articulation" sys_domain="global" view="Default view">d2a74f3e97022110c617b8e6f053af3c</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-11 01:46:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>referenced_dps_operation</element>
+            <position>2</position>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-11 01:46:34</sys_created_on>
+            <sys_id>dea74f3e97022110c617b8e6f053af43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_step_by_step_articulation" sys_domain="global" view="Default view">d2a74f3e97022110c617b8e6f053af3c</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-11 01:46:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section</element>
+            <position>3</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-25 10:01:59</sys_created_on>
+            <sys_id>2b4f78a797de6110c617b8e6f053afad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_step_by_step_articulation" sys_domain="global" view="Default view">d2a74f3e97022110c617b8e6f053af3c</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:01:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_935283_pia_step_by_step_articulation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-04-11 01:46:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2a74f3e97022110c617b8e6f053af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_step_by_step_articulation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_d2a74f3e97022110c617b8e6f053af3c</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-04-11 01:46:34</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

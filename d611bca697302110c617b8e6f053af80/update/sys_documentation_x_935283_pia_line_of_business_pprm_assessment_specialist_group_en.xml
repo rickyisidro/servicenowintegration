@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="pprm_assessment_specialist_group" label="PPRM - Assessment Specialist Group" language="en" table="x_935283_pia_line_of_business">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pprm_assessment_specialist_group</element>
+            <help/>
+            <hint/>
+            <label>PPRM - Assessment Specialist Group</label>
+            <language>en</language>
+            <name>x_935283_pia_line_of_business</name>
+            <plural>PPRM - Assessment Specialist Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-20 08:58:29</sys_created_on>
+            <sys_id>e6871fb397ed2110c617b8e6f053af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PPRM - Assessment Specialist Group</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_line_of_business_pprm_assessment_specialist_group_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-20 08:58:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f64c3bf797dee110c617b8e6f053afb0" sys_domain="global" table="x_935283_pia_personal_data_processed" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>810ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>element_name</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>050ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>850ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yes_no</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>090ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>890ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>5</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 05:17:23</sys_created_on>
+            <sys_id>0d0ec15c97f2e110c617b8e6f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_personal_data_processed" sys_domain="global" view="Default view">f64c3bf797dee110c617b8e6f053afb0</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 05:17:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_935283_pia_personal_data_processed</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-26 18:26:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f64c3bf797dee110c617b8e6f053afb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_personal_data_processed</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_f64c3bf797dee110c617b8e6f053afb0</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:26:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

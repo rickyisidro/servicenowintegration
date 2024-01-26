@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Label of</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+	
+	//section 2.2 labels
+    g_form.setLabelOf('will_the_project_involve_yesno', "Will the project involve a new or changed process or technology for validating or verifying an individual’s identity?");
+    g_form.setLabelOf('will_the_project_use_personal_data_yesno', "Will the project use personal data to make decisions (for example, profiling / research / statistics) or take action against individuals (for example, whether to receive a service or benefit) in ways which can have significant impact on them? ");
+    g_form.setLabelOf('are_you_processing_personal_data', "Are you processing Personal Data in ways that have not been considered in your Privacy Notice language?");
+	g_form.setLabelOf('will_the_project_require_contact', "Will the project require you to contact individuals via any direct communication channel?");
+	g_form.setLabelOf('does_the_project_involve', "Does the project involve you using new technology which might be perceived as being privacy intrusive (e.g. biometrics or facial recognition)?");
+	
+	//section 5 labels Legitimate Interest Assessment
+	g_form.setLabelOf('legitimate_interest_html', "What legitimate Interest are you pursuing through this Project?");	
+	g_form.setLabelOf('impact_org_html', "What would the impact be if your organization couldn’t go ahead with the processing?");
+	g_form.setLabelOf('can_org2_html', "Can your organization achieve the same purpose by processing less data, or by processing the data using another less intrusive methodology? ");
+	g_form.setLabelOf('is_org1_html', "Is your organization's intended purpose and method widely known and/or understood by the data subjects?");
+	g_form.setLabelOf('is_org2_html', "Is your organization capable of explaining the processing (its purpose and benefits) to the data subjects? I.e., Right to be Informed)?");
+	
+	//section 6 labels
+	//g_form.setLabelOf('u_6_does_the_project_include', "Does the project include a facility* for Data Subjects to exercise their privacy rights? (refers to the Project or Entity's methods / channels / touchpoints on how Data Subjects are enabled to exercise their rights. It can be as simple as enabling an email to the DPO, or an online form in a website or mobile application.)");
+	
+	//g_form.setLabelOf('u_6_right_to_be_informed', "Right to be INFORMED ((1) Right of the Data Subject to be informed of the details of processing, prior to collection or as soon as practicable. (2) Describe here how the Privacy Notice/Policy is presented to the Data Subject (3) Discuss how the acknowledgement to the Notice is recorded))");
+	g_form.setLabelOf('u_6_right_to_consent_or_choice', "Right to CONSENT or CHOICE (1) Right of the Data Subject to a genuine choice with respect to the conduct of a specific processing activity (2) Applicable only in cases where your Project’s Lawful Basis is anchored on CONSENT (3) Discuss how consent is obtained and enforced ");
+	g_form.setLabelOf('u_6_right_to_object', "Right to withdraw consent or OBJECT to the processing (1) Right of the Data Subject to object or to request to stop to the data processing activity where Lawful Basis is anchored on CONSENT or LEGITIMATE INTEREST (2) Discuss how consent can be withdrawn and applied ");
+	g_form.setLabelOf('u_6_right_to_access', "Right to ACCESS (1) The right of the Data Subject to have reasonable access to or copy of his Personal Data (2) Discuss how the Data Subject is given access to his Personal Data (3) Includes access to both Physical and Digital/Electronic formats of Personal Data ");
+	g_form.setLabelOf('u_6_right_rectification', "Right to RECTIFICATION (1) The right of the Data Subject to modify or update inaccurate information about him. (2) Discuss how Personal Data is rectified following a Data Subject request");
+	g_form.setLabelOf('u_6_right_erasure', "Right to ERASURE or blocking (1) The right of the Data Subject to request for deletion of his Personal Data. (2) This right may be exercised upon discovery that Personal Data is outdated / incomplete, is used for an unauthorized purpose, or is no longer necessary for the purposes for which it was collected");
+	g_form.setLabelOf('u_6_right_data_portability', "Right to DATA PORTABILITY (1) The right of the Data Subject to obtain a copy of his Personal Data in an electronic or commonly-used structured format which allows to further use said data.(2) Applicable for Personal Data that is processed by electronic means and in structured and commonly-used format");
+
+	g_form.setLabelOf('prj_involve_personal_data_collection', "Will the project involve the collection of Personal Data directly from the Data Subjects?");
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>fbautista</sys_created_by>
+        <sys_created_on>2023-03-17 01:26:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a42d6b697e56510c617b8e6f053afd4</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Set Label of</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_client_3a42d6b697e56510c617b8e6f053afd4</sys_update_name>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2023-04-27 05:34:01</sys_updated_on>
+        <table>x_935283_pia_privacy_impact_assessment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

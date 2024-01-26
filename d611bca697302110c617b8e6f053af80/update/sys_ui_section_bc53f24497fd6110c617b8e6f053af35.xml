@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="6 Exercise of Rights" section_id="bc53f24497fd6110c617b8e6f053af35" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c5b9d01c97fea110c617b8e6f053afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <text>This Section aims to understand how affected Data Subjects are enabled to exercise their privacy rights in relation to this Project.</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>89b9d01c97fea110c617b8e6f053afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <text>STOP and Check : Before you proceed with this section, please answer below question.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>4db9d01c97fea110c617b8e6f053afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <text>HOW HAVE YOU ENABLED DATA SUBJECTs &#13;
+&#13;
+TO EXERCISE THEIR PRIVACY RIGHTS? &#13;
+Please describe the policies, processes, and/or procedures in place.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>01b9d01c97fea110c617b8e6f053aff0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <text>PRIVACY RIGHT</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>c5b9d01c97fea110c617b8e6f053afef</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>45b9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>89b9d01c97fea110c617b8e6f053afef</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c5b9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>49b9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_does_the_project_include</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c9b9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_please_explain_why_you_answered_yes_no</element>
+            <position>4</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>4db9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>cdb9d01c97fea110c617b8e6f053affa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>41b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>4db9d01c97fea110c617b8e6f053afef</element>
+            <position>7</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c1b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>01b9d01c97fea110c617b8e6f053aff0</element>
+            <position>8</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>45b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_to_be_informed</element>
+            <position>9</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c5b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_to_consent_or_choice</element>
+            <position>10</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>49b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_to_object</element>
+            <position>11</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c9b9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_to_access</element>
+            <position>12</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>4db9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_rectification</element>
+            <position>13</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>cdb9d01c97fea110c617b8e6f053affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_erasure</element>
+            <position>14</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>41b9d01c97fea110c617b8e6f053affc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_data_portability</element>
+            <position>15</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>c1b9d01c97fea110c617b8e6f053affc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_6_right_lodge_a_complaint_and_damages</element>
+            <position>16</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
+            <sys_id>45b9d01c97fea110c617b8e6f053affc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>6 Exercise of Rights</caption>
+            <header>false</header>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-21 00:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc53f24497fd6110c617b8e6f053af35</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>x_935283_pia_privacy_impact_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_bc53f24497fd6110c617b8e6f053af35</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:28:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

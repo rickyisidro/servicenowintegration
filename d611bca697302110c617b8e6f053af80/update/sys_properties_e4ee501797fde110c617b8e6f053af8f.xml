@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_935283_pia.glide.script.block.client.globals</name>
+        <read_roles/>
+        <suffix>glide.script.block.client.globals</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-03-30 16:30:42</sys_created_on>
+        <sys_id>e4ee501797fde110c617b8e6f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_935283_pia.glide.script.block.client.globals</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_properties_e4ee501797fde110c617b8e6f053af8f</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-03-30 16:30:42</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4ee501797fde110c617b8e6f053af8f"/>
+</record_update>

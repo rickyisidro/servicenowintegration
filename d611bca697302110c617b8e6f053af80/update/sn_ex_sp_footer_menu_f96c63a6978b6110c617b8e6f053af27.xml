@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_footer_menu">
+    <sn_ex_sp_footer_menu action="INSERT_OR_UPDATE">
+        <footer display_value="Customer Footer">9debe766978b6110c617b8e6f053af74</footer>
+        <link_type>navigation_links</link_type>
+        <menu display_value="SP Config Menu">061c4c9747101200ba13a5554ee49084</menu>
+        <order>100</order>
+        <sys_class_name>sn_ex_sp_footer_menu</sys_class_name>
+        <sys_created_by>fbautista</sys_created_by>
+        <sys_created_on>2023-05-30 02:51:43</sys_created_on>
+        <sys_id>f96c63a6978b6110c617b8e6f053af27</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sn_ex_sp_footer_menu_f96c63a6978b6110c617b8e6f053af27</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:49</sys_updated_on>
+    </sn_ex_sp_footer_menu>
+</record_update>

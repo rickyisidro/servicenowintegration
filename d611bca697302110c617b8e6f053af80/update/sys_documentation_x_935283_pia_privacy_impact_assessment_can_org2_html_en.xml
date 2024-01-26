@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="can_org2_html" label="Can your organization achieve the same purpose by processing less data, or by pr" language="en" table="x_935283_pia_privacy_impact_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>can_org2_html</element>
+            <help/>
+            <hint/>
+            <label>Can your organization achieve the same purpose by processing less data, or by pr</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <plural>Can your organization achieve the same purpose by processing less data, or by pr</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-03-24 08:15:08</sys_created_on>
+            <sys_id>22f3374997fda110c617b8e6f053af6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Can your organization achieve the same purpose by processing less data, or by processing the data using another less intrusive methodology?</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_privacy_impact_assessment_can_org2_html_en</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-03-24 08:15:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

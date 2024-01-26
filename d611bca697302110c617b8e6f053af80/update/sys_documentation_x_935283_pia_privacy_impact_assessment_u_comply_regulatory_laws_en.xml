@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_comply_regulatory_laws" label="Comply with regulatory laws" language="en" table="x_935283_pia_privacy_impact_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_comply_regulatory_laws</element>
+            <help> Examples:&#13;
+ - other relevant regulatory laws such as those enforced by BSP, DOLE, NTC, etc,&#13;
+ -Industry Guidelines or codes of practice such as ISO 27001,PCI-DSS, etc.</help>
+            <hint> Examples: &#13;
+-other relevant regulatory laws such as those enforced by BSP, DOLE, NTC, etc,&#13;
+ -Industry Guidelines or codes of practice such as ISO 27001,PCI-DSS, etc.</hint>
+            <label>Comply with regulatory laws</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <plural>Comply with regulatory laws</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-17 02:05:08</sys_created_on>
+            <sys_id>aa2c1ab297296510c617b8e6f053af9b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Comply with regulatory laws</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_privacy_impact_assessment_u_comply_regulatory_laws_en</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-20 01:41:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

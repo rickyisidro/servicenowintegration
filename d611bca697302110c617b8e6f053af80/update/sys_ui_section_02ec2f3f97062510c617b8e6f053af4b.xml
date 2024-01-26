@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Security Measures" section_id="02ec2f3f97062510c617b8e6f053af4b" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>852d773397862510c617b8e6f053af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <text>Personal Information Controllers and Personal Information Processors shall implement reasonable and appropriate organizational, physical, and technical security measures for the protection of personal data. The Personal Information Controller and Personal Information Processor shall take steps to ensure that any natural person acting under their authority and who has access to personal data, does not process them except upon their instructions, or as required by law. 
+
+The security measures shall aim to maintain the availability, integrity, and confidentiality of personal data and are intended for the protection of personal data against any accidental or unlawful destruction, alteration, and disclosure, as well as against any other unlawful processing. These measures shall be implemented to protect personal data against natural dangers such as accidental loss or destruction, and human dangers such as unlawful access, fraudulent misuse, unlawful destruction, alteration and contamination.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>492d773397862510c617b8e6f053af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <text>Organizational Security: 
+1. The entity maintains records that sufficiently describe its data processing systems, and identifies the duties and responsibilities of all individuals that will have access to personal data. 
+
+2. The entity responsibly selects and supervises all individuals (employees, agents, and representatives) that have access to personal data, and shall provide them with capacity building, orientation, and training programs regarding relevant privacy and data security policies, standards, and procedures. 
+
+3. The entity executes contracts with its Personal Information Processors that provide sufficient guarantees on their implementation of appropriate security measures, and the protection of the rights of the data subject.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>0d2d773397862510c617b8e6f053af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <text>Physical Security: 
+1. The entity has established policies, procedures, and mechanisms that monitor and limit access to and activities in physical workplaces or facilities where personal data is processed. The duties and responsibilities of individuals involved in the processing of personal data are clearly defined to ensure that only such individuals actually performing such official duties are given access to physical workplaces or facilities. 
+
+
+2. The entity has established policies and procedures regarding the proper use of and access of media containing personal data, including the transfer, removal, disposal, and re-use of electronic media.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>cd2d773397862510c617b8e6f053af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <text>Technical Security:
+
+1. The entity has implemented safeguards to protect its network against accidental, unlawful or unauthorized usage, any interference which will affect data integrity or hinder the functioning or availability of the system, and unauthorized access.  
+
+2. The entity has the ability to ensure and maintain the confidentiality, integrity, availability, and resilience of their processing systems and services. 
+
+3. The entity has enabled regular monitoring for security breaches and a process both for identifying and accessing reasonably foreseeable vulnerabilities in its systems, and for taking preventive, corrective, and mitigating action against security incidents that can lead to a personal data breach. 
+
+4. The entity has enabled (a) encryption of personal data during storage and while in transit, (b) authentication processes, and (c) other technical security measures that control and limit access.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>852d773397862510c617b8e6f053af88</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>452d773397862510c617b8e6f053af90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>492d773397862510c617b8e6f053af88</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>492d773397862510c617b8e6f053af90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section6_organizational_security</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>4d2d773397862510c617b8e6f053af90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0d2d773397862510c617b8e6f053af88</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>412d773397862510c617b8e6f053af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section6_physical_security</element>
+            <position>4</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>452d773397862510c617b8e6f053af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cd2d773397862510c617b8e6f053af88</element>
+            <position>5</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>492d773397862510c617b8e6f053af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section6_technical_security</element>
+            <position>6</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>4d2d773397862510c617b8e6f053af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:09</sys_created_on>
+            <sys_id>412d773397862510c617b8e6f053af92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Security Measures</caption>
+            <header>false</header>
+            <name>x_935283_pia_pam</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 07:03:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02ec2f3f97062510c617b8e6f053af4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_pam</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_02ec2f3f97062510c617b8e6f053af4b</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 07:03:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

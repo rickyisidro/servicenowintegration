@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Legitimate Interest Assessment" section_id="0c32e77397216110c617b8e6f053af64" sys_domain="global" table="x_935283_pia_section_5_lawful_basis" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>cfe5e89097666510c617b8e6f053af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <text>PURPOSE TEST</text>
+            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>0be5e89097666510c617b8e6f053af8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <text>NECESSITY TEST</text>
+            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>cbe5e89097666510c617b8e6f053af8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <text>BALANCING TEST</text>
+            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cfe5e89097666510c617b8e6f053af8e</element>
+            <position>0</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>4fe5e89097666510c617b8e6f053af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_legitimate_interest_are_you_pursuing_through_this_project</element>
+            <position>1</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>43e5e89097666510c617b8e6f053af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_would_the_impact</element>
+            <position>2</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>47e5e89097666510c617b8e6f053af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0be5e89097666510c617b8e6f053af8f</element>
+            <position>3</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>4be5e89097666510c617b8e6f053af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_5b_can_your_organization_achieve</element>
+            <position>4</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>4fe5e89097666510c617b8e6f053af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_5b_can_your_organization_achieve_the_same_purpose</element>
+            <position>5</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>43e5e89097666510c617b8e6f053af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cbe5e89097666510c617b8e6f053af8f</element>
+            <position>6</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>47e5e89097666510c617b8e6f053af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_your_organization_s_intended_purpose_and_method</element>
+            <position>7</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>4be5e89097666510c617b8e6f053af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_your_organization_capable_of_explaining_the_processing</element>
+            <position>8</position>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>4fe5e89097666510c617b8e6f053af99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Legitimate Interest Assessment</caption>
+            <header>false</header>
+            <name>x_935283_pia_section_5_lawful_basis</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-20 09:45:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c32e77397216110c617b8e6f053af64</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_935283_pia_section_5_lawful_basis</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_0c32e77397216110c617b8e6f053af64</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

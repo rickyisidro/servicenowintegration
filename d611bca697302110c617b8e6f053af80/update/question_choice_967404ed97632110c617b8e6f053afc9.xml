@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Will the project involve the collection of Personal Data directly from the Data Subjects?">119348ad97632110c617b8e6f053af0a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-06-20 03:55:34</sys_created_on>
+        <sys_id>967404ed97632110c617b8e6f053afc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-06-20 03:55:34</sys_updated_on>
+        <text>No</text>
+        <value>no</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=967404ed97632110c617b8e6f053afc9"/>
+</record_update>

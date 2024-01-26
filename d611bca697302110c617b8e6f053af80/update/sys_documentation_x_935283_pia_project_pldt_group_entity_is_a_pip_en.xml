@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="pldt_group_entity_is_a_pip" label="PLDT Group Entity is a PIP" language="en" table="x_935283_pia_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pldt_group_entity_is_a_pip</element>
+            <help/>
+            <hint/>
+            <label>PLDT Group Entity is a PIP</label>
+            <language>en</language>
+            <name>x_935283_pia_project</name>
+            <plural>PLDT Group Entity is a PIPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 04:26:40</sys_created_on>
+            <sys_id>2540a2ff9776f110c617b8e6f053afc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PLDT Group Entity is a PIP</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_project_pldt_group_entity_is_a_pip_en</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 04:26:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

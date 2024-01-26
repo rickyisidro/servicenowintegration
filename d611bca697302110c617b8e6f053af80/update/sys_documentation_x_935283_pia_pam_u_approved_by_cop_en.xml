@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_approved_by_cop" label="Approved by COP" language="en" table="x_935283_pia_pam">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_approved_by_cop</element>
+            <help/>
+            <hint/>
+            <label>Approved by COP</label>
+            <language>en</language>
+            <name>x_935283_pia_pam</name>
+            <plural>Approved by COPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-07 07:10:56</sys_created_on>
+            <sys_id>f17fc0d497077510c617b8e6f053af9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approved by COP</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_pam_u_approved_by_cop_en</sys_update_name>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-07 07:10:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

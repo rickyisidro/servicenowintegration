@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Personal Data processed category and PI</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	g_form.clearOptions('type_of_personal_identifiers');
+if (newValue == '1') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'name', 'Name', 1);
+        g_form.addOption('type_of_personal_identifiers', 'gov_id', 'Government-Issued ID', 2);
+		g_form.addOption('type_of_personal_identifiers', 'other_id', 'Other Unique ID', 3);
+        g_form.addOption('type_of_personal_identifiers', 'financial_data', 'Financial Data', 4);
+    }
+
+if (newValue == '2') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'mobile_number', 'Mobile Number', 1);
+        g_form.addOption('type_of_personal_identifiers', 'tel_no', 'Telephone Number', 2);
+        g_form.addOption('type_of_personal_identifiers', 'email_address', 'Email Address', 3);
+		g_form.addOption('type_of_personal_identifiers', 'residential_address', 'Residential Address', 4);
+        g_form.addOption('type_of_personal_identifiers', 'business_address', 'Business Address', 5);
+    }
+	
+if (newValue == '3') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'mothers_maiden_name', 'Mother’s Maiden Name', 1);
+        g_form.addOption('type_of_personal_identifiers', 'birthdate', 'Birthdate', 2);
+        g_form.addOption('type_of_personal_identifiers', 'age', 'Age', 3);
+		g_form.addOption('type_of_personal_identifiers', 'gender', 'Gender', 4);
+		g_form.addOption('type_of_personal_identifiers', 'other_physical', 'Other physical descriptors', 5);
+        g_form.addOption('type_of_personal_identifiers', 'marital_status', 'Marital Status / Number of Children / Other Family-related Information', 6);
+		g_form.addOption('type_of_personal_identifiers', 'race  ', 'Race / Ethnicity', 7);
+        g_form.addOption('type_of_personal_identifiers', 'religion', 'Religion', 8);
+        g_form.addOption('type_of_personal_identifiers', 'education', 'Education Information / Background', 9);
+		g_form.addOption('type_of_personal_identifiers', 'employment', 'Employment Information / Background', 10);
+	
+		g_form.addOption('type_of_personal_identifiers', 'citizen', 'Citizenship', 11);
+        g_form.addOption('type_of_personal_identifiers', 'health', 'Health, insurance, treatment, or medical information', 12);
+		g_form.addOption('type_of_personal_identifiers', 'criminal', 'Criminal History', 13);
+    }
+	
+if (newValue == '4') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'signature', 'Signature / e-Signature', 1);
+        g_form.addOption('type_of_personal_identifiers', 'fingerprints', 'Fingerprints, Handprints', 2);
+        g_form.addOption('type_of_personal_identifiers', 'photo', 'Photo, Facial Recognition, Retinal Scans', 3);
+		g_form.addOption('type_of_personal_identifiers', 'voice', 'Voice Recordings', 4);
+        g_form.addOption('type_of_personal_identifiers', 'Physical', 'Physical movements (e.g., finger swipes, keystrokes)', 5);
+		g_form.addOption('type_of_personal_identifiers', 'dna  ', 'DNA Markers of any Form', 6);
+     
+    }
+
+	if (newValue == '5') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'service', 'Service Account Numbers', 1);
+        g_form.addOption('type_of_personal_identifiers', 'username', 'Usernames', 2);
+        g_form.addOption('type_of_personal_identifiers', 'password', 'Passwords', 3);
+		g_form.addOption('type_of_personal_identifiers', 'location', 'Location / GPS Data', 4);
+        g_form.addOption('type_of_personal_identifiers', 'camera', 'Camera controls', 5);
+		g_form.addOption('type_of_personal_identifiers', 'microphone  ', 'Microphone Controls', 6);
+        g_form.addOption('type_of_personal_identifiers', 'photo_gallery', 'Photo Gallery', 7);
+        g_form.addOption('type_of_personal_identifiers', 'audio_video', 'Audio / Video Data', 8);
+		g_form.addOption('type_of_personal_identifiers', 'cell_tower', 'Cell tower records', 9);
+        g_form.addOption('type_of_personal_identifiers', 'contact_list', 'Contact Lists and Directories', 10);
+		g_form.addOption('type_of_personal_identifiers', 'sd_card', 'SD Card or other Stored Data', 11);
+		g_form.addOption('type_of_personal_identifiers', 'device_settings', 'Device settings or preferences', 12);
+		g_form.addOption('type_of_personal_identifiers', 'unique_device', 'Unique Device Identifiers', 13);
+     
+    }
+	
+	if (newValue == '6') {
+	
+       // g_form.addOption('type_of_personal_identifiers', '', '');
+        g_form.addOption('type_of_personal_identifiers', 'log_data', 'Log data', 1);
+        g_form.addOption('type_of_personal_identifiers', 'tracking data','Tracking Data', 2);
+
+     
+    }
+
+
+
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>fbautista</sys_created_by>
+        <sys_created_on>2023-03-29 09:40:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aea4b5f29731a110c617b8e6f053af58</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Personal Data processed category and PI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_client_aea4b5f29731a110c617b8e6f053af58</sys_update_name>
+        <sys_updated_by>fbautista</sys_updated_by>
+        <sys_updated_on>2023-03-30 01:28:33</sys_updated_on>
+        <table>x_935283_pia_section_3_personal_data_processed</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

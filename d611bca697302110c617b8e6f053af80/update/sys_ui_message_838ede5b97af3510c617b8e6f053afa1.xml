@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>declaration_warranty_owner</application>
+        <code/>
+        <commented_message/>
+        <key>declaration_warranty_sponsor.message</key>
+        <language>en</language>
+        <message>&lt;p style="margin: 0cm; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;By accomplishing this PIA, I, the Project Executive Sponsor:&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;ol style="margin-bottom: 0cm; margin-top: 0px; list-style-position: inside;"&gt;&#13;
+&lt;li style="font-size: 10pt; line-height: 107%;"&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;Warrant that all information I have provided about the Project is true and correct as of the date of the PIA's submission;&lt;/span&gt;&lt;/li&gt;&#13;
+&lt;/ol&gt;&#13;
+&lt;p style="text-align: justify; margin: 0cm 0cm 0cm 36pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;/p&gt;&#13;
+&lt;ol style="margin-bottom: 0cm; margin-top: 0px; list-style-position: inside;" start="2"&gt;&#13;
+&lt;li style="font-size: 10pt; line-height: 107%;"&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;Acknowledge that the declaration of any false, incomplete, or misleading information shall result in disciplinary action in accordance with the applicable provisions of your Entity. Code of Discipline and other related corporate policies, without prejudice to the filing of civil and/or criminal actions when warranted; and&lt;/span&gt;&lt;/li&gt;&#13;
+&lt;/ol&gt;&#13;
+&lt;p style="margin: 0cm 0cm 0cm 36pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;/p&gt;&#13;
+&lt;ol style="margin-bottom: 0cm; margin-top: 0px; list-style-position: inside;" start="3"&gt;&#13;
+&lt;li style="font-size: 10pt; line-height: 107%;"&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;Acknowledge that this PIA is subject to the further assessment of the PO-PPRM Center. In the event that additional risks are observed, I commit to (a) participate in further cross-examination, and/or (b) implement any additional remediating measures that may be identified by the PO-PPRM Center through the Privacy Assessment Memo.&lt;/span&gt;&lt;/li&gt;&#13;
+&lt;/ol&gt;</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>jlim</sys_created_by>
+        <sys_created_on>2024-01-10 21:50:25</sys_created_on>
+        <sys_id>838ede5b97af3510c617b8e6f053afa1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>declaration_warranty_sponsor.message</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_message_838ede5b97af3510c617b8e6f053afa1</sys_update_name>
+        <sys_updated_by>jlim</sys_updated_by>
+        <sys_updated_on>2024-01-15 09:42:20</sys_updated_on>
+    </sys_ui_message>
+</record_update>

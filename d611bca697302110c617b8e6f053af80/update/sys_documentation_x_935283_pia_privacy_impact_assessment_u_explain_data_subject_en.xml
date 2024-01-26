@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_explain_data_subject" label="Explain Data Subject" language="en" table="x_935283_pia_privacy_impact_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_explain_data_subject</element>
+            <help/>
+            <hint/>
+            <label>Explain Data Subject</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <plural>Explain Data Subjects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-16 07:47:53</sys_created_on>
+            <sys_id>6501662a97a52510c617b8e6f053afa9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Explain Data Subject</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_privacy_impact_assessment_u_explain_data_subject_en</sys_update_name>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-17 01:44:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

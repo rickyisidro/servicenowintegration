@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>risk_score</element>
+        <name>x_935283_pia_risk</name>
+        <style>background-color: orange</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-03-31 08:11:38</sys_created_on>
+        <sys_id>af46f31397fd2510c617b8e6f053af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_935283_pia_risk</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_style_af46f31397fd2510c617b8e6f053af42</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-03-31 08:11:38</sys_updated_on>
+        <value>moderate</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=af46f31397fd2510c617b8e6f053af42"/>
+</record_update>

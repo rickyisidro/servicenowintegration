@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="is_the_data_processing_sytem_owned_or_outsourced" table="x_935283_pia_dps_operation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
+            <name>x_935283_pia_dps_operation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:40:01</sys_created_on>
+            <sys_id>9f655cf897462110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>is_the_data_processing_sytem_owned_or_outsourced</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_dps_operation_is_the_data_processing_sytem_owned_or_outsourced</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:40:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outsourced</label>
+            <language>en</language>
+            <name>x_935283_pia_dps_operation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:40:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f65187897462110c617b8e6f053af97</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:40:19</sys_updated_on>
+            <value>outsourced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Owned</label>
+            <language>en</language>
+            <name>x_935283_pia_dps_operation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:40:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d65dcb897462110c617b8e6f053af5e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:40:04</sys_updated_on>
+            <value>owned</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

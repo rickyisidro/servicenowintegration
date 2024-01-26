@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="2.2 Threshold Analysis" section_id="69b9000297e56110c617b8e6f053affc" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_project_involve_yesno</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>b0d7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>if_you_answered_yes</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>34d7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_project_use_personal_data_yesno</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>b4d7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_project_use_personal_data_html</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>38d7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_you_processing_personal_data</element>
+            <position>4</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>b8d7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_you_processing_personal_data_html</element>
+            <position>5</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>3cd7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_project_require_contact</element>
+            <position>6</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>bcd7d85897fea110c617b8e6f053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_project_require_contact_html</element>
+            <position>7</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>30d7d85897fea110c617b8e6f053afe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_project_involve</element>
+            <position>8</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>b0d7d85897fea110c617b8e6f053afe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_project_involve_html</element>
+            <position>9</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-05-10 01:20:36</sys_created_on>
+            <sys_id>34d7d85897fea110c617b8e6f053afe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>2.2 Threshold Analysis</caption>
+            <header>false</header>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-14 07:29:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69b9000297e56110c617b8e6f053affc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_935283_pia_privacy_impact_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_69b9000297e56110c617b8e6f053affc</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-05-10 01:20:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

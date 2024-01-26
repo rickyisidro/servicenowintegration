@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reason" label="Reason" language="en" table="x_935283_pia_personal_data_processed">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <help/>
+            <hint/>
+            <label>Reason</label>
+            <language>en</language>
+            <name>x_935283_pia_personal_data_processed</name>
+            <plural>Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-26 18:25:23</sys_created_on>
+            <sys_id>571cbfb797dee110c617b8e6f053af9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reason</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_personal_data_processed_reason_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:25:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="benefits_to_the_data_subjects" label="Benefits to the Data Subjects" language="en" table="x_935283_pia_intake">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>benefits_to_the_data_subjects</element>
+            <help/>
+            <hint/>
+            <label>Benefits to the Data Subjects</label>
+            <language>en</language>
+            <name>x_935283_pia_intake</name>
+            <plural>Benefits to the Data Subjects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-06-29 15:32:25</sys_created_on>
+            <sys_id>f54a38ec973f2110c617b8e6f053af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Benefits to the Data Subjects</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_intake_benefits_to_the_data_subjects_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-06-29 15:32:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

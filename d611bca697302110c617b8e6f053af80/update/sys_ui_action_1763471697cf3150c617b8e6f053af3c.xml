@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.phase=="pam_review" &amp;&amp; ( (current.state=="review_cop" &amp;&amp;   new x_935283_pia.pamUtils().isHighSevere(current.sys_id) )|| current.state == "review_pprm_head")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Issue</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if (current) {
+    // Creating RTP record
+    var rtp = new GlideRecord("x_935283_pia_rtp");
+    rtp.newRecord();
+    rtp.project = current.name_of_project.sys_id;
+    rtp.update();
+
+    // Creating PIA record
+    var pia = new GlideRecord("x_935283_pia_privacy_impact_assessment");
+    pia.newRecord();
+    pia.project = current.name_of_project.sys_id;
+	pia.project_control_number = current.name_of_project.project_control_number;
+	var prjControlNum = current.name_of_project.project_control_number; //get Project Control Number
+    pia.phase = 'initiate';
+	pia.state = 'draft'; // added state value for ui action condition in pia record.
+    pia.update();
+
+    // Update proj pam field
+    var prj = new GlideRecord("x_935283_pia_project");
+    prj.addQuery('sys_id', current.name_of_project.sys_id);
+    prj.query();
+    if (prj.next()) {
+        //prj.pam = current.sys_id;
+        prj.phase = "pam_issued";
+        //prj.rtp = rtp.sys_id;
+        prj.update();
+    }
+
+	//get PIA sys_id related to Proj control Number
+	var getNewPIA = new GlideRecord("x_935283_pia_privacy_impact_assessment");
+	getNewPIA.addQuery('project_control_number', prjControlNum)
+	getNewPIA.query();
+	if (getNewPIA.next()) {
+		var newPIA = getNewPIA.sys_id; //assign sys_id of pia
+	}
+
+	//query all related artifacts under a Project and update pia field for each record with pia sys_id
+	var prjArt = new GlideRecord('x_935283_pia_supporting_artifact');
+	prjArt.addQuery('project', current.name_of_project.sys_id);
+	prjArt.query();
+	while (prjArt.next()) {
+        prjArt.pia = newPIA;
+        prjArt.update();
+    }
+
+	//gs.info("prjControlNum : " + prjControlNum + " New PIA sys_id: " + newPIA + " Project: " + current.pia.project);
+
+	
+	//update pam phase to pam issued
+	current.phase = 'pam_issued';
+	current.state = 'issued';
+	current.update();
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>jlim</sys_created_by>
+        <sys_created_on>2023-12-14 01:25:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1763471697cf3150c617b8e6f053af3c</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Issue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_action_1763471697cf3150c617b8e6f053af3c</sys_update_name>
+        <sys_updated_by>jlim</sys_updated_by>
+        <sys_updated_on>2024-01-26 05:52:19</sys_updated_on>
+        <table>x_935283_pia_pam</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

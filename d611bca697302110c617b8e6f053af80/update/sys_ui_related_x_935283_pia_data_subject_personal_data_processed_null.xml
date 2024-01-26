@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_935283_pia_data_subject_personal_data_processed" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Data Subject Personal Data Processed - Default view" name="x_935283_pia_data_subject_personal_data_processed" related_list="NULL" sys_domain="global" view="Default view">c99607a4973ff910c617b8e6f053af58</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 21:56:33</sys_created_on>
+            <sys_id>09968ba4973ff910c617b8e6f053af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 21:56:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Data Subject Personal Data Processed - Default view</calculated_name>
+            <filter/>
+            <name>x_935283_pia_data_subject_personal_data_processed</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-14 21:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c99607a4973ff910c617b8e6f053af58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Subject Personal Data Processed - Default view</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_related_x_935283_pia_data_subject_personal_data_processed_null</sys_update_name>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-14 21:56:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="collecting_personal_data_as_a_pic_or_pip" label="Collecting Personal Data as a PIC or PIP?" language="en" table="x_935283_pia_collection_medium">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>collecting_personal_data_as_a_pic_or_pip</element>
+            <help/>
+            <hint/>
+            <label>Collecting Personal Data as a PIC or PIP?</label>
+            <language>en</language>
+            <name>x_935283_pia_collection_medium</name>
+            <plural>Collecting Personal Data as a PIC or PIP?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-28 14:25:29</sys_created_on>
+            <sys_id>ba1f2dee973d2110c617b8e6f053af39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Collecting Personal Data as a PIC or PIP?</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_collection_medium_collecting_personal_data_as_a_pic_or_pip_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-28 14:25:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="type_of_processing" label="Type of processing" language="en" table="x_935283_pia_dps_operation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type_of_processing</element>
+            <help/>
+            <hint/>
+            <label>Type of processing</label>
+            <language>en</language>
+            <name>x_935283_pia_dps_operation</name>
+            <plural>Type of processings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-04 07:11:30</sys_created_on>
+            <sys_id>edee04f097462110c617b8e6f053afc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type of processing</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_dps_operation_type_of_processing_en</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-04 07:11:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

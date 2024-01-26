@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_935283_pia_intake</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_935283_pia_intake</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-18 16:19:15</sys_created_on>
+        <sys_id>fc8bd44597632110c617b8e6f053afb5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_935283_pia_intake</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_security_acl_fc8bd44597632110c617b8e6f053afb5</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:51</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

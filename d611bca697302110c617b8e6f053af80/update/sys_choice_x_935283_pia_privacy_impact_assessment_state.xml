@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_935283_pia_privacy_impact_assessment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-02-27 00:38:29</sys_created_on>
+            <sys_id>71bb554197916110c617b8e6f053af65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_privacy_impact_assessment_state</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-02-27 00:38:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft - PO Approved</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-31 07:16:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd082f1b977d2510c617b8e6f053af51</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:17:01</sys_updated_on>
+            <value>draft_approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft -Pending PO Approval</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-31 07:09:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aae7239b977d2510c617b8e6f053affe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:09:23</sys_updated_on>
+            <value>draft_pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PPRM Review</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-02-27 00:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aabd54197916110c617b8e6f053af90</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-20 16:44:57</sys_updated_on>
+            <value>pprm_review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-20 16:45:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1962818097f56110c617b8e6f053af67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-20 16:45:20</sys_updated_on>
+            <value>draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>With Proponent</label>
+            <language>en</language>
+            <name>x_935283_pia_privacy_impact_assessment</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-20 16:45:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8482c98097f56110c617b8e6f053af01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-20 16:45:48</sys_updated_on>
+            <value>with_proponent</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

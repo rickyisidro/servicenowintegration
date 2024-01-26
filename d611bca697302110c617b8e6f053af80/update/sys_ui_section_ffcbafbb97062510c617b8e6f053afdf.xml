@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Data Retention and Disposal " section_id="ffcbafbb97062510c617b8e6f053afdf" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>b42d773397862510c617b8e6f053af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <text>Personal data shall not be retained longer than necessary4. Retention of personal data shall only be for as long as necessary: 
+
+a. For the fulfillment of the declared, specified, and legitimate purpose, or when the processing relevant to the purpose has been terminated; 
+
+b. For the establishment, exercise, or defense of legal claims; or 
+
+c. For legitimate business purposes, which must be consistent with standards followed by the applicable industry or approved by an appropriate government agency.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>782d773397862510c617b8e6f053af74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <text>1. The retention period of files and document containing Personal Information is clearly defined. Personal Information held by the entity beyond its retention period are securely disposed. 
+
+2. Personal Information no longer retained is anonymized, disposed of or destroyed in a manner that prevents loss, theft, misuse or unauthorized access.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b42d773397862510c617b8e6f053af74</element>
+            <position>0</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>fc2d773397862510c617b8e6f053af78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data Retention and Disposal " display_value="Data Retention and Disposal " name="x_935283_pia_pam" sys_domain="global" view="Default view">ffcbafbb97062510c617b8e6f053afdf</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>782d773397862510c617b8e6f053af74</element>
+            <position>1</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>f02d773397862510c617b8e6f053af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data Retention and Disposal " display_value="Data Retention and Disposal " name="x_935283_pia_pam" sys_domain="global" view="Default view">ffcbafbb97062510c617b8e6f053afdf</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>section4_data_retention</element>
+            <position>2</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>f42d773397862510c617b8e6f053af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data Retention and Disposal " display_value="Data Retention and Disposal " name="x_935283_pia_pam" sys_domain="global" view="Default view">ffcbafbb97062510c617b8e6f053afdf</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
+            <sys_id>f82d773397862510c617b8e6f053af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data Retention and Disposal " display_value="Data Retention and Disposal " name="x_935283_pia_pam" sys_domain="global" view="Default view">ffcbafbb97062510c617b8e6f053afdf</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Data Retention and Disposal </caption>
+            <header>false</header>
+            <name>x_935283_pia_pam</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-14 06:58:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffcbafbb97062510c617b8e6f053afdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_pam</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_ffcbafbb97062510c617b8e6f053afdf</sys_update_name>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-14 06:58:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="right_to_erasure_or_blocking" label="Right to ERASURE or blocking" language="en" table="x_935283_pia_intake">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>right_to_erasure_or_blocking</element>
+            <help/>
+            <hint/>
+            <label>Right to ERASURE or blocking</label>
+            <language>en</language>
+            <name>x_935283_pia_intake</name>
+            <plural>Right to ERASURE or blockings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-06-29 08:46:04</sys_created_on>
+            <sys_id>2d4dd75097b72110c617b8e6f053af92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Right to ERASURE or blocking</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_documentation_x_935283_pia_intake_right_to_erasure_or_blocking_en</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-06-29 08:46:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
