@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Adherence to Data Privacy Principles" section_id="64b41ab797e12110c617b8e6f053afe8" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
+    <sys_ui_section caption="Data Privacy Principles" section_id="64b41ab797e12110c617b8e6f053afe8" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>f527c3b7977af110c617b8e6f053af13</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>0cc0ce539777b950c617b8e6f053af37</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <text>Rule IV, Section 18 of the DPA-IRR states that the processing of Personal Information shall be allowed subject to the adherence to the privacy principles of Transparency, Legitimate Purpose, and Proportionality.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>b927c3b7977af110c617b8e6f053af13</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>ccc0ce539777b950c617b8e6f053af37</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <text>Transparency: 
 
 The data subject must be aware of the nature, purpose, and extent of the processing of his or her personal data, including the risks and safeguards involved, the identity of the personal information controller, his or her rights as a data subject, and how these can be exercised. Any information and communication relating to the processing of personal data should be easy to access and understand, using clear and plain language.</text>
@@ -26,140 +26,140 @@ The data subject must be aware of the nature, purpose, and extent of the process
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>7d27c3b7977af110c617b8e6f053af13</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>80c0ce539777b950c617b8e6f053af38</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
-            <text>Legitimate Purpose: This principle means that “the processing of information shall be compatible with a declared and specified purpose which must not be contrary to law, morals, or public policy.”2</text>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
+            <text>Legitimate Purpose: This principle means that “the processing of information shall be compatible with a declared and specified purpose which must not be contrary to law, morals, or public policy.”</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>3127c3b7977af110c617b8e6f053af14</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>44c0ce539777b950c617b8e6f053af38</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
-            <text>Proportionality: This principle means that “the processing of information shall be adequate, relevant, suitable, necessary, and not excessive in relation to a declared and specified purpose. Personal data shall be processed only if the purpose of the processing could not reasonably be fulfilled by other means.”3</text>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
+            <text>Proportionality: This principle means that “the processing of information shall be adequate, relevant, suitable, necessary, and not excessive in relation to a declared and specified purpose. Personal data shall be processed only if the purpose of the processing could not reasonably be fulfilled by other means.”</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f527c3b7977af110c617b8e6f053af13</element>
+            <element>0cc0ce539777b950c617b8e6f053af37</element>
             <position>0</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>0627c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>48c0ce539777b950c617b8e6f053af40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b927c3b7977af110c617b8e6f053af13</element>
+            <element>ccc0ce539777b950c617b8e6f053af37</element>
             <position>1</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>8627c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>4cc0ce539777b950c617b8e6f053af40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>section_2_transparency_observation</element>
             <position>2</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>0a27c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>40c0ce539777b950c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7d27c3b7977af110c617b8e6f053af13</element>
+            <element>80c0ce539777b950c617b8e6f053af38</element>
             <position>3</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>8a27c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>44c0ce539777b950c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>section_2_legitimate_purpose_observation</element>
             <position>4</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>0e27c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>48c0ce539777b950c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3127c3b7977af110c617b8e6f053af14</element>
+            <element>44c0ce539777b950c617b8e6f053af38</element>
             <position>5</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>8e27c3b7977af110c617b8e6f053af1b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>4cc0ce539777b950c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>section_2_proportionality_observation</element>
             <position>6</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>0227c3b7977af110c617b8e6f053af1c</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>40c0ce539777b950c617b8e6f053af42</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>7</position>
-            <sys_created_by>blopez</sys_created_by>
-            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
-            <sys_id>8227c3b7977af110c617b8e6f053af1c</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>44c0ce539777b950c617b8e6f053af42</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>blopez</sys_updated_by>
-            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Adherence to Data Privacy Principles</caption>
+            <caption>Data Privacy Principles</caption>
             <header>false</header>
             <name>x_935283_pia_pam</name>
             <roles/>
@@ -169,15 +169,15 @@ The data subject must be aware of the nature, purpose, and extent of the process
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>64b41ab797e12110c617b8e6f053afe8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_935283_pia_pam</sys_name>
             <sys_overrides/>
             <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
             <sys_policy/>
             <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
             <sys_update_name>sys_ui_section_64b41ab797e12110c617b8e6f053afe8</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-20 04:34:05</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 09:32:35</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

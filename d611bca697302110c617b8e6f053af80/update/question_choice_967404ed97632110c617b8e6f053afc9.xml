@@ -6,7 +6,7 @@
         <question display_value="Will the project involve the collection of Personal Data directly from the Data Subjects?">119348ad97632110c617b8e6f053af0a</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>risidro</sys_created_by>
-        <sys_created_on>2023-06-20 05:22:12</sys_created_on>
+        <sys_created_on>2023-06-20 07:28:01</sys_created_on>
         <sys_id>967404ed97632110c617b8e6f053afc9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>No</sys_name>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>question_choice_967404ed97632110c617b8e6f053afc9</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-20 05:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-20 08:23:36</sys_updated_on>
         <text>No</text>
         <value>no</value>
     </question_choice>

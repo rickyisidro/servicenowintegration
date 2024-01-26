@@ -52,7 +52,7 @@
             <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="1. Project Background" display_value="1. Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
+            <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
             <sys_updated_by>risidro</sys_updated_by>
             <sys_updated_on>2023-03-28 06:37:01</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="2. Threshold Analysis" display_value="2. Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
+            <sys_ui_section caption="2.2 Threshold Analysis" display_value="2.2 Threshold Analysis" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">69b9000297e56110c617b8e6f053affc</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-04-28 03:14:10</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="4. Data Lifecycle Narrative" display_value="4. Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
+            <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-04-28 03:14:10</sys_updated_on>
         </sys_ui_form_section>
@@ -94,7 +94,7 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="6. Business Rules" display_value="6. Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
+            <sys_ui_section caption="4.3 Business Rules" display_value="4.3 Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-05-10 01:05:41</sys_updated_on>
         </sys_ui_form_section>
@@ -108,7 +108,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="7. Security Measures" display_value="7. Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
+            <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-05-10 01:05:41</sys_updated_on>
         </sys_ui_form_section>
@@ -122,7 +122,7 @@
             <sys_mod_count>8</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="8. Processing Purposes" display_value="8. Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
+            <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-05-10 01:05:41</sys_updated_on>
         </sys_ui_form_section>
@@ -136,7 +136,7 @@
             <sys_mod_count>7</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_privacy_impact_assessment" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">f35ffd1997412110c617b8e6f053afcc</sys_ui_form>
-            <sys_ui_section caption="9. Exercise of Rights" display_value="9. Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
+            <sys_ui_section caption="6 Exercise of Rights" display_value="6 Exercise of Rights" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">bc53f24497fd6110c617b8e6f053af35</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-04-28 03:31:57</sys_updated_on>
         </sys_ui_form_section>

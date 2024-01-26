@@ -2,17 +2,17 @@
     <sys_ui_form_sections form_id="08521ef397e12110c617b8e6f053af7a" sys_domain="global" table="x_935283_pia_pam" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-20 03:56:02</sys_created_on>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-12 02:57:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>40521ef397e12110c617b8e6f053af7d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>875545bd970b7d10c617b8e6f053af92</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-20 03:56:02</sys_updated_on>
+            <sys_ui_section caption="Process Flow" display_value="Process Flow" name="x_935283_pia_pam" sys_domain="global" view="Default view">b25545bd970b7d10c617b8e6f053af5a</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-12 02:57:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>358ad27f97e12110c617b8e6f053af47</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Processing Relationships" display_value="Processing Relationships" name="x_935283_pia_pam" sys_domain="global" view="Default view">a58ad27f97e12110c617b8e6f053af13</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-20 04:31:55</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>68b45ab797e12110c617b8e6f053af76</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
-            <sys_ui_section caption="Adherence to Data Privacy Principles" display_value="Adherence to Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-20 04:31:55</sys_updated_on>
+            <sys_ui_section caption="Data Privacy Principles" display_value="Data Privacy Principles" name="x_935283_pia_pam" sys_domain="global" view="Default view">64b41ab797e12110c617b8e6f053afe8</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
@@ -49,12 +49,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9bb9a73b97062510c617b8e6f053af0d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Exercise of Rights " display_value="Exercise of Rights " name="x_935283_pia_pam" sys_domain="global" view="Default view">9bb9a73b97062510c617b8e6f053af0a</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 06:49:23</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -63,12 +63,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>33cbafbb97062510c617b8e6f053afe2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Data Retention and Disposal " display_value="Data Retention and Disposal " name="x_935283_pia_pam" sys_domain="global" view="Default view">ffcbafbb97062510c617b8e6f053afdf</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 06:58:25</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -77,12 +77,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>848ca73f97062510c617b8e6f053afcd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Data Integrity" display_value="Data Integrity" name="x_935283_pia_pam" sys_domain="global" view="Default view">f37ca73f97062510c617b8e6f053afcb</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 07:01:26</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
@@ -91,26 +91,40 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>46ec2f3f97062510c617b8e6f053af4d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Security Measures" display_value="Security Measures" name="x_935283_pia_pam" sys_domain="global" view="Default view">02ec2f3f97062510c617b8e6f053af4b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 07:03:13</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:49:18</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-07 07:31:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d44909c97077510c617b8e6f053af66</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
+            <sys_ui_section caption="Accountability" display_value="Accountability" name="x_935283_pia_pam" sys_domain="global" view="Default view">b444509c97077510c617b8e6f053aff2</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-07 07:31:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
             <sys_created_by>ralmeyda</sys_created_by>
             <sys_created_on>2023-04-14 08:12:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ffccffff97462510c617b8e6f053af23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
             <sys_ui_section caption="Project Updates" display_value="Project Updates" name="x_935283_pia_pam" sys_domain="global" view="Default view">77cc3bff97462510c617b8e6f053af60</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 08:12:42</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-07 07:31:55</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_935283_pia_pam</name>

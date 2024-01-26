@@ -17,9 +17,11 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>question_order_2600</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -36,16 +38,16 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>if_you_answered_no_please_quote_the_specific_provision_in_the_privacy_notice_language_where_the_proc</name>
+        <name>question_order_2600</name>
         <order>2600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>If you answered "No", please quote the specific provision in the Privacy Notice language where the processing is covered.]</question_text>
+        <question_text>If you answered "No", please quote the specific provision in the Privacy Notice language where the processing is covered.</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -54,8 +56,8 @@
         <record/>
         <record_producer_table>x_935283_pia_intake</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,14 +77,14 @@
         <sys_created_by>risidro</sys_created_by>
         <sys_created_on>2023-06-20 16:31:53</sys_created_on>
         <sys_id>6140ba6997af2110c617b8e6f053af15</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>If you answered "No", please quote the specific provision in the Privacy Notice language where the processing is covered.]</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>If you answered "No", please quote the specific provision in the Privacy Notice language where the processing is covered.</sys_name>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>item_option_new_6140ba6997af2110c617b8e6f053af15</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-20 16:37:18</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
