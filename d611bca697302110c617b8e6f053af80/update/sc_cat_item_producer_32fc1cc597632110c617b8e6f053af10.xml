@@ -13,7 +13,9 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<div>
+        <description><![CDATA[<p> </p>
+<div>
+<p style="font-size: 12pt; font-weight: bold; background-color: #add8e6;">Note: You will be required to complete these sections: Personal Data Processed, Data Lifecycle Narrative, Automated Decision-Making, Lawful Basis, Legitimate Interest Assessment, Project Point Person and Supporting Artifacts on the succeeding page.</p>
 <p style="text-align: center;"><span style="font-size: 18pt;">PRIVACY IMPACT ASSESSMENT (PIA)</span></p>
 <p style="text-align: center;"> </p>
 <p style="text-align: center;"><span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255)))); color: rgb(var(--sn-tinymce_content-text,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))); font-size: 10pt;">Before completing this form and preparing the required documents, please ensure that you have consulted with the Privacy Education and Assessments (PEA) Center of the Privacy Office (PO). </span></p>
@@ -61,7 +63,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Privacy Impact Assessment Intake Form</name>
-        <no_attachment_v2>true</no_attachment_v2>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -87,9 +89,9 @@
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
-        <redirect_url>generated_record</redirect_url>
+        <redirect_url>catalog_home</redirect_url>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <save_options/>
         <save_script><![CDATA[/**
 * This script is executed at every step save in Catalog Builder. 
@@ -108,7 +110,14 @@
 * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
-*/]]></script>
+*/
+//var info ='';
+//info = RP.getParameterValue('sysparm_pia');
+//gs.addInfoMessage("PIA number" +  info);
+//current.pia=info;
+
+
+]]></script>
         <short_description>PIA intake form</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -117,14 +126,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-18 16:26:13</sys_created_on>
         <sys_id>32fc1cc597632110c617b8e6f053af10</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>226</sys_mod_count>
         <sys_name>Privacy Impact Assessment Intake Form</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sc_cat_item_producer_32fc1cc597632110c617b8e6f053af10</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-20 16:37:27</sys_updated_on>
+        <sys_updated_on>2024-01-18 15:26:02</sys_updated_on>
         <table_name>x_935283_pia_intake</table_name>
         <taxonomy_topic/>
         <template/>
@@ -132,6 +141,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version>213</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
