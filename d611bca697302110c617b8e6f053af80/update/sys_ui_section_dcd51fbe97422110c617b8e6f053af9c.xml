@@ -2,96 +2,124 @@
     <sys_ui_section caption="4C:RETENTION" section_id="dcd51fbe97422110c617b8e6f053af9c" sys_domain="global" table="x_935283_pia_dps_operation" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>a5d3a4189732e110c617b8e6f053af6a</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>ce197fac97333d10c617b8e6f053af1d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <text>Provide details on the storage medium used for the Personal Data retention</text>
             <type display_value="Header">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>a5d3a4189732e110c617b8e6f053af6a</element>
+            <element>ce197fac97333d10c617b8e6f053af1d</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>6dd3a4189732e110c617b8e6f053af6e</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>ca193bec97333d10c617b8e6f053af5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>retention_period</element>
+            <element>use_and_disclosure</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>edd3a4189732e110c617b8e6f053af6e</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>4e193bec97333d10c617b8e6f053af5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_dps4c</element>
+            <position>2</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>ce193bec97333d10c617b8e6f053af5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>retention_period</element>
+            <position>3</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>42193bec97333d10c617b8e6f053af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>basis_for_retention_period</element>
-            <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>61d3a4189732e110c617b8e6f053af6f</sys_id>
+            <position>4</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>c2193bec97333d10c617b8e6f053af5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type_of_digital_electronic</element>
-            <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e1d3a4189732e110c617b8e6f053af6f</sys_id>
+            <position>5</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>46193bec97333d10c617b8e6f053af5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>storage_type</element>
-            <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>65d3a4189732e110c617b8e6f053af6f</sys_id>
+            <position>6</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>c6193bec97333d10c617b8e6f053af5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>storage_location</element>
-            <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e5d3a4189732e110c617b8e6f053af6f</sys_id>
+            <position>7</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:37:16</sys_created_on>
+            <sys_id>4a193bec97333d10c617b8e6f053af5f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

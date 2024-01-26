@@ -8,14 +8,14 @@
         <sys_created_by>ralmeyda</sys_created_by>
         <sys_created_on>2023-05-09 07:16:55</sys_created_on>
         <sys_id>2ecf1488977e6110c617b8e6f053af49</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>u_string_tag3_name</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_ui_policy_action_2ecf1488977e6110c617b8e6f053af49</sys_update_name>
-        <sys_updated_by>ralmeyda</sys_updated_by>
-        <sys_updated_on>2023-05-09 07:17:08</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:22</sys_updated_on>
         <table>x_935283_pia_project</table>
         <ui_policy display_value="Display Tag name 3">6ecfdc48977e6110c617b8e6f053afe7</ui_policy>
         <visible>true</visible>

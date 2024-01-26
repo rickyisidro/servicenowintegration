@@ -6,14 +6,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-06 17:05:03</sys_created_on>
         <sys_id>0824f8aa6430211044a6d356b298f893</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Analytics Center</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_ux_screen_type_0824f8aa6430211044a6d356b298f893</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-06 17:05:03</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:04</sys_updated_on>
     </sys_ux_screen_type>
     <sys_translated_text action="delete_multiple" query="documentkey=0824f8aa6430211044a6d356b298f893"/>
 </record_update>

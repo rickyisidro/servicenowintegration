@@ -2,82 +2,121 @@
     <sys_ui_section caption="4.1 Data Lifecycle Narrative" section_id="24d1ad6e97f92110c617b8e6f053af6b" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c5b9d01c97fea110c617b8e6f053afc1</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4a6af1f8973f3d10c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <text>COLLECTION</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>0e6af1f8973f3d10c617b8e6f053af41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <text>Once Data lifecycle narrative is completed, proceed to Data Lifecycle below.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>summary_of_processing_activities</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>85b9d01c97fea110c617b8e6f053afc5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4a6af1f8973f3d10c617b8e6f053af47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c5b9d01c97fea110c617b8e6f053afc1</element>
+            <element>4a6af1f8973f3d10c617b8e6f053af41</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>09b9d01c97fea110c617b8e6f053afc5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ca6af1f8973f3d10c617b8e6f053af47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>89b9d01c97fea110c617b8e6f053afc5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4e6af1f8973f3d10c617b8e6f053af47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>prj_involve_personal_data_collection</element>
             <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>0db9d01c97fea110c617b8e6f053afc5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ce6af1f8973f3d10c617b8e6f053af47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>u_boolean_businessrules</element>
             <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>8db9d01c97fea110c617b8e6f053afc5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>426af1f8973f3d10c617b8e6f053af48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0e6af1f8973f3d10c617b8e6f053af41</element>
+            <position>5</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>c26af1f8973f3d10c617b8e6f053af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>466af1f8973f3d10c617b8e6f053af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.1 Data Lifecycle Narrative" display_value="4.1 Data Lifecycle Narrative" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">24d1ad6e97f92110c617b8e6f053af6b</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

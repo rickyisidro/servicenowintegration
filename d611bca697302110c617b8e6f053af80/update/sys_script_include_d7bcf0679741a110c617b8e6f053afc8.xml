@@ -9,110 +9,258 @@
         <name>PIAUtils</name>
         <script><![CDATA[var PIAUtils = Class.create();
 PIAUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	_initialize: function(){
-		
-	},
-	
-	getFieldValue: function(piaSysId, piaFieldName) {
-		var answer ='';
-		piaSysId =  typeof piaSysId !== 'undefined' ? piaSysId : this.getParameter("sysparm_PIASysId");
-		piaFieldName = typeof piaFieldName !== 'undefined' ? piaFieldName : this.getParameter("sysparm_PIAFieldName");
-		//gs.warn('risidro :' + piaSysId +'|'+piaFieldName);
-		var grPIA = new GlideRecord('x_935283_pia_privacy_impact_assessment');
-		if(grPIA.get(piaSysId)) {
-			answer = grPIA.getValue(piaFieldName).toString();
-		}	
-		return answer;
-	},
+    _initialize: function() {
 
-	getUniqueControlNumber: function(lobCategorySydId) {
-		var answer ='';
-		var counter;
-		var shortCode;
-		var grLOBCategory = new GlideRecord('x_935283_pia_line_of_business_category');		
-		if(grLOBCategory.get(lobCategorySydId)) {
-			counter = parseInt(grLOBCategory.getValue('counter')) + 1;
-			shortCode = grLOBCategory.getValue('short_code');
-			grLOBCategory.setValue('counter',counter);
-			grLOBCategory.autoSysFields(false);
-			grLOBCategory.update();			
-			var gdt = new GlideDateTime();
-			var gYear = gdt.getYearLocalTime();
-			answer = gYear.toString() +'-'+	shortCode + '-' + this._leftPad(counter,3) ;
-		}
-		
-		return answer;
-	},	
-	
-	calculateRiskScore: function(impact, likelihood) {
-		var answer = {'risk_score':'', 'risk_value':''};
-		impact =  typeof impact !== 'undefined' ? impact : this.getParameter("sysparm_Impact");
-		likelihood = typeof likelihood !== 'undefined' ? likelihood : this.getParameter("sysparm_Likelihood");
-			
-		var grRiskMatrix = new GlideRecord('x_935283_pia_risk_heatmap');
-		grRiskMatrix.addQuery('impact',impact);
-		grRiskMatrix.addQuery('likelihood',likelihood);
-		grRiskMatrix.setLimit(1);
-		grRiskMatrix.query();
-		if(grRiskMatrix.next()){
-			answer.risk_score = grRiskMatrix.getValue('risk_score');
-			answer.risk_value = grRiskMatrix.getValue('risk_value');
-		}
-		return JSON.stringify(answer);
-	},
-	
-	populatePersonalDataProcessedElements: function(grPIA){
-		var grPDPElement = new GlideRecord('x_935283_pia_personal_data_processed_element');
-		grPDPElement.addActiveQuery();
-		grPDPElement.orderByDesc('order');
-		grPDPElement.query();
-		while (grPDPElement.next()){
-			var grPDP = new GlideRecord('x_935283_pia_personal_data_processed'); 
-			grPDP.initialize();
-			grPDP.pia = grPIA.getUniqueValue();
-			grPDP.element_name = grPDPElement.element_name;
-			grPDP.category = grPDPElement.getDisplayValue('category');
-			grPDP.order = grPDPElement.order;
-			grPDP.insert();
-		}		
-	},
-	
-	
-	populatePIADataLibrary: function(grPIA, typeLibrary){
-		var grPDPElement = new GlideRecord('x_935283_pia_data_library');
-		grPDPElement.addActiveQuery();
-		grPDPElement.addQuery('type',typeLibrary);
-		grPDPElement.orderByDesc('order');
-		grPDPElement.query();
-		while (grPDPElement.next()){			
-			switch(typeLibrary) {
-				case 'supporting_artifacts':
-					var grSupportingArtifacts = new GlideRecord('x_935283_pia_supporting_artifact'); 
-					grSupportingArtifacts.initialize();
-					grSupportingArtifacts.pia = grPIA.getUniqueValue();
-					grSupportingArtifacts.document_title = grPDPElement.element_name;
-					grSupportingArtifacts.description = grPDPElement.getDisplayValue('element_description');
-					grSupportingArtifacts.insert();
-					break;
-				case 'lawful_basis':
-					var grLawfulBasis = new GlideRecord('x_935283_pia_section_lawful_basis'); 
-					grLawfulBasis.initialize();
-					grLawfulBasis.pia = grPIA.getUniqueValue();
-					grLawfulBasis.trigger_section = grPDPElement.element_key;
-					grLawfulBasis.processing_type = grPDPElement.getDisplayValue('element_category');
-					grLawfulBasis.processing_purpose = grPDPElement.element_name;
-					grLawfulBasis.order = grPDPElement.order;
-					grLawfulBasis.insert();
-					break;					
-			}					
-		}		
-	},	
-	
-	_leftPad: function (number, length) {
+    },
+
+    getFieldValue: function(piaSysId, piaFieldName) {
+        var answer = '';
+        piaSysId = typeof piaSysId !== 'undefined' ? piaSysId : this.getParameter("sysparm_PIASysId");
+        piaFieldName = typeof piaFieldName !== 'undefined' ? piaFieldName : this.getParameter("sysparm_PIAFieldName");
+        //gs.warn('risidro :' + piaSysId +'|'+piaFieldName);
+        var grPIA = new GlideRecord('x_935283_pia_privacy_impact_assessment');
+        if (grPIA.get(piaSysId)) {
+            answer = grPIA.getValue(piaFieldName).toString();
+        }
+        return answer;
+    },
+
+    getUniqueControlNumber: function(lobCategorySydId) {
+        var answer = '';
+        var counter;
+        var shortCode;
+        var grLOBCategory = new GlideRecord('x_935283_pia_line_of_business_category');
+        if (grLOBCategory.get(lobCategorySydId)) {
+            counter = parseInt(grLOBCategory.getValue('counter')) + 1;
+            shortCode = grLOBCategory.getValue('short_code');
+            grLOBCategory.setValue('counter', counter);
+            grLOBCategory.autoSysFields(false);
+            grLOBCategory.update();
+            var gdt = new GlideDateTime();
+            var gYear = gdt.getYearLocalTime();
+            answer = gYear.toString() + '-' + shortCode + '-' + this._leftPad(counter, 3);
+        }
+
+        return answer;
+    },
+
+    calculateRiskScore: function(impact, likelihood) {
+        var answer = {
+            'risk_score': '',
+            'risk_value': ''
+        };
+        impact = typeof impact !== 'undefined' ? impact : this.getParameter("sysparm_Impact");
+        likelihood = typeof likelihood !== 'undefined' ? likelihood : this.getParameter("sysparm_Likelihood");
+
+        var grRiskMatrix = new GlideRecord('x_935283_pia_risk_heatmap');
+        grRiskMatrix.addQuery('impact', impact);
+        grRiskMatrix.addQuery('likelihood', likelihood);
+        grRiskMatrix.setLimit(1);
+        grRiskMatrix.query();
+        if (grRiskMatrix.next()) {
+            answer.risk_score = grRiskMatrix.getValue('risk_score');
+            answer.risk_value = grRiskMatrix.getValue('risk_value');
+        }
+        return JSON.stringify(answer);
+    },
+
+    populatePersonalDataProcessedElements: function(grPIA) {
+        var grPDPElement = new GlideRecord('x_935283_pia_personal_data_processed_element');
+        grPDPElement.addActiveQuery();
+        grPDPElement.orderByDesc('order');
+        grPDPElement.query();
+        while (grPDPElement.next()) {
+            var grPDP = new GlideRecord('x_935283_pia_personal_data_processed');
+            grPDP.initialize();
+            grPDP.pia = grPIA.getUniqueValue();
+            grPDP.element_name = grPDPElement.element_name;
+            grPDP.category = grPDPElement.getDisplayValue('category');
+            grPDP.order = grPDPElement.order;
+            grPDP.insert();
+        }
+    },
+
+    populatePDPElementDataSubject: function(grPIA) {
+        var grPDPElement = new GlideRecord('x_935283_pia_personal_data_processed_element');
+        grPDPElement.addActiveQuery();
+        grPDPElement.orderByDesc('order');
+        grPDPElement.query();
+        while (grPDPElement.next()) {
+            var grPDP = new GlideRecord('x_935283_pia_personal_data_processed');
+            grPDP.initialize();
+            grPDP.data_subject = grPIA.getUniqueValue();
+            grPDP.element_name = grPDPElement.element_name;
+            grPDP.category = grPDPElement.getDisplayValue('category');
+            grPDP.order = grPDPElement.order;
+            grPDP.insert();
+
+
+        }
+    },
+
+    populatePIADataLibrary: function(grPIA, typeLibrary) {
+        var grPDPElement = new GlideRecord('x_935283_pia_data_library');
+        grPDPElement.addActiveQuery();
+        grPDPElement.addQuery('type', typeLibrary);
+        grPDPElement.orderByDesc('order');
+        grPDPElement.query();
+        while (grPDPElement.next()) {
+            switch (typeLibrary) {
+                case 'supporting_artifacts':
+                    var grSupportingArtifacts = new GlideRecord('x_935283_pia_supporting_artifact');
+                    grSupportingArtifacts.initialize();
+                    grSupportingArtifacts.pia = grPIA.getUniqueValue();
+                    grSupportingArtifacts.document_title = grPDPElement.element_name;
+                    grSupportingArtifacts.description = grPDPElement.getDisplayValue('element_description');
+                    grSupportingArtifacts.insert();
+                    break;
+                case 'lawful_basis':
+                    var grLawfulBasis = new GlideRecord('x_935283_pia_section_lawful_basis');
+                    grLawfulBasis.initialize();
+                    grLawfulBasis.pia = grPIA.getUniqueValue();
+                    grLawfulBasis.trigger_section = grPDPElement.element_key;
+                    grLawfulBasis.processing_type = grPDPElement.getDisplayValue('element_category');
+                    grLawfulBasis.processing_purpose = grPDPElement.element_name;
+                    grLawfulBasis.order = grPDPElement.order;
+                    grLawfulBasis.insert();
+                    break;
+            }
+        }
+    },
+
+    populatePIAIntake: function(grPIAIntake) {
+        var grPIA = new GlideRecord('x_935283_pia_privacy_impact_assessment');
+        grPIA.addQuery('project_control_number', grPIAIntake.project_control_number.toString());
+        grPIA.setLimit(1);
+        grPIA.query();
+        if (grPIA.next()) {
+            grPIA.executive_summary = grPIAIntake.executive_summary;
+            grPIA.project_objectives = grPIAIntake.project_objectives;
+            grPIA.u_6_does_the_project_include = grPIAIntake.does_the_project_include_a_facility_for_data_subjects_to_exercise_their_privacy;
+            grPIA.u_6_please_explain_why_you_answered_yes_no = grPIAIntake.sec_6_q1_please_explain_why_you_answered_yes_no;
+            grPIA.u_6_right_data_portability = grPIAIntake.right_to_data_portability;
+            grPIA.u_6_right_erasure = grPIAIntake.right_to_erasure_or_blocking;
+            grPIA.u_6_right_lodge_a_complaint_and_damages = grPIAIntake.right_to_lodge_a_complaint_and_right_to_damages;
+            grPIA.u_6_right_rectification = grPIAIntake.right_to_rectification;
+            grPIA.u_6_right_to_access = grPIAIntake.right_to_access;
+            grPIA.u_6_right_to_be_informed = grPIAIntake.right_to_be_informed;
+            grPIA.u_6_right_to_consent_or_choice = grPIAIntake.right_to_consent_or_choice;
+            grPIA.u_6_right_to_object = grPIAIntake.right_to_withdraw_consent_or_object_to_the_processing;
+            grPIA.benefit_to_the_company = grPIAIntake.benefits_to_the_company;
+            grPIA.benefit_to_the_data_subjects = grPIAIntake.benefits_to_the_data_subjects;
+            grPIA.will_the_project_involve_yesno = grPIAIntake.question_order_2000 == 'yes';
+            grPIA.if_you_answered_yes = grPIAIntake.question_order_2100;
+            grPIA.will_the_project_use_personal_data_yesno = grPIAIntake.question_order_2200 == 'yes';
+            grPIA.will_the_project_use_personal_data_html = grPIAIntake.question_order_2300;
+            grPIA.are_you_processing_personal_data = grPIAIntake.question_order_2400;
+            grPIA.are_you_processing_personal_data_html = grPIAIntake.question_order_2500;
+            grPIA.will_the_project_require_contact = grPIAIntake.question_order_2700;
+            grPIA.will_the_project_require_contact_html = grPIAIntake.question_order_2800;
+            grPIA.does_the_project_involve = grPIAIntake.question_order_2900;
+            grPIA.does_the_project_involve_html = grPIAIntake.question_order_3000;
+            grPIA.business_rules = grPIAIntake.question_order_3700;
+
+            grPIA.technical_measures = grPIAIntake.question_order_4000;
+            grPIA.organizational_security_measures = grPIAIntake.question_order_4100;
+            grPIA.physical_security_measures = grPIAIntake.question_order_4200;
+            grPIA.summary_of_the_processing_purposes = grPIAIntake.question_order_4500;
+
+            grPIA.u_boolean_businessrules = true;
+            grPIA.u_boolean_datalifecyclenarrative = true;
+            grPIA.u_boolean_exerciseofrights = true;
+            grPIA.u_boolean_22_thresholdanalysis = true;
+            grPIA.u_boolean_processingpurposes = true;
+            grPIA.u_boolean_securitymeasures = true;
+
+            grPIA.update();
+        }
+    },
+
+    _leftPad: function(number, length) {
         var str = '' + number;
-        while (str.length < length) { str = '0' + str; }
+        while (str.length < length) {
+            str = '0' + str;
+        }
         return str;
     },
+
+    createPIARecord: function(current) { // primary tag is SC2
+        // Creating PIA record
+
+		gs.info('PIA TEST LOG creatttion ' + current.project_name);
+        var pia = new GlideRecord("x_935283_pia_privacy_impact_assessment");
+        pia.initialize();
+        pia.project.project = current.project_name;
+        pia.project.project_control_number = current.project_control_number;
+		// pia.project.line_of_business = current.line_of_business;
+        // pia.project.lob_category = current.lob_category;
+		// pia.project.division_department = current.division_department;
+		// pia.project.project_name = current.project_name;
+		// pia.project.project_spoc = current.project_spoc;
+		// pia.project.project_owner = current.project_owner;
+		// pia.project.project_executive_sponsor = current.project_executive_sponsor;
+		// pia.project.project_type = current.project_type;
+		// pia.project.project_classification = current.project_classification;
+		// pia.project.date_of_consultation = current.date_of_consultation;
+		// pia.project.ideal_submission_date = current.ideal_submission_date;
+		// pia.project.ideal_finalization_date = current.ideal_finalization_date;
+		// pia.project.launch_date_of_proponent = current.launch_date_of_proponent;
+		// pia.project.assessment_type = current.assessment_type;
+
+
+        var prjControlNum = current.project_control_number; //get Project Control Number
+        pia.phase = 'initiate';
+        pia.state = 'draft_prj_spoc'; // added state value for ui action condition in pia record.
+        pia.insert();
+
+        //get PIA sys_id related to Proj control Number
+        var getNewPIA = new GlideRecord("x_935283_pia_privacy_impact_assessment");
+        getNewPIA.addQuery('project_control_number', prjControlNum);
+        getNewPIA.query();
+        if (getNewPIA.next()) {
+            var newPIA = getNewPIA.sys_id; //assign sys_id of pia
+        }
+
+        //query all related artifacts under a Project and update pia field for each record with pia sys_id
+        var prjArt = new GlideRecord('x_935283_pia_supporting_artifact');
+        prjArt.addQuery('project', current.name_of_project.sys_id);
+        prjArt.query();
+        while (prjArt.next()) {
+            prjArt.pia = newPIA;
+            prjArt.update();
+        }
+
+    },
+
+	updatePIADataSubjects: function(){
+		gs.info('script include triggered');
+		
+		var userId = this.getParameter('sysparm_userId');
+		var dataSubjects = this.getParameter('sysparm_dataSubjects');
+		
+		gs.info('script triggered bryan lopez--'+ userId);
+		
+		var grPIA = new GlideRecord('x_935283_pia_privacy_impact_assessment');
+		if (grPIA.get(userId)) {
+			grPIA.data_subjects = dataSubjects;
+			grPIA.update();
+			gs.info('test query update bryan lopez--'+ userId);
+			//var obj = {"data_subjects" : grPIA.data_subjects};
+		}
+		//gs.info(obj+JSON.stringify(obj));
+		//return JSON.stringify(obj);
+	},
+
+		filterDataSubjects: function(current){
+		gs.info('BryanTestLine01--' + current.pia);
+		var grPiaRec = new GlideRecord('x_935283_pia_privacy_impact_assessment');
+		grPiaRec.addQuery('sys_id', current.pia);
+		grPiaRec.query();
+		if (grPiaRec.next()){
+			gs.info('BryanTestLine02--'+ grPiaRec.data_subjects);
+			return grPiaRec.data_subjects;
+		}
+	},
 
     type: 'PIAUtils'
 });]]></script>
@@ -120,13 +268,13 @@ PIAUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-22 06:32:52</sys_created_on>
         <sys_id>d7bcf0679741a110c617b8e6f053afc8</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>112</sys_mod_count>
         <sys_name>PIAUtils</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_script_include_d7bcf0679741a110c617b8e6f053afc8</sys_update_name>
-        <sys_updated_by>ralmeyda</sys_updated_by>
-        <sys_updated_on>2023-05-10 05:07:06</sys_updated_on>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2024-01-22 09:47:33</sys_updated_on>
     </sys_script_include>
 </record_update>

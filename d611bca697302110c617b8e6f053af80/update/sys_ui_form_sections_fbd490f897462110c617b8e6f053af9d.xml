@@ -2,17 +2,17 @@
     <sys_ui_form_sections form_id="fbd490f897462110c617b8e6f053af9d" sys_domain="global" table="x_935283_pia_dps_operation" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-04 07:37:35</sys_created_on>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-05-29 00:46:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7fd490f897462110c617b8e6f053afa0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>5526465697032110c617b8e6f053af74</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">db1e00b097462110c617b8e6f053af0a</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-04 07:37:35</sys_updated_on>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">d926465697032110c617b8e6f053af6e</sys_ui_section>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:10</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1d9f08dc97bea110c617b8e6f053af04</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:44:36</sys_updated_on>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:10</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>04e0573a97422110c617b8e6f053af87</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:44:36</sys_updated_on>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:10</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
@@ -49,12 +49,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d4d51fbe97422110c617b8e6f053afa1</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
             <sys_ui_section caption="4C:RETENTION" display_value="4C:RETENTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9c</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:05</sys_updated_on>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:10</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -63,26 +63,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>10d55fbe97422110c617b8e6f053af15</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
             <sys_ui_section caption="4D:DISPOSAL" display_value="4D:DISPOSAL" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">dcd51fbe97422110c617b8e6f053af9d</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:05</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>5</position>
-            <sys_created_by>fbautista</sys_created_by>
-            <sys_created_on>2023-04-11 02:48:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9cd55fbe97422110c617b8e6f053af18</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_935283_pia_dps_operation" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">fbd490f897462110c617b8e6f053af9d</sys_ui_form>
-            <sys_ui_section caption="Section 4.2: Automated Decision-Making" display_value="Section 4.2: Automated Decision-Making" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">98d51fbe97422110c617b8e6f053af9e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:05</sys_updated_on>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-05-29 00:46:10</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_935283_pia_dps_operation</name>

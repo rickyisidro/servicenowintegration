@@ -2,68 +2,107 @@
     <sys_ui_section caption="4.4 Security Measures" section_id="35c93edc97ee6510c617b8e6f053affd" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c1b9d01c97fea110c617b8e6f053afd2</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>c26af1f8973f3d10c617b8e6f053af57</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>This section will help the Reviewer understand the Technical, Organizational, and Security Measures in place for the protection of personal data, as may be reasonable and appropriate, taking into consideration the extent (scope and method) of the personal data processing. Please provide comprehensive and detailed information.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>866af1f8973f3d10c617b8e6f053af57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <text>Once Security Measures is completed, proceed to Processing purposes.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c1b9d01c97fea110c617b8e6f053afd2</element>
+            <element>c26af1f8973f3d10c617b8e6f053af57</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c9b9d01c97fea110c617b8e6f053afd5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>ca6af1f8973f3d10c617b8e6f053af5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>technical_measures</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>4db9d01c97fea110c617b8e6f053afd5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>4e6af1f8973f3d10c617b8e6f053af5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>organizational_security_measures</element>
             <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>cdb9d01c97fea110c617b8e6f053afd5</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>ce6af1f8973f3d10c617b8e6f053af5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>physical_security_measures</element>
             <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>41b9d01c97fea110c617b8e6f053afd6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>426af1f8973f3d10c617b8e6f053af5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>866af1f8973f3d10c617b8e6f053af57</element>
+            <position>4</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>c26af1f8973f3d10c617b8e6f053af5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_processingpurposes</element>
+            <position>5</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>466af1f8973f3d10c617b8e6f053af5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.4 Security Measures" display_value="4.4 Security Measures" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">35c93edc97ee6510c617b8e6f053affd</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

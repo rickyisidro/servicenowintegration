@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_risk_rtp" name="x_935283_pia_risk_rtp" sys_domain="global" view="Default view">0922bd0f97062110c617b8e6f053af8f</sys_ui_form>
-            <sys_ui_section caption="Actual" display_value="Actual" name="x_935283_pia_risk_rtp" sys_domain="global" view="Default view">0473f58f97062110c617b8e6f053af29</sys_ui_section>
+            <sys_ui_section caption="Monitoring" display_value="Monitoring" name="x_935283_pia_risk_rtp" sys_domain="global" view="Default view">0473f58f97062110c617b8e6f053af29</sys_ui_section>
             <sys_updated_by>risidro</sys_updated_by>
             <sys_updated_on>2023-04-11 14:17:05</sys_updated_on>
         </sys_ui_form_section>

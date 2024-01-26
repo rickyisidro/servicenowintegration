@@ -22,14 +22,14 @@
         <sys_created_by>fbautista</sys_created_by>
         <sys_created_on>2023-04-11 01:37:49</sys_created_on>
         <sys_id>2e85cfb697022110c617b8e6f053aff6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Step-By-Step Articulation of the Data Collection </sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_db_object_2e85cfb697022110c617b8e6f053aff6</sys_update_name>
-        <sys_updated_by>fbautista</sys_updated_by>
-        <sys_updated_on>2023-04-11 01:39:40</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:22</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_935283_pia.step_by_step_articulation_user" name="x_935283_pia.step_by_step_articulation_user">4aa5c3ba97022110c617b8e6f053af3e</user_role>
         <ws_access>true</ws_access>

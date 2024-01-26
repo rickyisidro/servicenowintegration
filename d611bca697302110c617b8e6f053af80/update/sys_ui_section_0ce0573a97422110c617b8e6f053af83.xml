@@ -2,208 +2,480 @@
     <sys_ui_section caption="4B:USE &amp; DISCLOSURE" section_id="0ce0573a97422110c617b8e6f053af83" sys_domain="global" table="x_935283_pia_dps_operation" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:05</sys_created_on>
-            <sys_id>a1d3a4189732e110c617b8e6f053af5b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
+            <sys_id>55ade72c97fff910c617b8e6f053af9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:05</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
             <text>PIC-PIP Ecosystem</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
+            <sys_id>9dade72c97fff910c617b8e6f053af9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
+            <text>4.2 Automated Decision-Making</text>
+            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
+            <sys_id>51ade72c97fff910c617b8e6f053af9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
+            <text>This section will help the Reviewer understand each Data Processing System that enables Automated-Decision Making and/or Profiling. Accomplish only if you have noted the existence of Automated Decision-Making under any of the Data Processing Systems identified in Section 4B above.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
+            <sys_id>15ade72c97fff910c617b8e6f053af9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
+            <text>What is the lawful basis for the processing of personal data through automated decision-making?
+** Select the most appropriate Lawful Basis.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>purpose_of_the_processing</element>
+            <element>collection</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e1d3a4189732e110c617b8e6f053af62</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f5ad2b2c97fff910c617b8e6f053af7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_dps4b</element>
+            <position>1</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>7dad2b2c97fff910c617b8e6f053af7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hl_use_disclosure</element>
+            <position>2</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>fdad2b2c97fff910c617b8e6f053af7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_the_processing</element>
+            <position>3</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>71ad2b2c97fff910c617b8e6f053af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>personal_data_processed</element>
-            <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>65d3a4189732e110c617b8e6f053af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>with_automated_decision_making</element>
-            <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e5d3a4189732e110c617b8e6f053af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>will_the_personal_data_be_transferred_outside_ph</element>
-            <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>69d3a4189732e110c617b8e6f053af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>a1d3a4189732e110c617b8e6f053af5b</element>
             <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e9d3a4189732e110c617b8e6f053af62</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f1ad2b2c97fff910c617b8e6f053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type>annotation</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pic_pip_ecosystem</element>
-            <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>6dd3a4189732e110c617b8e6f053af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
-            <position>6</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>edd3a4189732e110c617b8e6f053af62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_sharing_personal_data_pic</element>
-            <position>7</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>61d3a4189732e110c617b8e6f053af63</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>8</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e1d3a4189732e110c617b8e6f053af63</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type_of_processing</element>
-            <position>9</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>65d3a4189732e110c617b8e6f053af63</sys_id>
+            <position>5</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>75ad2b2c97fff910c617b8e6f053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>manual_or_electronic</element>
-            <position>10</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e5d3a4189732e110c617b8e6f053af63</sys_id>
+            <position>6</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f5ad2b2c97fff910c617b8e6f053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>with_automated_decision_making</element>
+            <position>7</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>79ad2b2c97fff910c617b8e6f053af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>will_the_personal_data_be_transferred_outside_ph</element>
+            <position>8</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f9ad2b2c97fff910c617b8e6f053af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>with_profiling</element>
-            <position>11</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>69d3a4189732e110c617b8e6f053af63</sys_id>
+            <position>9</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>7dad2b2c97fff910c617b8e6f053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>12</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>e9d3a4189732e110c617b8e6f053af63</sys_id>
+            <element>55ade72c97fff910c617b8e6f053af9c</element>
+            <position>10</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>fdad2b2c97fff910c617b8e6f053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pic_pip_ecosystem</element>
+            <position>11</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>71ad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_the_data_processing_sytem_owned_or_outsourced</element>
+            <position>12</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f1ad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sharing_personal_data_pic</element>
+            <position>13</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>75ad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>step_by_step_articulation_4b</element>
-            <position>13</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 02:13:06</sys_created_on>
-            <sys_id>6dd3a4189732e110c617b8e6f053af63</sys_id>
+            <position>14</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f5ad2b2c97fff910c617b8e6f053af7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 02:13:06</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9dade72c97fff910c617b8e6f053af9c</element>
+            <position>15</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>79ad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>51ade72c97fff910c617b8e6f053af9d</element>
+            <position>16</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f9ad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>15ade72c97fff910c617b8e6f053af9d</element>
+            <position>17</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>7dad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract</element>
+            <position>18</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>fdad2b2c97fff910c617b8e6f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_contract</element>
+            <position>19</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>71ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compliance_with_a_legal_obligation</element>
+            <position>20</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f1ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_compliance</element>
+            <position>21</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>75ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consent</element>
+            <position>22</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f5ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_consent</element>
+            <position>23</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>79ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legitimate_interests</element>
+            <position>24</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f9ad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_legitimate</element>
+            <position>25</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>7dad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>public_interests</element>
+            <position>26</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>fdad2b2c97fff910c617b8e6f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_public</element>
+            <position>27</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>71ad2b2c97fff910c617b8e6f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vital_interests</element>
+            <position>28</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f1ad2b2c97fff910c617b8e6f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lawful_basis_vital</element>
+            <position>29</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>75ad2b2c97fff910c617b8e6f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_decisions_relating</element>
+            <position>30</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:16</sys_created_on>
+            <sys_id>f5ad2b2c97fff910c617b8e6f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4B:USE &amp; DISCLOSURE" display_value="4B:USE &amp; DISCLOSURE" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">0ce0573a97422110c617b8e6f053af83</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

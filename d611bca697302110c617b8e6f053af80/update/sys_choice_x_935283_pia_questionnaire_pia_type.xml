@@ -7,14 +7,14 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-02-15 10:27:00</sys_created_on>
             <sys_id>995f2dd197012110c617b8e6f053af18</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>pia_type</sys_name>
             <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-            <sys_policy/>
+            <sys_policy>protected</sys_policy>
             <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
             <sys_update_name>sys_choice_x_935283_pia_questionnaire_pia_type</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-02-15 10:27:00</sys_updated_on>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:07</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -55,6 +55,46 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-02-15 10:40:33</sys_updated_on>
             <value>PIA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pia_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Declaration &amp; Warranty - Owner</label>
+            <language>en</language>
+            <name>x_935283_pia_questionnaire</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-10 17:28:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94b22dd7976b3510c617b8e6f053afde</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:19:36</sys_updated_on>
+            <value>dec_and_war_owner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pia_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Declaration &amp; Warranty - Sponsor</label>
+            <language>en</language>
+            <name>x_935283_pia_questionnaire</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-10 21:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1b7d2df976f3510c617b8e6f053af4e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:19:57</sys_updated_on>
+            <value>dec_and_war_sponsor</value>
         </sys_choice>
     </sys_choice>
 </record_update>

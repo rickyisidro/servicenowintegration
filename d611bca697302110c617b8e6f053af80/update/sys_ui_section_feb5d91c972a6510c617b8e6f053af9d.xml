@@ -2,40 +2,79 @@
     <sys_ui_section caption="4.3 Business Rules" section_id="feb5d91c972a6510c617b8e6f053af9d" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c5b9d01c97fea110c617b8e6f053afca</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>426af1f8973f3d10c617b8e6f053af4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <text>This section will help the Reviewer understand the business rules that dictate how, when, or why personal data is processed in special or specific scenarios. Please provide comprehensive and detailed information.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>066af1f8973f3d10c617b8e6f053af4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <text>Once Business Rules is completed, proceed to Security Measures.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c5b9d01c97fea110c617b8e6f053afca</element>
+            <element>426af1f8973f3d10c617b8e6f053af4d</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>41b9d01c97fea110c617b8e6f053afcd</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>8a6af1f8973f3d10c617b8e6f053af51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.3 Business Rules" display_value="4.3 Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>business_rules</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c1b9d01c97fea110c617b8e6f053afcd</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>0e6af1f8973f3d10c617b8e6f053af51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4.3 Business Rules" display_value="4.3 Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>066af1f8973f3d10c617b8e6f053af4d</element>
+            <position>2</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>8e6af1f8973f3d10c617b8e6f053af51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.3 Business Rules" display_value="4.3 Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_securitymeasures</element>
+            <position>3</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>026af1f8973f3d10c617b8e6f053af52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4.3 Business Rules" display_value="4.3 Business Rules" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">feb5d91c972a6510c617b8e6f053af9d</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

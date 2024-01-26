@@ -2,54 +2,54 @@
     <sys_ui_section caption="Processing Relationships" section_id="a58ad27f97e12110c617b8e6f053af13" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
-            <sys_id>302d773397862510c617b8e6f053af51</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
+            <sys_id>3d27c3b7977af110c617b8e6f053af09</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
             <text>The entity must ensure that it has contracts or agreements with third parties processing personal data on its behalf or for the latter’s own purpose/s (and vice versa), which contains provisions for data privacy and protection.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>302d773397862510c617b8e6f053af51</element>
+            <element>3d27c3b7977af110c617b8e6f053af09</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
-            <sys_id>f82d773397862510c617b8e6f053af54</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
+            <sys_id>fd27c3b7977af110c617b8e6f053af0d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Processing Relationships" display_value="Processing Relationships" name="x_935283_pia_pam" sys_domain="global" view="Default view">a58ad27f97e12110c617b8e6f053af13</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>section_1_observation</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
-            <sys_id>fc2d773397862510c617b8e6f053af54</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
+            <sys_id>7127c3b7977af110c617b8e6f053af0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Processing Relationships" display_value="Processing Relationships" name="x_935283_pia_pam" sys_domain="global" view="Default view">a58ad27f97e12110c617b8e6f053af13</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-14 08:14:08</sys_created_on>
-            <sys_id>f02d773397862510c617b8e6f053af55</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 07:16:32</sys_created_on>
+            <sys_id>f127c3b7977af110c617b8e6f053af0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Processing Relationships" display_value="Processing Relationships" name="x_935283_pia_pam" sys_domain="global" view="Default view">a58ad27f97e12110c617b8e6f053af13</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-14 08:14:08</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 07:16:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

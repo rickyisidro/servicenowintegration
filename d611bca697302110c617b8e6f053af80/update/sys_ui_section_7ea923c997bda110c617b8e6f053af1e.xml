@@ -1,198 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="PPRM Tagging" section_id="7ea923c997bda110c617b8e6f053af1e" sys_domain="global" table="x_935283_pia_project" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>with_cc_ru_path</element>
+            <element>with_contract_review</element>
             <position>0</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>92ce1048977e6110c617b8e6f053af22</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>da98b673973af110c617b8e6f053afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>temporary_assessment</element>
+            <element>date_of_endorsement_to_po_rcm</element>
             <position>1</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>16ce1048977e6110c617b8e6f053af22</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5e98b673973af110c617b8e6f053afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_acceptance</element>
+            <element>pldt_group_entity_is_a_pic</element>
             <position>2</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>96ce1048977e6110c617b8e6f053af22</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>de98b673973af110c617b8e6f053afda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pldt_group_entity_is_a_pip</element>
+            <position>3</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5298b673973af110c617b8e6f053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>with_non_compliance_memo</element>
-            <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>1ace1048977e6110c617b8e6f053af22</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_tag1</element>
             <position>4</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>9ace1048977e6110c617b8e6f053af22</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>d298b673973af110c617b8e6f053afdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_tag1_name</element>
-            <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>1ece1048977e6110c617b8e6f053af22</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_tag2</element>
-            <position>6</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>9ece1048977e6110c617b8e6f053af22</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_tag2_name</element>
-            <position>7</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>12ce1048977e6110c617b8e6f053af23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_tag3</element>
-            <position>8</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>92ce1048977e6110c617b8e6f053af23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_tag3_name</element>
-            <position>9</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>16ce1048977e6110c617b8e6f053af23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>10</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>96ce1048977e6110c617b8e6f053af23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>for_prioritization</element>
-            <position>11</position>
+            <position>5</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>1ace1048977e6110c617b8e6f053af23</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5698b673973af110c617b8e6f053afdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>prioritization_reason</element>
-            <position>12</position>
+            <position>6</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>9ace1048977e6110c617b8e6f053af23</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>d698b673973af110c617b8e6f053afdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pia_is_inactive</element>
-            <position>13</position>
+            <element>.split</element>
+            <position>7</position>
             <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 07:12:32</sys_created_on>
-            <sys_id>1ece1048977e6110c617b8e6f053af23</sys_id>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5a98b673973af110c617b8e6f053afdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
             <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 07:12:32</sys_updated_on>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>others</element>
+            <position>8</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>da98b673973af110c617b8e6f053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_tag1</element>
+            <position>9</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5e98b673973af110c617b8e6f053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_tag1_name</element>
+            <position>10</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>de98b673973af110c617b8e6f053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_tag2</element>
+            <position>11</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5298b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_tag2_name</element>
+            <position>12</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>d298b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_tag3</element>
+            <position>13</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5698b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_tag3_name</element>
+            <position>14</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>d698b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>placeholder_tag_4</element>
+            <position>15</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5a98b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tag_name_4</element>
+            <position>16</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>da98b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>placeholder_tag_5</element>
+            <position>17</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>5e98b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tag_name_5</element>
+            <position>18</position>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-12-06 06:12:56</sys_created_on>
+            <sys_id>de98b673973af110c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PPRM Tagging" display_value="PPRM Tagging" name="x_935283_pia_project" sys_domain="global" view="Default view">7ea923c997bda110c617b8e6f053af1e</sys_ui_section>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-12-06 06:12:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

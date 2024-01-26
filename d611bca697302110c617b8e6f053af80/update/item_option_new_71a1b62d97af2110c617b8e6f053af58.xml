@@ -17,12 +17,14 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>question_order_4000</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Describe the Technical Security Measures in place for the protection of Personal Data. </help_text>
         <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
@@ -36,10 +38,10 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>technical_security_measures</name>
+        <name>question_order_4000</name>
         <order>4000</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -54,8 +56,8 @@
         <record/>
         <record_producer_table>x_935283_pia_intake</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -67,7 +69,7 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
@@ -75,14 +77,14 @@
         <sys_created_by>risidro</sys_created_by>
         <sys_created_on>2023-06-20 16:32:20</sys_created_on>
         <sys_id>71a1b62d97af2110c617b8e6f053af58</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Technical Security Measures</sys_name>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>item_option_new_71a1b62d97af2110c617b8e6f053af58</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-20 16:37:16</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:50</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

@@ -22,14 +22,14 @@
         <sys_created_by>fbautista</sys_created_by>
         <sys_created_on>2023-04-18 00:49:54</sys_created_on>
         <sys_id>eabd7609971e6910c617b8e6f053af90</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CO-PIC / DATA SHARING ARRANGEMENTS</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_db_object_eabd7609971e6910c617b8e6f053af90</sys_update_name>
-        <sys_updated_by>fbautista</sys_updated_by>
-        <sys_updated_on>2023-04-18 00:49:54</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:43</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_935283_pia.co_pic_data_sharing_arrangements_user" name="x_935283_pia.co_pic_data_sharing_arrangements_user">2cddf245971e6910c617b8e6f053afbb</user_role>
         <ws_access>true</ws_access>

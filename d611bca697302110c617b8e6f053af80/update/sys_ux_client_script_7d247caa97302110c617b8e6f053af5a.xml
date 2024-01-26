@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Project Record Page">f1247caa97302110c617b8e6f053af56</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
@@ -18,14 +19,14 @@ function evaluateProperty({api, helpers}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-06 17:05:08</sys_created_on>
         <sys_id>7d247caa97302110c617b8e6f053af5a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>viewport_gph/initiallyCollapsed</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_ux_client_script_7d247caa97302110c617b8e6f053af5a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-06 17:05:08</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:56</sys_updated_on>
         <target>macroponent</target>
         <type>transform</type>
     </sys_ux_client_script>

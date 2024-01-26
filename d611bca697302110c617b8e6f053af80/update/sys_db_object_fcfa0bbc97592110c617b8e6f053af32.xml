@@ -22,14 +22,14 @@
         <sys_created_by>risidro</sys_created_by>
         <sys_created_on>2023-02-26 14:06:18</sys_created_on>
         <sys_id>fcfa0bbc97592110c617b8e6f053af32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Supporting Artifact</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_db_object_fcfa0bbc97592110c617b8e6f053af32</sys_update_name>
         <sys_updated_by>risidro</sys_updated_by>
-        <sys_updated_on>2023-02-26 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-09-27 15:38:51</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_935283_pia.supporting_artifact_user" name="x_935283_pia.supporting_artifact_user">990b07bc97592110c617b8e6f053af93</user_role>
         <ws_access>true</ws_access>

@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="26e11ab397e12110c617b8e6f053aff6" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pia.project_control_number</element>
+            <element>name_of_project.entity_name</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-20 07:40:59</sys_created_on>
-            <sys_id>97c547bb976d2110c617b8e6f053afa1</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>585957b397faf110c617b8e6f053af49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-20 07:40:59</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>impact</element>
+            <element>name_of_project.project_name</element>
             <position>1</position>
-            <sys_created_by>risidro</sys_created_by>
-            <sys_created_on>2023-03-29 08:57:01</sys_created_on>
-            <sys_id>c58da5f697fd6110c617b8e6f053afc8</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>dc5957b397faf110c617b8e6f053af49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>risidro</sys_updated_by>
-            <sys_updated_on>2023-03-29 08:57:01</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>likelihood</element>
+            <element>name_of_project.project_owner</element>
             <position>2</position>
-            <sys_created_by>risidro</sys_created_by>
-            <sys_created_on>2023-03-29 08:57:23</sys_created_on>
-            <sys_id>1a9da17a97fd6110c617b8e6f053af19</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>505957b397faf110c617b8e6f053af4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>risidro</sys_updated_by>
-            <sys_updated_on>2023-03-29 08:57:23</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_score</element>
+            <element>name_of_project.project_spoc</element>
             <position>3</position>
-            <sys_created_by>risidro</sys_created_by>
-            <sys_created_on>2023-03-29 08:57:42</sys_created_on>
-            <sys_id>fead297a97fd6110c617b8e6f053af06</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>d05957b397faf110c617b8e6f053af4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>risidro</sys_updated_by>
-            <sys_updated_on>2023-03-29 08:57:42</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>name_of_project.pprm_head</element>
             <position>4</position>
-            <sys_created_by>risidro</sys_created_by>
-            <sys_created_on>2023-04-08 04:34:13</sys_created_on>
-            <sys_id>b4411c0a9786a110c617b8e6f053af60</sys_id>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>545957b397faf110c617b8e6f053af4a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
-            <sys_updated_by>risidro</sys_updated_by>
-            <sys_updated_on>2023-04-08 04:34:13</sys_updated_on>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_project.compliance_officer_for_privacy</element>
+            <position>5</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:35:54</sys_created_on>
+            <sys_id>d45957b397faf110c617b8e6f053af4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_pam" sys_domain="global" view="Default view">26e11ab397e12110c617b8e6f053aff6</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:35:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

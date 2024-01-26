@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	g_form.setReadOnly('stakeholder.email', true);
+	//g_form.setReadOnly('stakeholder.email', true);
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -21,15 +21,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2be238197fda110c617b8e6f053afc5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set read-only fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_script_client_b2be238197fda110c617b8e6f053afc5</sys_update_name>
-        <sys_updated_by>risidro</sys_updated_by>
-        <sys_updated_on>2023-03-24 07:53:37</sys_updated_on>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2023-12-06 06:22:23</sys_updated_on>
         <table>x_935283_pia_project</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

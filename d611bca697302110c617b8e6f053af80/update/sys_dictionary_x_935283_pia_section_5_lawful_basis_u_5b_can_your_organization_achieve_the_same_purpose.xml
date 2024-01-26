@@ -55,11 +55,11 @@
         <sys_id>65bf5f3f97ed2110c617b8e6f053af2f</sys_id>
         <sys_name>Can your organization achieve the same purpose less data</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_dictionary_x_935283_pia_section_5_lawful_basis_u_5b_can_your_organization_achieve_the_same_purpose</sys_update_name>
-        <sys_updated_by>fbautista</sys_updated_by>
-        <sys_updated_on>2023-03-20 09:36:04</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

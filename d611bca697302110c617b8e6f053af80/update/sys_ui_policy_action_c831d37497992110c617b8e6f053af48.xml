@@ -8,14 +8,14 @@
         <sys_created_by>risidro</sys_created_by>
         <sys_created_on>2023-02-26 14:33:26</sys_created_on>
         <sys_id>c831d37497992110c617b8e6f053af48</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>project.processing_activity_others_please_specify</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_ui_policy_action_c831d37497992110c617b8e6f053af48</sys_update_name>
         <sys_updated_by>risidro</sys_updated_by>
-        <sys_updated_on>2023-03-28 08:19:23</sys_updated_on>
+        <sys_updated_on>2023-09-27 15:38:27</sys_updated_on>
         <table>x_935283_pia_privacy_impact_assessment</table>
         <ui_policy display_value="Show / Hide Processing Activity Others">f2111f3497992110c617b8e6f053afc5</ui_policy>
         <visible>true</visible>

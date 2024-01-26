@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_section_5_lawful_basis" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">4032e77397216110c617b8e6f053af66</sys_ui_form>
-            <sys_ui_section caption="5B. Legitimate Interest Assessment" display_value="5B. Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
+            <sys_ui_section caption="Legitimate Interest Assessment" display_value="Legitimate Interest Assessment" name="x_935283_pia_section_5_lawful_basis" sys_domain="global" view="Default view">0c32e77397216110c617b8e6f053af64</sys_ui_section>
             <sys_updated_by>fbautista</sys_updated_by>
             <sys_updated_on>2023-03-20 09:45:01</sys_updated_on>
         </sys_ui_form_section>

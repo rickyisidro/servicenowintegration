@@ -25,15 +25,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b99d950976a6510c617b8e6f053aff3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set Label</sys_name>
         <sys_overrides/>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>sys_script_client_5b99d950976a6510c617b8e6f053aff3</sys_update_name>
-        <sys_updated_by>risidro</sys_updated_by>
-        <sys_updated_on>2023-04-27 19:55:19</sys_updated_on>
+        <sys_updated_by>ejpallera</sys_updated_by>
+        <sys_updated_on>2024-01-15 09:02:19</sys_updated_on>
         <table>x_935283_pia_section_lawful_basis</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

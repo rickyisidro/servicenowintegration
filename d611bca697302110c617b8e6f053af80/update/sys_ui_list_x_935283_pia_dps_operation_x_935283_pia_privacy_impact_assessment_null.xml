@@ -2,33 +2,63 @@
     <sys_ui_list parent="x_935283_pia_privacy_impact_assessment" relationship="" sys_domain="global" table="x_935283_pia_dps_operation" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>name_of_data_processing_system</element>
-            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">bbc6dff3972a6110c617b8e6f053af6c</list_id>
+            <element>pia</element>
+            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">ef373be897333d10c617b8e6f053af19</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 01:58:05</sys_created_on>
-            <sys_id>7fc61777972a6110c617b8e6f053af14</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:29:10</sys_created_on>
+            <sys_id>23373be897333d10c617b8e6f053af1b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 01:58:05</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:29:10</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>pia</element>
-            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">bbc6dff3972a6110c617b8e6f053af6c</list_id>
+            <element>data_lifecycle_type</element>
+            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">ef373be897333d10c617b8e6f053af19</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 01:58:05</sys_created_on>
-            <sys_id>37c61777972a6110c617b8e6f053af15</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:29:10</sys_created_on>
+            <sys_id>a7373be897333d10c617b8e6f053af1b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 01:58:05</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:29:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name_of_data_processing_system</element>
+            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">ef373be897333d10c617b8e6f053af19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:29:10</sys_created_on>
+            <sys_id>2b373be897333d10c617b8e6f053af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:29:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>collection</element>
+            <list_id display_value="x_935283_pia_dps_operation" element="NULL" name="x_935283_pia_dps_operation" parent="x_935283_pia_privacy_impact_assessment" relationship="NULL" sys_domain="global" view="Default view">ef373be897333d10c617b8e6f053af19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:29:10</sys_created_on>
+            <sys_id>ab373be897333d10c617b8e6f053af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:29:10</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -41,19 +71,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-09 01:58:05</sys_created_on>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:29:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bbc6dff3972a6110c617b8e6f053af6c</sys_id>
+            <sys_id>ef373be897333d10c617b8e6f053af19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_935283_pia_dps_operation</sys_name>
             <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
             <sys_policy/>
             <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
             <sys_update_name>sys_ui_list_x_935283_pia_dps_operation_x_935283_pia_privacy_impact_assessment_null</sys_update_name>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-09 01:58:05</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:29:10</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

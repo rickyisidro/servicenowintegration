@@ -21,6 +21,26 @@
             <element>section_field</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Right To Be Informed</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-06-26 08:44:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32abff5f97a72110c617b8e6f053af77</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-06-26 08:44:45</sys_updated_on>
+            <value>u_6_right_to_be_informed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Executive Summary</label>
             <language>en</language>
             <name>x_935283_pia_pprm_instruction</name>

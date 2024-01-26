@@ -3,98 +3,140 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name_of_data_processing_system</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>8000101097fea110c617b8e6f053af9b</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>64e5b7a897333d10c617b8e6f053af31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hl_collection</element>
+            <position>1</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>e8e5b7a897333d10c617b8e6f053af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_collection</element>
+            <position>2</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>6ce5b7a897333d10c617b8e6f053af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>publicly_facing_medium</element>
-            <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>0400101097fea110c617b8e6f053af9b</sys_id>
+            <position>3</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>ece5b7a897333d10c617b8e6f053af31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>external_or_internal_facing_medium</element>
-            <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>8400101097fea110c617b8e6f053af9b</sys_id>
+            <position>4</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>60e5b7a897333d10c617b8e6f053af32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collecting_personal_data_as_a_pic_or_pip</element>
-            <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>0800101097fea110c617b8e6f053af9b</sys_id>
+            <position>5</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>e0e5b7a897333d10c617b8e6f053af32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collection_method</element>
-            <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>8800101097fea110c617b8e6f053af9b</sys_id>
+            <position>6</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>64e5b7a897333d10c617b8e6f053af32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stakeholder</element>
+            <position>7</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>e4e5b7a897333d10c617b8e6f053af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>step_by_step_articulation_4a</element>
-            <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>0c00101097fea110c617b8e6f053af9b</sys_id>
+            <position>8</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>68e5b7a897333d10c617b8e6f053af32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 00:46:26</sys_created_on>
-            <sys_id>8c00101097fea110c617b8e6f053af9b</sys_id>
+            <position>9</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 01:23:14</sys_created_on>
+            <sys_id>e8e5b7a897333d10c617b8e6f053af32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="4A:COLLECTION" display_value="4A:COLLECTION" name="x_935283_pia_dps_operation" sys_domain="global" view="Default view">559fc4dc97bea110c617b8e6f053af5e</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 00:46:26</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 01:23:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

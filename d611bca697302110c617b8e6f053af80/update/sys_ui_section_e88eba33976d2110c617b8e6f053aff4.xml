@@ -2,226 +2,265 @@
     <sys_ui_section caption="5 Processing Purposes" section_id="e88eba33976d2110c617b8e6f053aff4" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c9b9d01c97fea110c617b8e6f053afdc</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>926af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>Legitimate Interest Assessment</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>8db9d01c97fea110c617b8e6f053afdc</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>566af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>Accomplish only if you have selected Legitimate Interest as the Project’s Lawful Basis in Table 5A</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>41b9d01c97fea110c617b8e6f053afdd</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>1a6af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>PURPOSE TEST</text>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>05b9d01c97fea110c617b8e6f053afdd</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>da6af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>NECESSITY TEST</text>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>c5b9d01c97fea110c617b8e6f053afdd</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>9e6af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <text>BALANCING TEST</text>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>526af1f8973f3d10c617b8e6f053af65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <text>Once Processing purposes is completed, proceed to Lawful Basis below.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>summary_of_the_processing_purposes</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>01b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>166af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c9b9d01c97fea110c617b8e6f053afdc</element>
+            <element>926af1f8973f3d10c617b8e6f053af64</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>81b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>966af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>8db9d01c97fea110c617b8e6f053afdc</element>
+            <element>566af1f8973f3d10c617b8e6f053af64</element>
             <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>05b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>1a6af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>41b9d01c97fea110c617b8e6f053afdd</element>
+            <element>1a6af1f8973f3d10c617b8e6f053af64</element>
             <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>85b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>9a6af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legitimate_interest_html</element>
             <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>09b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>1e6af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>impact_org_html</element>
             <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>89b9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>9e6af1f8973f3d10c617b8e6f053af70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>05b9d01c97fea110c617b8e6f053afdd</element>
+            <element>da6af1f8973f3d10c617b8e6f053af64</element>
             <position>6</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>0db9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>126af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>can_orgranization_html</element>
             <position>7</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>8db9d01c97fea110c617b8e6f053afe6</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>926af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>can_org2_html</element>
             <position>8</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>01b9d01c97fea110c617b8e6f053afe7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>166af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c5b9d01c97fea110c617b8e6f053afdd</element>
+            <element>9e6af1f8973f3d10c617b8e6f053af64</element>
             <position>9</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>81b9d01c97fea110c617b8e6f053afe7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>966af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_org1_html</element>
             <position>10</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>05b9d01c97fea110c617b8e6f053afe7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>1a6af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_org2_html</element>
             <position>11</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>85b9d01c97fea110c617b8e6f053afe7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>9a6af1f8973f3d10c617b8e6f053af71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_exerciseofrights</element>
+            <position>12</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>1e6af1f8973f3d10c617b8e6f053af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>526af1f8973f3d10c617b8e6f053af65</element>
+            <position>13</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>9e6af1f8973f3d10c617b8e6f053af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="5 Processing Purposes" display_value="5 Processing Purposes" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">e88eba33976d2110c617b8e6f053aff4</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>5 Processing Purposes</caption>

@@ -2,123 +2,190 @@
     <sys_ui_section caption="2.1 Project Background" section_id="ba2fa21597052110c617b8e6f053afc0" sys_domain="global" table="x_935283_pia_privacy_impact_assessment" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>3cb9d01c97fea110c617b8e6f053afb1</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ce6af1f8973f3d10c617b8e6f053af20</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <text>Project Benefits</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>fcb9d01c97fea110c617b8e6f053afb1</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>826af1f8973f3d10c617b8e6f053af21</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <text>Scope of Assessment</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>466af1f8973f3d10c617b8e6f053af21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <text>Once Project Background is completed, proceed to Threshold Analysis.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>executive_summary</element>
             <position>0</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>b0b9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4a6af1f8973f3d10c617b8e6f053af29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>project_objectives</element>
             <position>1</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>34b9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ca6af1f8973f3d10c617b8e6f053af29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3cb9d01c97fea110c617b8e6f053afb1</element>
+            <element>ce6af1f8973f3d10c617b8e6f053af20</element>
             <position>2</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>b4b9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4e6af1f8973f3d10c617b8e6f053af29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>benefit_to_the_company</element>
             <position>3</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>38b9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ce6af1f8973f3d10c617b8e6f053af29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>benefit_to_the_data_subjects</element>
             <position>4</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>b8b9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>426af1f8973f3d10c617b8e6f053af2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>projected_revenue_contribution_cost_optimization</element>
             <position>5</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>3cb9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>c26af1f8973f3d10c617b8e6f053af2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fcb9d01c97fea110c617b8e6f053afb1</element>
+            <element>826af1f8973f3d10c617b8e6f053af21</element>
             <position>6</position>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-05-10 01:28:49</sys_created_on>
-            <sys_id>bcb9d01c97fea110c617b8e6f053afb7</sys_id>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>466af1f8973f3d10c617b8e6f053af2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-05-10 01:28:49</sys_updated_on>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>466af1f8973f3d10c617b8e6f053af21</element>
+            <position>7</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>c66af1f8973f3d10c617b8e6f053af2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_subjects</element>
+            <position>8</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4a6af1f8973f3d10c617b8e6f053af2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>external_stakeholders</element>
+            <position>9</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>ca6af1f8973f3d10c617b8e6f053af2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_22_thresholdanalysis</element>
+            <position>10</position>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:14</sys_created_on>
+            <sys_id>4e6af1f8973f3d10c617b8e6f053af2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2.1 Project Background" display_value="2.1 Project Background" name="x_935283_pia_privacy_impact_assessment" sys_domain="global" view="Default view">ba2fa21597052110c617b8e6f053afc0</sys_ui_section>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>2.1 Project Background</caption>
