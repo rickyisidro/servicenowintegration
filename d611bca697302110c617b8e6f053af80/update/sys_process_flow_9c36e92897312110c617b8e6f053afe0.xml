@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_935283_pia_project">phase=initiated^EQ<item endquery="false" field="phase" goto="false" newquery="false" operator="=" or="false" value="initiated"/>
+        <condition table="x_935283_pia_project">phase=initiated^EQ<item display_value="Initiated" endquery="false" field="phase" goto="false" newquery="false" operator="=" or="false" value="initiated"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>

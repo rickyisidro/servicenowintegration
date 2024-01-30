@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_935283_pia.external_stakeholder_user" name="x_935283_pia.external_stakeholder_user">7150ffec97fff910c617b8e6f053afeb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jlim</sys_created_by>
+        <sys_created_on>2024-01-15 00:59:01</sys_created_on>
+        <sys_id>f150ffec97fff910c617b8e6f053afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7150ffec97fff910c617b8e6f053afeb</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f150ffec97fff910c617b8e6f053afed</sys_update_name>
+        <sys_updated_by>jlim</sys_updated_by>
+        <sys_updated_on>2024-01-15 00:59:01</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

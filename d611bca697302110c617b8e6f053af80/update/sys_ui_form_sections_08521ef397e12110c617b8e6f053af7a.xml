@@ -10,7 +10,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_935283_pia_pam" name="x_935283_pia_pam" sys_domain="global" view="Default view">08521ef397e12110c617b8e6f053af7a</sys_ui_form>
-            <sys_ui_section caption="Process Flow" display_value="Process Flow" name="x_935283_pia_pam" sys_domain="global" view="Default view">b25545bd970b7d10c617b8e6f053af5a</sys_ui_section>
+            <sys_ui_section caption="Privacy Assessment Memo" display_value="Privacy Assessment Memo" name="x_935283_pia_pam" sys_domain="global" view="Default view">b25545bd970b7d10c617b8e6f053af5a</sys_ui_section>
             <sys_updated_by>blopez</sys_updated_by>
             <sys_updated_on>2023-12-12 02:57:18</sys_updated_on>
         </sys_ui_form_section>

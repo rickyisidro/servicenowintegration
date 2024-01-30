@@ -7,14 +7,14 @@
             <sys_created_by>fbautista</sys_created_by>
             <sys_created_on>2023-03-20 01:59:22</sys_created_on>
             <sys_id>d797b1b397612110c617b8e6f053af34</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>type_of_personal_identifiers</sys_name>
             <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-            <sys_policy/>
+            <sys_policy>protected</sys_policy>
             <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
             <sys_update_name>sys_choice_x_935283_pia_section_3_personal_data_processed_type_of_personal_identifiers</sys_update_name>
-            <sys_updated_by>fbautista</sys_updated_by>
-            <sys_updated_on>2023-03-20 01:59:22</sys_updated_on>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:34</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

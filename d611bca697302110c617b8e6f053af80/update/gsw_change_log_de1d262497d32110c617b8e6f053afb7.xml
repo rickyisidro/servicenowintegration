@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2023-06-05 03:22:41</change_date>
+        <changed_by display_value="Ricardo Isidro">da30b5f197282110c617b8e6f053af80</changed_by>
+        <content display_value="Delete Demo Data">95319d2e2511b200964f48ca4b89e814</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>risidro</sys_created_by>
+        <sys_created_on>2023-06-05 03:22:41</sys_created_on>
+        <sys_id>de1d262497d32110c617b8e6f053afb7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>2023-06-05 03:22:41</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>gsw_change_log_de1d262497d32110c617b8e6f053afb7</sys_update_name>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:38:38</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

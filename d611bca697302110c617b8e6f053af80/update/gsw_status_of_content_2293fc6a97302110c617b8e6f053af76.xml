@@ -13,13 +13,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-06 17:02:44</sys_created_on>
         <sys_id>2293fc6a97302110c617b8e6f053af76</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>0</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>gsw_status_of_content_2293fc6a97302110c617b8e6f053af76</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-06 17:02:44</sys_updated_on>
+        <sys_updated_by>risidro</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:37:16</sys_updated_on>
     </gsw_status_of_content>
 </record_update>

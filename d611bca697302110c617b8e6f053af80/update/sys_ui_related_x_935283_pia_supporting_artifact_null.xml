@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_935283_pia_supporting_artifact" version="2" view="">
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Supporting Artifact - Default view</calculated_name>
+            <filter/>
+            <name>x_935283_pia_supporting_artifact</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-20 15:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b2301a497173d50c617b8e6f053af36</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Supporting Artifact - Default view</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_related_x_935283_pia_supporting_artifact_null</sys_update_name>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-20 15:51:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Supporting Artifact - Default view</calculated_name>
+            <filter/>
+            <name>x_935283_pia_supporting_artifact</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-20 15:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b2301a497173d50c617b8e6f053af36</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Supporting Artifact - Default view</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_related_x_935283_pia_supporting_artifact_null</sys_update_name>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-20 15:51:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
