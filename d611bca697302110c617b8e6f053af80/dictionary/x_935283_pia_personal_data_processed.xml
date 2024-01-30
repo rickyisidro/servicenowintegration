@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="69ea3b7797dee110c617b8e6f053afd9" label="Personal Data Processed" max_length="40" name="x_935283_pia_personal_data_processed" type="collection">
+        <element default="Others" label="Category" max_length="40" name="category" read_only="true" type="string"/>
+        <element label="Data Subject" max_length="32" name="data_subject" reference="x_935283_pia_data_subject_personal_data_processed" type="reference"/>
+        <element display="true" label="Data Element" max_length="255" name="element_name" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Reason" max_length="2000" name="reason" type="string"/>
+        <element choice="3" default="no" label="Yes/No" max_length="20" name="yes_no" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="data_subject"/>
+        </index>
+        <index name="index2">
+            <element name="pia"/>
+        </index>
+    </element>
+</database>

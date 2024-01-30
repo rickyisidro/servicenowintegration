@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a003e0097fd6110c617b8e6f053afc9" label="Data Lifecycle Narrative" max_length="40" name="x_935283_pia_section_4_1_data_lifecycle_narrative" type="collection">
+        <element label="Referenced PIA" max_length="32" name="referenced_pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Summary of Processing Activities" max_length="8000" name="summary_of_processing_activities" type="html"/>
+        <index name="index">
+            <element name="referenced_pia"/>
+        </index>
+    </element>
+</database>

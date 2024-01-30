@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="pia_assignment" table="x_935283_pia_project" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>pia_assignment</element>
+            <name>x_935283_pia_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-07 05:04:31</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>pia_assignment</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy>protected</sys_policy>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_project_pia_assignment</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pia_assignment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>With PPRM</label>
+            <language>en</language>
+            <name>x_935283_pia_project</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-07 05:04:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-07 05:04:49</sys_updated_on>
+            <value>with_pprm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pia_assignment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>With proponents</label>
+            <language>en</language>
+            <name>x_935283_pia_project</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-07 05:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-07 05:04:31</sys_updated_on>
+            <value>with_proponents</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

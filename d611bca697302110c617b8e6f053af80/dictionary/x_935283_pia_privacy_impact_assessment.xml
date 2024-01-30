@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f06a79d197412110c617b8e6f053afaf" label="Privacy Impact Assessment" max_length="40" name="x_935283_pia_privacy_impact_assessment" type="collection">
+        <element label="Right to ACCESS" max_length="65536" name="access_html" type="html"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Yes/No" max_length="40" name="are_you_processing_personal_data" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="If you answered “Yes”, please provide details" max_length="65536" name="are_you_processing_personal_data_html" type="html"/>
+        <element label="Assessment Type" max_length="50" name="assessment_type" type="string"/>
+        <element label="Asset" max_length="40" name="assessment_type_asset" type="boolean"/>
+        <element label="Operational Process" max_length="40" name="assessment_type_operational_process" type="boolean"/>
+        <element label="Others:" max_length="40" name="assessment_type_others" type="boolean"/>
+        <element label="Please specify" max_length="100" name="assessment_type_others_please_specify" type="string"/>
+        <element label="Processing Activity" max_length="40" name="assessment_type_processing_activity" type="boolean"/>
+        <element label="Product / Service / Program" max_length="40" name="assessment_type_product_service_program" type="boolean"/>
+        <element label="Benefit to the Company" max_length="10000" name="benefit_to_the_company" type="html"/>
+        <element label="Benefit to the Data Subjects" max_length="10000" name="benefit_to_the_data_subjects" type="html"/>
+        <element label="Business Rules" max_length="8000" name="business_rules" type="html"/>
+        <element label="Can your organization achieve the same purpose by processing less data, or by pr" max_length="65536" name="can_org2_html" type="html"/>
+        <element label="Can your organization achieve the same purpose without the processing?" max_length="65536" name="can_orgranization_html" type="html"/>
+        <element label="Right to CONSENT or CHOICE" max_length="65536" name="consent_html" type="html"/>
+        <element label="Right to DATA PORTABILITY" max_length="65536" name="data_portable_html" type="html"/>
+        <element label="Data Subjects" max_length="4000" name="data_subjects" reference="x_935283_pia_data_subject_element" type="glide_list"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Yes/No" max_length="40" name="does_the_project_involve" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="If you answered “Yes”, please provide details" max_length="65536" name="does_the_project_involve_html" type="html"/>
+        <element label="Name of Entity" max_length="100" name="entity_name" type="string"/>
+        <element label="Right to ERASURE or blocking" max_length="65536" name="erasure_html" type="html"/>
+        <element hint="Provide a description of what the Project is" label="Executive Summary" max_length="8000" name="executive_summary" type="html"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="External Stakeholders" max_length="1024" name="external_stakeholders" reference="x_935283_pia_external_stakeholder" reference_qual="type!=internal^EQ" reference_qual_condition="type!=internal^EQ" type="glide_list"/>
+        <element label="Guide" max_length="4000" name="guide" read_only="true" type="html"/>
+        <element label="If you answered “Yes”, please provide details" max_length="8000" name="if_you_answered_yes" type="html"/>
+        <element label="What would the impact be if your organization couldn’t go ahead with the process" max_length="65536" name="impact_org_html" type="html"/>
+        <element label="Right to be INFORMED" max_length="65536" name="informed_html" type="html"/>
+        <element label="Is your organization's intended purpose and method widely known and/or understoo" max_length="65536" name="is_org1_html" type="html"/>
+        <element label="Is your organization capable of explaining the processing (its purpose and benef" max_length="65536" name="is_org2_html" type="html"/>
+        <element choice="1" label="Is project involve personal data collection" max_length="40" name="is_project_involve_personal_data_collection" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
+            </choice>
+        </element>
+        <element label="Legitimate interest" max_length="65536" name="legitimate_interest_html" type="html"/>
+        <element label="Right to LODGE A COMPLAINT and Right to DAMAGES" max_length="65536" name="lodge_html" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element hint="Describe the Organizational Security Measures in place for the protection of Personal Data." label="Organizational Security Measures" max_length="65536" name="organizational_security_measures" type="html"/>
+        <element choice="3" default="draft" label="Phase" max_length="40" name="phase" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Initiated" sequence="100" value="initiate"/>
+                <element inactive_on_update="false" label="Submitted" sequence="200" value="submitted"/>
+                <element inactive_on_update="false" label="Cross Examination" sequence="300" value="cross_examination"/>
+                <element inactive_on_update="false" label="Risk Identification" sequence="400" value="risk_identification"/>
+                <element inactive="true" inactive_on_update="true" label="PAM Issuance" sequence="500" value="pam_issuance_sc2"/>
+                <element inactive_on_update="false" label="Compliance Order" sequence="600" value="pam_reissuance_sc1"/>
+            </choice>
+        </element>
+        <element hint="Describe the Physical Security Measures in place for the protection of Personal Data." label="Physical Security Measures" max_length="65536" name="physical_security_measures" type="html"/>
+        <element label="Is project involve personal data collection?" max_length="40" name="prj_involve_personal_data_collection" type="boolean"/>
+        <element label="Name of Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
+        <element label="Projected Revenue Contribution or Cost Optimization " max_length="10000" name="projected_revenue_contribution_cost_optimization" type="html"/>
+        <element hint="Date of Project Consultation / Walk-Through with the PO-PEA Center" label="Date of Project Consultation" max_length="40" name="project_consultation_date" type="glide_date"/>
+        <element display="true" label="Project Control Number" max_length="50" name="project_control_number" read_only="true" type="string"/>
+        <element hint="Provide a description of what the Project aims to deliver. If it is an enhancement to the existing project, describe the current mode of operations and the intended future mode of operations." label="Project Objectives" max_length="8000" name="project_objectives" type="html"/>
+        <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Project SPOC" max_length="32" name="project_spoc" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Right to RECTIFICATION" max_length="65536" name="rectify_html" type="html"/>
+        <element choice="3" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Draft - PO Approved" value="draft_approved"/>
+                <element inactive="true" inactive_on_update="true" label="Draft -Pending PO Approval" value="draft_pending"/>
+                <element inactive="true" inactive_on_update="true" label="Draft" sequence="100" value="draft"/>
+                <element inactive_on_update="false" label="Draft - with PRJ SPOC" sequence="100" value="draft_prj_spoc"/>
+                <element inactive_on_update="false" label="Draft - with PRJ OWN" sequence="200" value="draft_prj_owner"/>
+                <element inactive="true" inactive_on_update="true" label="Pending Project Owner Approval" sequence="200" value="po_approval"/>
+                <element inactive_on_update="false" label="Draft - with EXEC SPONSOR" sequence="300" value="draft_prj_sponsor"/>
+                <element inactive="true" inactive_on_update="true" label="Project Owner Rejected" sequence="300" value="po_rejected"/>
+                <element inactive="true" inactive_on_update="true" label="Pending Project Sponsor Approval" sequence="400" value="sponsor_approval"/>
+                <element inactive_on_update="false" label="Submitted to PO" sequence="400" value="submitted"/>
+                <element inactive_on_update="false" label="Cross Examination - with PO" sequence="500" value="cross_exam_po"/>
+                <element inactive="true" inactive_on_update="true" label="Project Sponsor Rejected" sequence="500" value="sponsor_rejected"/>
+                <element inactive_on_update="false" label="Cross Examination - with PRJ SPOC" sequence="600" value="cross_exam_spoc"/>
+                <element inactive="true" inactive_on_update="true" label="Submitted" sequence="600" value="submitted"/>
+                <element inactive_on_update="false" label="Cross Examination - with PRJ OWN" sequence="700" value="cross_exam_own"/>
+                <element inactive="true" inactive_on_update="true" label="PPRM Review" sequence="700" value="pprm_review"/>
+                <element inactive_on_update="false" label="Cross Examination - with EXEC SPONSOR" sequence="800" value="cross_exam_sponsor"/>
+                <element inactive="true" inactive_on_update="true" label="With Proponent" sequence="800" value="with_proponent"/>
+                <element inactive_on_update="false" label="Cross -Examination - Finalized PIA" sequence="900" value="cross_exam_finalized_pia"/>
+                <element inactive_on_update="false" label="Risk Identification - with PO" sequence="1000" value="risk_identification_po"/>
+                <element inactive_on_update="false" label="Compliance Order - with PO" sequence="1100" value="compliance_order_po"/>
+            </choice>
+        </element>
+        <element label="Date submitted for review " max_length="40" name="submitted_review_date" type="glide_date"/>
+        <element label="Summary of Processing Activities" max_length="10000" name="summary_of_processing_activities" type="html"/>
+        <element label="Summary of the Processing Purposes" max_length="8000" name="summary_of_the_processing_purposes" type="html"/>
+        <element label="Target Launch / Ready for Service (“RFS”) Date " max_length="40" name="target_launch_date" type="glide_date"/>
+        <element hint="Describe the Technical Security Measures in place for the protection of Personal Data." label="Technical Security Measures" max_length="65536" name="technical_measures" type="html"/>
+        <element choice="1" default="no" hint="(refers to the Project or Entity's methods / channels / touchpoints on how Data Subjects are enabled to exercise their rights. It can be as simple as enabling an email to the DPO, or an online form in a website or mobile application.)&#13;&#10;" label="Does the project include a facility for Data Subjects to exercise their privacy" max_length="4000" name="u_6_does_the_project_include" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Justification" max_length="8000" name="u_6_please_explain_why_you_answered_yes_no" type="string"/>
+        <element label="Right to DATA PORTABILITY" max_length="65536" name="u_6_right_data_portability" type="string"/>
+        <element label="Right to ERASURE or blocking" max_length="65536" name="u_6_right_erasure" type="string"/>
+        <element label="Right to LODGE A COMPLAINT and Right to DAMAGES" max_length="65536" name="u_6_right_lodge_a_complaint_and_damages" type="string"/>
+        <element label="Right to RECTIFICATION" max_length="65536" name="u_6_right_rectification" type="string"/>
+        <element label="Right to ACCESS" max_length="65536" name="u_6_right_to_access" type="string"/>
+        <element hint="(1) Right of the Data Subject to be informed of the details of processing, prior to collection or as soon as practicable. (2) Describe here how the Privacy Notice/Policy is presented to the Data Subject (3) Discuss how the acknowledgement to the Notice is recorded" label="Right to be INFORMED" max_length="65536" name="u_6_right_to_be_informed" type="string"/>
+        <element label="Right to CONSENT or CHOICE" max_length="65536" name="u_6_right_to_consent_or_choice" type="string"/>
+        <element label="Right to withdraw consent or OBJECT to the processing" max_length="65536" name="u_6_right_to_object" type="string"/>
+        <element default="By accomplishing this PIA, I, [Name of Project Owner]:&#13;&#10;&#13;&#10;(1)&#9;Warrant that all information I have provided about the Project is true and correct as of the date of the PIA's submission; &#13;&#10;&#13;&#10;(2)&#9;Acknowledge that the declaration of any false, incomplete, or misleading information shall result in disciplinary action in accordance with the applicable provisions of your Entity’s Code of Discipline and other related corporate policies, without prejudice to the filing of civil and/or criminal actions when warranted; and&#13;&#10;&#13;&#10;(3)&#9;Acknowledge that this PIA is subject to the further assessment of the PO-PPRM Center. In the event that additional risks are observed, I commit to (a) participate in further cross-examination, and/or (b) implement any additional remediating measures that may be identified by the PO-PPRM Center through the Privacy Assessment Memo. &#13;&#10;" label="Declarations and Warranties" max_length="65536" name="u_8_declaration_warranties" read_only="true" type="html"/>
+        <element label="Click here to show/hide Threshold Analysis" max_length="40" name="u_boolean_22_thresholdanalysis" type="boolean"/>
+        <element label="New True/False" max_length="40" name="u_boolean_9" type="boolean"/>
+        <element hint="This will automatically be checked once Section 4.2 below has been accomplished" label="Show Next section (Business Rules)" max_length="40" name="u_boolean_businessrules" read_only="true" type="boolean"/>
+        <element hint="This will automatically be checked once Section 3 below has been accomplished" label="Show Next section (Data Lifecycle Narrative)" max_length="40" name="u_boolean_datalifecyclenarrative" read_only="true" type="boolean"/>
+        <element hint="This will be automatically updated once Section 5A below has been accomplised" label="Show Next section (Exercise of Rights)" max_length="40" name="u_boolean_exerciseofrights" read_only="true" type="boolean"/>
+        <element label="Click here to show/hide the Processing purposes" max_length="40" name="u_boolean_processingpurposes" type="boolean"/>
+        <element label="Click here to show/hide the Security Measures" max_length="40" name="u_boolean_securitymeasures" type="boolean"/>
+        <element hint=" Examples: &#13;&#10;-other relevant regulatory laws such as those enforced by BSP, DOLE, NTC, etc,&#13;&#10; -Industry Guidelines or codes of practice such as ISO 27001,PCI-DSS, etc." label="Comply with regulatory laws" max_length="40" name="u_comply_regulatory_laws" type="boolean"/>
+        <element label="Consent is given by the Data Subject prior to the processing" max_length="40" name="u_consent_given" type="boolean"/>
+        <element label="The processing is necessary to fulfill a Contract with the Data Subjects" max_length="40" name="u_contract_data_subject" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Submission to PO-PPRM" max_length="40" name="u_date_of_submission_to_popprm" type="glide_date"/>
+        <element label="Please explain your selected lawful basis" max_length="65536" name="u_explain_consent" type="html"/>
+        <element label="Explain Data Subject" max_length="65536" name="u_explain_data_subject" type="html"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Personal data processed test" max_length="1024" name="u_glide_list_1" type="glide_list"/>
+        <element label="Government-Issued ID" max_length="40" name="u_governmentid_pdd" type="boolean"/>
+        <element label="Icon exec summary" max_length="100" name="u_icon_exec_summary" type="icon"/>
+        <element attributes="encode_utf8=false" label="Name of Project Owner" max_length="32" name="u_name_of_project_owner" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="u_name_pdd" type="boolean"/>
+        <element label="True/False" max_length="40" name="u_process_regulatory_laws" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Comment" max_length="32" name="u_reference_exec_summary_comment" read_only="true" reference="x_935283_pia_pprm_instruction" type="reference"/>
+        <element label="Please state reason/s for processing" max_length="65536" name="u_state_reason" type="html"/>
+        <element label="Please state reason/s for processing" max_length="65536" name="u_state_reason_gov" type="html"/>
+        <element label="Right to withdraw consent or OBJECT to the processing" max_length="65536" name="widraw_html" type="html"/>
+        <element choice="3" default="no" label="Yes/No" max_length="40" name="will_the_project_involve" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="Will the project involve a new or changed process or technology for validating o" max_length="40" name="will_the_project_involve_yesno" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Yes/No" max_length="40" name="will_the_project_require_contact" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="If you answered “Yes”, please provide details" max_length="65536" name="will_the_project_require_contact_html" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Yes/No" max_length="40" name="will_the_project_use_personal_data" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element label="If you answered “Yes”, please provide details" max_length="65536" name="will_the_project_use_personal_data_html" type="html"/>
+        <element label="will_the_project_use_personal_data" max_length="40" name="will_the_project_use_personal_data_yesno" type="boolean"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
+            <element name="project_owner"/>
+        </index>
+        <index name="index4">
+            <element name="project_spoc"/>
+        </index>
+        <index name="index5">
+            <element name="u_name_of_project_owner"/>
+        </index>
+    </element>
+</database>

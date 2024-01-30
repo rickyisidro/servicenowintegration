@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_personal_identifiers" table="x_935283_pia_section_3_personal_data_processed" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_personal_identifiers</element>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-20 01:59:22</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>type_of_personal_identifiers</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy>protected</sys_policy>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_section_3_personal_data_processed_type_of_personal_identifiers</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Age</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:56:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:56:21</sys_updated_on>
+            <value>age</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audio / Video Data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:48:00</sys_updated_on>
+            <value>audio_video</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Birthdate</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:56:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:56:12</sys_updated_on>
+            <value>birthdate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Address</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:55:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:55:31</sys_updated_on>
+            <value>business_address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camera controls</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:47:10</sys_updated_on>
+            <value>camera</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cell tower records</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:48:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:48:14</sys_updated_on>
+            <value>cell_tower</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Citizenship</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:58:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:58:31</sys_updated_on>
+            <value>citizen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contact Lists and Directories</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:48:28</sys_updated_on>
+            <value>contact_list</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Criminal History</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:41:32</sys_updated_on>
+            <value>criminal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Device settings or preferences</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:48:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:48:57</sys_updated_on>
+            <value>device_settings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DNA Markers of any Form</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:42:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:43:00</sys_updated_on>
+            <value>dna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education Information / Background</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:57:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:58:02</sys_updated_on>
+            <value>education</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email Address</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:54:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:54:39</sys_updated_on>
+            <value>email_address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employment Information / Background</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:58:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:58:19</sys_updated_on>
+            <value>employment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial Data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:53:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:53:52</sys_updated_on>
+            <value>financial_data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fingerprints, Handprints</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:41:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:42:06</sys_updated_on>
+            <value>fingerprints</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gender</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:56:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:56:41</sys_updated_on>
+            <value>gender</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Government-Issued ID</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:53:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:53:23</sys_updated_on>
+            <value>gov_id</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Health, insurance, treatment, or medical information</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:41:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:41:22</sys_updated_on>
+            <value>health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location / GPS Data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:44:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:44:18</sys_updated_on>
+            <value>location</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Log data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:49:33</sys_updated_on>
+            <value>log_data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marital Status / Number of Children / Other Family-related Information</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:57:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:57:14</sys_updated_on>
+            <value>marital_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microphone Controls</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:47:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:47:18</sys_updated_on>
+            <value>microphone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile Number</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:53:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-30 00:49:48</sys_updated_on>
+            <value>mobile_number</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mother’s Maiden Name</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-30 01:07:27</sys_updated_on>
+            <value>mothers_maiden_name</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:53:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:53:05</sys_updated_on>
+            <value>name</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Unique ID</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:53:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:53:34</sys_updated_on>
+            <value>other_id</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other physical descriptors</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:56:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:56:56</sys_updated_on>
+            <value>other_physical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Passwords</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:43:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:44:05</sys_updated_on>
+            <value>password</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Photo, Facial Recognition, Retinal Scans</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:42:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:42:36</sys_updated_on>
+            <value>photo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Photo Gallery</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:47:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:47:36</sys_updated_on>
+            <value>photo_gallery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical movements (e.g., finger swipes, keystrokes)</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:42:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:42:48</sys_updated_on>
+            <value>physical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Race / Ethnicity</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:57:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:57:28</sys_updated_on>
+            <value>race</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Religion</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:57:44</sys_updated_on>
+            <value>religion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Residential Address</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:55:15</sys_updated_on>
+            <value>residential_address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SD Card or other Stored Data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:48:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:48:40</sys_updated_on>
+            <value>sd_card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Account Numbers</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:43:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:43:14</sys_updated_on>
+            <value>service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Signature / e-Signature</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:41:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:41:52</sys_updated_on>
+            <value>signature</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telephone Number</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 07:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 07:54:18</sys_updated_on>
+            <value>tel_no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tracking data</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:49:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:49:46</sys_updated_on>
+            <value>tracking_data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unique Device Identifiers</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:49:14</sys_updated_on>
+            <value>unique_device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Usernames</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-29 08:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-29 08:43:45</sys_updated_on>
+            <value>username</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_personal_identifiers</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voice Recordings</label>
+            <language>en</language>
+            <name>x_935283_pia_section_3_personal_data_processed</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-03-30 00:58:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-03-30 00:58:55</sys_updated_on>
+            <value>voice</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

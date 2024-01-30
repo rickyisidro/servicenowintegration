@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_boolean_tag1</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>ralmeyda</sys_created_by>
+        <sys_created_on>2023-12-06 06:14:16</sys_created_on>
+        <sys_id>85d87e73973af110c617b8e6f053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_tag1</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_ui_policy_action_85d87e73973af110c617b8e6f053af2d</sys_update_name>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2023-12-06 06:14:16</sys_updated_on>
+        <table>x_935283_pia_project</table>
+        <ui_policy display_value="Show/Hide placeholder tags">c0b87a73973af110c617b8e6f053afce</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</application>
+        <file_path/>
+        <instance_id>61671132dbde515c3050ac44d4961985</instance_id>
+        <instance_name>dev139490</instance_name>
+        <name>sys_ui_policy_action_85d87e73973af110c617b8e6f053af2d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_boolean_tag1</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>ralmeyda</sys_created_by><sys_created_on>2023-12-06 06:14:16</sys_created_on><sys_id>85d87e73973af110c617b8e6f053af2d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_boolean_tag1</sys_name><sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package><sys_policy/><sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope><sys_update_name>sys_ui_policy_action_85d87e73973af110c617b8e6f053af2d</sys_update_name><sys_updated_by>ralmeyda</sys_updated_by><sys_updated_on>2023-12-06 06:14:16</sys_updated_on><table>x_935283_pia_project</table><ui_policy display_value="Show/Hide placeholder tags">c0b87a73973af110c617b8e6f053afce</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-293823276</payload_hash>
+        <record_name>u_boolean_tag1</record_name>
+        <reverted_from/>
+        <source>2703b1149748ce50c617b8e6f053af73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ralmeyda</sys_created_by>
+        <sys_created_on>2023-12-06 06:14:16</sys_created_on>
+        <sys_id>3de83e73973af110c617b8e6f053af60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18c3dc343d70000001</sys_recorded_at>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2024-01-26 08:22:51</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>31e83e739b3af1100cc1101fe50e6b60</update_guid>
+        <update_guid_history>31e83e739b3af1100cc1101fe50e6b60:-293823276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ralmeyda</sys_created_by>
+        <sys_created_on>2023-12-06 06:15:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>6bd0cc4fa4b144afa6739d9b787169d9</sys_id>
+        <sys_metadata>85d87e73973af110c617b8e6f053af2d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_tag1</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_parent display_value="Show/Hide placeholder tags">c0b87a73973af110c617b8e6f053afce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_scope_delete display_value="">a88eb5e4267743aeac8422ae281e4d04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_85d87e73973af110c617b8e6f053af2d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_85d87e73973af110c617b8e6f053af2d">3de83e73973af110c617b8e6f053af60</sys_update_version>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2023-12-06 06:15:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

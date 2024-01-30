@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e2cb64e97712110c617b8e6f053af71" label="ROPA Registry" max_length="40" name="x_935283_pia_ropa_registry" type="collection">
+        <element label="Core Processing Acitvity" max_length="32" name="core_processing_acitvity" reference="x_935283_pia_ropa" type="reference"/>
+        <element label="DPS Category" max_length="32" name="dps_category" reference="x_935283_pia_data_processing_category" type="reference"/>
+        <element label="DPS Name" max_length="100" name="dps_name" type="string"/>
+        <element label="Personal Data - Process Type" max_length="100" name="personal_data_process_type" type="string"/>
+        <element label="PIA" mandatory="true" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <index name="index">
+            <element name="core_processing_acitvity"/>
+        </index>
+        <index name="index2">
+            <element name="dps_category"/>
+        </index>
+        <index name="index3">
+            <element name="pia"/>
+        </index>
+    </element>
+</database>

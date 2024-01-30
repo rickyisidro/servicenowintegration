@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>fbautista</sys_created_by>
         <sys_created_on>2023-04-11 02:51:27</sys_created_on>
-        <sys_id>c1661ffe97422110c617b8e6f053af7a</sys_id>
         <sys_name>Retention period</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
         <sys_policy>protected</sys_policy>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ShowValue</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+alert(g_form.getElement('name_of_project.number'));
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-19 13:02:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48b25f009757b950c617b8e6f053afd8</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>ShowValue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_client_48b25f009757b950c617b8e6f053afd8</sys_update_name>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2023-12-19 16:40:59</sys_updated_on>
+        <table>x_935283_pia_pam</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</application>
+        <file_path/>
+        <instance_id>61671132dbde515c3050ac44d4961985</instance_id>
+        <instance_name>dev139490</instance_name>
+        <name>sys_script_client_48b25f009757b950c617b8e6f053afd8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ShowValue&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+alert(g_form.getElement('name_of_project.number'));
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;blopez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-19 13:02:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;48b25f009757b950c617b8e6f053afd8&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;ShowValue&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Privacy Impact Assessment" source="x_935283_pia"&gt;d611bca697302110c617b8e6f053af80&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Privacy Impact Assessment"&gt;d611bca697302110c617b8e6f053af80&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_48b25f009757b950c617b8e6f053afd8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;blopez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-19 16:40:59&lt;/sys_updated_on&gt;&lt;table&gt;x_935283_pia_pam&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>682249928</payload_hash>
+        <record_name>ShowValue</record_name>
+        <reverted_from/>
+        <source>2703b1149748ce50c617b8e6f053af73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-19 16:40:59</sys_created_on>
+        <sys_id>01050c14975bb950c617b8e6f053afc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18c82f3b9570000001</sys_recorded_at>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2024-01-26 08:08:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>85050c147c5bb95052c5c63c10b099c4</update_guid>
+        <update_guid_history>85050c147c5bb95052c5c63c10b099c4:682249928,02e4c8d0605bb9507f6a7c2689c3879b:587843873,1654c8903e5bb9501b49488d11142422:-1545812429,ed418894b41bb9507bf20370f7c088ba:-1897432467,c83180d8b31bb950bae9a4329259c17f:-1198705941,a8d0841c421bb9505af0a577a2fdb288:573190249,269ef7c8e91bb9503bde4f0506704615:543091055,148e7f48b61bb950c2f84068bd81adfd:-1197339574,135e3f84eb1bb9505bf89ecb6eabe42b:-787255629,cbad7348d797b950192d2b2c38681118:491932372,3e7d7f48651bb950703017aa919d609d:-1559509352,92dc7b84741bb9508166cef2242d624e:-2068905978,e81bf744931bb950a7e0868446f3006e:1122464234,9ffa3784401bb950c4c2bad019ce9c78:-1755100013,843a7b087b97b9500668f49264c7fdef:1475097392,75e8bbc0d31bb950010dc369dc4cfcd7:1904009210,df9423484097b950d4268f5ceb2e3984:284077301,c1546b088a97b950126b0480809864e9:-941442978,da7d5b886157b95027b112e6e50985f5:1904009210,7b9c174c1157b9500ad503bfcbd3f2d4:1325756923,4f7c5b8cc457b950f2b2c45eac523cae:-1493523945,55fbd34c5c57b9503a74b88cb11e9cc0:1470913456,7a9bd34cf757b950b9a7793f957b3fbb:1943048302,dc8b5b085d57b9505a39a2279acb0e46:-1183516972,865a5b401957b950d4b8f4e7ce938927:959547668,da9997800257b9507163548a0002ad5b:734574887,ab181f449757b950c449951a6c23f763:-1394220518,01d553407f57b950bceaa6ffcba1b391:-1975400608,b9b3df842d17b9506a3fb2205ff90116:-2113793481,6de21b40d357b950345e5d69f2773102:1806083814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-20 03:03:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>092f64f73e5245ba854a412a0cd0c381</sys_id>
+        <sys_metadata>48b25f009757b950c617b8e6f053afd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ShowValue</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_parent display_value="Privacy Assessment Memo (PAM)">0001de7397e12110c617b8e6f053af08</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_scope_delete display_value="">a88eb5e4267743aeac8422ae281e4d04</sys_scope_delete>
+        <sys_update_name>sys_script_client_48b25f009757b950c617b8e6f053afd8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_48b25f009757b950c617b8e6f053afd8">01050c14975bb950c617b8e6f053afc5</sys_update_version>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2023-12-20 03:03:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

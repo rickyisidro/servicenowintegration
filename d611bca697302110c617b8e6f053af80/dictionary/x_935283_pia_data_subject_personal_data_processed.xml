@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="113e9c8a97f7a110c617b8e6f053af91" label="Data Subject Personal Data Processed" max_length="40" name="x_935283_pia_data_subject_personal_data_processed" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Data Subject Category" max_length="1024" name="data_subject_category" reference="x_935283_pia_data_subject_element" reference_qual="javascript: 'sys_idIN' + new PIAUtils().filterDataSubjects(current);" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Data Subject Element" max_length="32" name="data_subject_element" reference="x_935283_pia_data_subject_element" type="reference"/>
+        <element label="Personal Data Processed" max_length="32" name="personal_data_processed" reference="x_935283_pia_personal_data_processed" type="reference"/>
+        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Projected Volume of Data Subjects Impacted" max_length="50" name="projected_volume_of_data_subjects_impacted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason/s for processing" mandatory="true" max_length="4000" name="reason_for_capturing" type="string"/>
+        <index name="index">
+            <element name="data_subject_element"/>
+        </index>
+        <index name="index2">
+            <element name="personal_data_processed"/>
+        </index>
+        <index name="index3">
+            <element name="pia"/>
+        </index>
+    </element>
+</database>

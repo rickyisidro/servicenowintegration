@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a73e3f397216110c617b8e6f053af0c" label="Property" max_length="40" name="x_935283_pia_property" type="collection">
+        <element label="PIA Guide" max_length="10000" name="pia_guide" type="html"/>
+        <element label="Triage Guide" max_length="10000" name="triage_guide" type="html"/>
+    </element>
+</database>

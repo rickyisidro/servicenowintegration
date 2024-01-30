@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="synch_attachments=true" db_object_id="11423ad597052110c617b8e6f053af8c" label="Triage" max_length="40" name="x_935283_pia_triage" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date submitted for review" max_length="40" name="date_submitted_for_review" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Division / Department" max_length="32" name="division_department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Entity" max_length="40" name="entity_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Classification" mandatory="true" max_length="40" name="project_classification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Project" mandatory="true" max_length="40" name="project_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Project SPOC" max_length="32" name="project_spoc" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Project involve the use of pseudonymized  and/or anonymized" max_length="40" name="pseudonymized_pd" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Target Launch / Ready for Service (“RFS”) Date" max_length="40" name="target_rfs_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Project involve the collection, use, or disclosure of Personal Data*?" max_length="40" name="u_collection_dis_personal_data" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please provide a brief description of the data elements that will be processed" max_length="200" name="u_description_collection_dis_pd" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please explain why you answered Yes/No." max_length="200" name="u_description_exchanging" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please provide a brief description of (a) the purpose for which Personal Data" max_length="200" name="u_description_pseudonymized" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please explain why you answered Yes/No. If you answer “Yes”, please provide info" max_length="200" name="u_description_repository" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please explain why you answered Yes/No. If you answer “Yes”, please articulate t" max_length="200" name="u_description_third_party" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Project involve the sharing or disclosure of Personal Data to a third-p" max_length="40" name="u_disclosure_third_party" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the business partner exercise any control* over the purposes, means, and me" max_length="40" name="u_excercise_control" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the Project involve exchanging or transferring Personal Data outside of the" max_length="40" name="u_exchanging_transferring" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please explain why you answered Yes/No" max_length="200" name="u_explain_control" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Aside from the personal data that is incidental to the contract execution ), wou" max_length="40" name="u_incidental_contract" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please explain why you answered Yes/No." max_length="200" name="u_incidental_explain" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will any Personal Data be stored in a repository owned by a third-party*?" max_length="40" name="u_stored_third_party" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="division_department"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
+            <element name="project_owner"/>
+        </index>
+        <index name="index4">
+            <element name="project_spoc"/>
+        </index>
+    </element>
+</database>

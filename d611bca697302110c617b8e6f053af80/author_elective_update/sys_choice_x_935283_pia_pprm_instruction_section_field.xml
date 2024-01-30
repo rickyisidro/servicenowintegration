@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="section_field" table="x_935283_pia_pprm_instruction" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>section_field</element>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:51:35</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>section_field</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy>protected</sys_policy>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_pprm_instruction_section_field</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:37:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Right To Be Informed</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>fbautista</sys_created_by>
+            <sys_created_on>2023-06-26 08:44:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>fbautista</sys_updated_by>
+            <sys_updated_on>2023-06-26 08:44:45</sys_updated_on>
+            <value>u_6_right_to_be_informed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Executive Summary</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:51:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-22 06:28:17</sys_updated_on>
+            <value>executive_summary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Objectives</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-22 07:59:34</sys_updated_on>
+            <value>project_objectives</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Benefits</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:52:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 21:52:18</sys_updated_on>
+            <value>Project Benefits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Subject</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:52:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 21:52:41</sys_updated_on>
+            <value>Data Subject</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scope of Assessment</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:53:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 21:53:09</sys_updated_on>
+            <value>Scope of Assessment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>section_field</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External Stakeholders</label>
+            <language>en</language>
+            <name>x_935283_pia_pprm_instruction</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 21:53:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 21:53:30</sys_updated_on>
+            <value>External Stakeholders</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

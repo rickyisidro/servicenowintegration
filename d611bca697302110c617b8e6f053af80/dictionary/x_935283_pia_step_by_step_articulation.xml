@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e85cfb697022110c617b8e6f053aff6" label="Step-By-Step Articulation of the Data Collection " max_length="40" name="x_935283_pia_step_by_step_articulation" type="collection">
+        <element label="Referenced DPS operation" max_length="32" name="referenced_dps_operation" reference="x_935283_pia_dps_operation" type="reference"/>
+        <element label="Section" max_length="40" name="section" type="string"/>
+        <element label="Step Description" max_length="500" name="step_description" type="string"/>
+        <element label="Step Number" max_length="40" name="step_number" type="string"/>
+        <index name="index">
+            <element name="referenced_dps_operation"/>
+        </index>
+    </element>
+</database>

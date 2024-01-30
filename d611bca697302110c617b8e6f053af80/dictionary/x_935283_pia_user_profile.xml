@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="14950dab9787a110c617b8e6f053af10" label="User Profile" max_length="40" name="x_935283_pia_user_profile" type="collection">
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element label="User Id" max_length="50" name="user_id" type="string"/>
+    </element>
+</database>

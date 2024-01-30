@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
         <sys_created_on>2023-05-16 00:49:43</sys_created_on>
-        <sys_id>764a0f8697f66110c617b8e6f053afbb</sys_id>
         <sys_name>Name of Data Processing System</sys_name>
         <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
         <sys_policy>protected</sys_policy>

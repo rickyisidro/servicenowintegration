@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_935283_pia_project</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Stay on Form After Submission</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[action.setRedirectURL(current);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2024-01-05 02:56:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94caac6d97a37510c617b8e6f053afe8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Stay on Form After Submission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_update_name>sys_script_94caac6d97a37510c617b8e6f053afe8</sys_update_name>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2024-01-05 03:39:00</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=94caac6d97a37510c617b8e6f053afe8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</application>
+        <file_path/>
+        <instance_id>61671132dbde515c3050ac44d4961985</instance_id>
+        <instance_name>dev139490</instance_name>
+        <name>sys_script_94caac6d97a37510c617b8e6f053afe8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_935283_pia_project&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Stay on Form After Submission&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;blopez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-05 02:56:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;94caac6d97a37510c617b8e6f053afe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Stay on Form After Submission&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Privacy Impact Assessment" source="x_935283_pia"&gt;d611bca697302110c617b8e6f053af80&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Privacy Impact Assessment"&gt;d611bca697302110c617b8e6f053af80&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_94caac6d97a37510c617b8e6f053afe8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;blopez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-05 03:39:00&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=94caac6d97a37510c617b8e6f053afe8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-460199186</payload_hash>
+        <record_name>Stay on Form After Submission</record_name>
+        <reverted_from/>
+        <source>2703b1149748ce50c617b8e6f053af73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2024-01-05 03:39:01</sys_created_on>
+        <sys_id>c8157ca997e37510c617b8e6f053afbb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18cd7b3e9430000001</sys_recorded_at>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2024-01-26 08:08:42</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>8c157ca9d0e3751004b97d0491343fba</update_guid>
+        <update_guid_history>8c157ca9d0e3751004b97d0491343fba:-460199186,19e3bc6977e375105638b45a7aff5fe2:1661932539,0f7034610de37510f36a684cf6182a72:1524112448,3e3b68ad68a37510219d3be4840d0157:-49002999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2024-01-05 04:01:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>004d2a4283b745b8a266f3614da0bde9</sys_id>
+        <sys_metadata>94caac6d97a37510c617b8e6f053afe8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stay on Form After Submission</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_parent display_value="Project">df81b8e697302110c617b8e6f053af97</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_scope_delete display_value="">a88eb5e4267743aeac8422ae281e4d04</sys_scope_delete>
+        <sys_update_name>sys_script_94caac6d97a37510c617b8e6f053afe8</sys_update_name>
+        <sys_update_version display_value="sys_script_94caac6d97a37510c617b8e6f053afe8">c8157ca997e37510c617b8e6f053afbb</sys_update_version>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2024-01-05 04:01:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

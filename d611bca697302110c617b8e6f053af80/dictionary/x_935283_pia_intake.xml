@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="136bd0c197632110c617b8e6f053af0c" label="Intake" max_length="40" name="x_935283_pia_intake" type="collection">
+        <element label="Benefits to the Company" max_length="8000" name="benefits_to_the_company" type="string"/>
+        <element label="Benefits to the Data Subjects" max_length="8000" name="benefits_to_the_data_subjects" type="string"/>
+        <element label="Does the project include a facility for Data Subjects to exercise their privacy " max_length="40" name="does_the_project_include_a_facility_for_data_subjects_to_exercise_their_privacy" type="string"/>
+        <element label="Executive Summary" max_length="8000" name="executive_summary" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="PIA" max_length="32" name="pia" read_only="true" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
+        <element display="true" label="Project Control Number" max_length="40" name="project_control_number" read_only="true" type="string"/>
+        <element label="Project Objectives" max_length="8000" name="project_objectives" type="string"/>
+        <element label="Question Order 2000" max_length="40" name="question_order_2000" type="string"/>
+        <element label="Question Order 2100" max_length="8000" name="question_order_2100" type="string"/>
+        <element label="Question Order 2200" max_length="40" name="question_order_2200" type="string"/>
+        <element label="Question Order 2300" max_length="8000" name="question_order_2300" type="string"/>
+        <element label="Question Order 2400" max_length="40" name="question_order_2400" type="string"/>
+        <element label="Question Order 2500" max_length="8000" name="question_order_2500" type="string"/>
+        <element label="Question Order 2600" max_length="8000" name="question_order_2600" type="string"/>
+        <element label="Question Order 2700" max_length="40" name="question_order_2700" type="string"/>
+        <element label="Question Order 2800" max_length="8000" name="question_order_2800" type="string"/>
+        <element label="Question Order 2900" max_length="40" name="question_order_2900" type="string"/>
+        <element label="Question Order 3000" max_length="8000" name="question_order_3000" type="string"/>
+        <element label="Question Order 3700" max_length="8000" name="question_order_3700" type="string"/>
+        <element label="Question Order 4000" max_length="8000" name="question_order_4000" type="string"/>
+        <element label="Question Order 4100" max_length="8000" name="question_order_4100" type="string"/>
+        <element label="Question Order 4200" max_length="8000" name="question_order_4200" type="string"/>
+        <element label="Question Order 4500" max_length="8000" name="question_order_4500" type="string"/>
+        <element label="Right to ACCESS" max_length="8000" name="right_to_access" type="string"/>
+        <element label="Right to be INFORMED" max_length="8000" name="right_to_be_informed" type="string"/>
+        <element label="Right to CONSENT or CHOICE" max_length="8000" name="right_to_consent_or_choice" type="string"/>
+        <element label="Right to DATA PORTABILITY" max_length="8000" name="right_to_data_portability" type="string"/>
+        <element label="Right to ERASURE or blocking" max_length="8000" name="right_to_erasure_or_blocking" type="string"/>
+        <element label="Right to LODGE A COMPLAINT and Right to DAMAGES" max_length="8000" name="right_to_lodge_a_complaint_and_right_to_damages" type="string"/>
+        <element label="Right to RECTIFICATION" max_length="8000" name="right_to_rectification" type="string"/>
+        <element label="Right to withdraw consent or OBJECT to the processing" max_length="8000" name="right_to_withdraw_consent_or_object_to_the_processing" type="string"/>
+        <element label="Please explain why you answered Yes/No." max_length="8000" name="sec_6_q1_please_explain_why_you_answered_yes_no" type="string"/>
+        <index name="index">
+            <element name="pia"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

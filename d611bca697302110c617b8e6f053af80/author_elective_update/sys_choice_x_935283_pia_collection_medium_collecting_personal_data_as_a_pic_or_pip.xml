@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="collecting_personal_data_as_a_pic_or_pip" table="x_935283_pia_collection_medium" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>collecting_personal_data_as_a_pic_or_pip</element>
+            <name>x_935283_pia_collection_medium</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-28 14:25:52</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>collecting_personal_data_as_a_pic_or_pip</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy>protected</sys_policy>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_collection_medium_collecting_personal_data_as_a_pic_or_pip</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collecting_personal_data_as_a_pic_or_pip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PIC</label>
+            <language>en</language>
+            <name>x_935283_pia_collection_medium</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-28 14:25:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-28 14:25:52</sys_updated_on>
+            <value>pic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collecting_personal_data_as_a_pic_or_pip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PIP</label>
+            <language>en</language>
+            <name>x_935283_pia_collection_medium</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-28 14:26:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-28 14:26:05</sys_updated_on>
+            <value>pip</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

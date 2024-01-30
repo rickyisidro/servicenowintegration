@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="risk_score" table="x_935283_pia_risk_heatmap" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>risk_score</element>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:14:23</sys_created_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>risk_score</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy>protected</sys_policy>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_risk_heatmap_risk_score</sys_update_name>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:38:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Low</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:14:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:14:23</sys_updated_on>
+            <value>very_low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:14:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:14:33</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Moderate</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:14:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:14:59</sys_updated_on>
+            <value>moderate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:16:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:16:01</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Severe</label>
+            <language>en</language>
+            <name>x_935283_pia_risk_heatmap</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-03-31 07:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-03-31 07:16:27</sys_updated_on>
+            <value>severe</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

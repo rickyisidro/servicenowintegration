@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Approved By" section_id="42bb9b7797faf110c617b8e6f053afcc" sys_domain="global" table="x_935283_pia_pam" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_project.pprm_head</element>
+            <position>0</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:47:44</sys_created_on>
+            <sys_id>b90c53f797faf110c617b8e6f053af33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approved By" display_value="Approved By" name="x_935283_pia_pam" sys_domain="global" view="Default view">42bb9b7797faf110c617b8e6f053afcc</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:47:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_project.compliance_officer_for_privacy</element>
+            <position>1</position>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:47:44</sys_created_on>
+            <sys_id>3d0c53f797faf110c617b8e6f053af33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approved By" display_value="Approved By" name="x_935283_pia_pam" sys_domain="global" view="Default view">42bb9b7797faf110c617b8e6f053afcc</sys_ui_section>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:47:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Approved By</caption>
+            <header>false</header>
+            <name>x_935283_pia_pam</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>blopez</sys_created_by>
+            <sys_created_on>2023-12-06 08:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42bb9b7797faf110c617b8e6f053afcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_935283_pia_pam</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_ui_section_42bb9b7797faf110c617b8e6f053afcc</sys_update_name>
+            <sys_updated_by>blopez</sys_updated_by>
+            <sys_updated_on>2023-12-06 08:46:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</application>
+        <file_path/>
+        <instance_id>61671132dbde515c3050ac44d4961985</instance_id>
+        <instance_name>dev139490</instance_name>
+        <name>sys_ui_section_42bb9b7797faf110c617b8e6f053afcc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Approved By" section_id="42bb9b7797faf110c617b8e6f053afcc" sys_domain="global" table="x_935283_pia_pam" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name_of_project.pprm_head</element><position>0</position><sys_created_by>blopez</sys_created_by><sys_created_on>2023-12-06 08:47:44</sys_created_on><sys_id>b90c53f797faf110c617b8e6f053af33</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Approved By" display_value="Approved By" name="x_935283_pia_pam" sys_domain="global" view="Default view">42bb9b7797faf110c617b8e6f053afcc</sys_ui_section><sys_updated_by>blopez</sys_updated_by><sys_updated_on>2023-12-06 08:47:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name_of_project.compliance_officer_for_privacy</element><position>1</position><sys_created_by>blopez</sys_created_by><sys_created_on>2023-12-06 08:47:44</sys_created_on><sys_id>3d0c53f797faf110c617b8e6f053af33</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Approved By" display_value="Approved By" name="x_935283_pia_pam" sys_domain="global" view="Default view">42bb9b7797faf110c617b8e6f053afcc</sys_ui_section><sys_updated_by>blopez</sys_updated_by><sys_updated_on>2023-12-06 08:47:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Approved By</caption><header>false</header><name>x_935283_pia_pam</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>blopez</sys_created_by><sys_created_on>2023-12-06 08:46:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>42bb9b7797faf110c617b8e6f053afcc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_935283_pia_pam</sys_name><sys_overrides/><sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package><sys_policy/><sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope><sys_update_name>sys_ui_section_42bb9b7797faf110c617b8e6f053afcc</sys_update_name><sys_updated_by>blopez</sys_updated_by><sys_updated_on>2023-12-06 08:46:22</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-602510018</payload_hash>
+        <record_name>Privacy Assessment Memo (PAM)</record_name>
+        <reverted_from/>
+        <source>2703b1149748ce50c617b8e6f053af73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-06 08:47:44</sys_created_on>
+        <sys_id>b90c53f797faf110c617b8e6f053af35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18c3e4fc39c0000001</sys_recorded_at>
+        <sys_updated_by>ralmeyda</sys_updated_by>
+        <sys_updated_on>2024-01-26 08:44:12</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>310c53f7f8faf110579dbe9879e33b35</update_guid>
+        <update_guid_history>310c53f7f8faf110579dbe9879e33b35:-602510018,e5cbdf3765faf110e77b797a1b92d5a6:1170882794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>blopez</sys_created_by>
+        <sys_created_on>2023-12-06 08:49:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1828fb58e7b645bcb4ec55acc67ef110</sys_id>
+        <sys_metadata>42bb9b7797faf110c617b8e6f053afcc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved By</sys_name>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+        <sys_parent display_value="Privacy Assessment Memo (PAM)">0001de7397e12110c617b8e6f053af08</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+        <sys_scope_delete display_value="">a88eb5e4267743aeac8422ae281e4d04</sys_scope_delete>
+        <sys_update_name>sys_ui_section_42bb9b7797faf110c617b8e6f053afcc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_42bb9b7797faf110c617b8e6f053afcc">b90c53f797faf110c617b8e6f053af35</sys_update_version>
+        <sys_updated_by>blopez</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:49:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

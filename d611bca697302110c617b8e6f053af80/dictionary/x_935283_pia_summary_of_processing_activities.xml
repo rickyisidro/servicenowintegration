@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0d24cba0973ff910c617b8e6f053af4e" label="Data Lifecycle Narrative" max_length="40" name="x_935283_pia_summary_of_processing_activities" type="collection">
+        <element label="Activity Summary" mandatory="true" max_length="4000" name="activity_summary" type="string"/>
+        <element label="Data Subject Category" mandatory="true" max_length="32" name="data_subject_category" reference="x_935283_pia_data_subject_element" type="reference"/>
+        <element label="PIA" max_length="32" name="pia" read_only="true" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <index name="index">
+            <element name="data_subject_category"/>
+        </index>
+        <index name="index2">
+            <element name="pia"/>
+        </index>
+    </element>
+</database>

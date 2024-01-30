@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f84ea5ae973d2110c617b8e6f053afd5" label="Collection Medium" max_length="40" name="x_935283_pia_collection_medium" type="collection">
+        <element choice="1" label="Collecting Personal Data as a PIC or PIP?" mandatory="true" max_length="40" name="collecting_personal_data_as_a_pic_or_pip" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PIC" sequence="100" value="pic"/>
+                <element inactive_on_update="false" label="PIP" sequence="200" value="pip"/>
+            </choice>
+        </element>
+        <element choice="1" label="Collection Method" mandatory="true" max_length="40" name="collection_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Physical Form" sequence="100" value="physical_form"/>
+                <element inactive_on_update="false" label="Digital / Electronic" sequence="200" value="digital_electronic"/>
+            </choice>
+        </element>
+        <element label="Data Processing System Category" mandatory="true" max_length="32" name="data_processing_system_category" reference="x_935283_pia_data_processing_category" type="reference"/>
+        <element choice="1" label="External or Internal Facing Medium? " mandatory="true" max_length="40" name="external_or_internal_facing_medium" type="string">
+            <choice>
+                <element inactive_on_update="false" label="External" sequence="100" value="external"/>
+                <element inactive_on_update="false" label="Internal" sequence="200" value="internal"/>
+            </choice>
+        </element>
+        <element display="true" label="Name of Data Processing System" mandatory="true" max_length="100" name="name_of_data_processing_system" type="string"/>
+        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element choice="1" label="Publicly-Facing Medium? " mandatory="true" max_length="40" name="publicly_facing_medium" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="pia"/>
+        </index>
+    </element>
+</database>
