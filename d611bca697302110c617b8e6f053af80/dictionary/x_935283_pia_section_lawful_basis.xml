@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ef82705097a66510c617b8e6f053afc6" label="Lawful Basis" max_length="40" name="x_935283_pia_section_lawful_basis" type="collection">
+        <element label="Question #2" max_length="2000" name="purpose_test_question_2" type="string"/>
         <element label="Question #1" max_length="2000" name="balancing_test_question_1" type="string"/>
-        <element label="Question #2" max_length="2000" name="balancing_test_question_2" type="string"/>
-        <element label="Justification" max_length="4000" name="justification" type="string"/>
-        <element label="Can your organization achieve the same purpose without the processing?" max_length="2000" name="necessity_test_question_1" type="string"/>
         <element label="Question #2" max_length="2000" name="necessity_test_question_2" type="string"/>
-        <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
         <element label="Processing Purpose" max_length="255" name="processing_purpose" read_only="true" type="string"/>
-        <element label="Processing Type" max_length="40" name="processing_type" read_only="true" type="string"/>
-        <element label="What legitimate Interest are you pursuing through this Project?" max_length="2000" name="purpose_test_question_1" type="string"/>
-        <element label="Question #2" max_length="2000" name="purpose_test_question_2" type="string"/>
         <element label="Trigger Section" max_length="40" name="trigger_section" read_only="true" type="string"/>
+        <element label="Question #2" max_length="2000" name="balancing_test_question_2" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Processing Type" max_length="40" name="processing_type" read_only="true" type="string"/>
         <element choice="3" default="no" label="Yes/No" max_length="40" name="yes_no" type="string">
             <choice>
-                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
                 <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
             </choice>
         </element>
+        <element label="Justification" max_length="4000" name="justification" type="string"/>
+        <element label="What legitimate Interest are you pursuing through this Project?" max_length="2000" name="purpose_test_question_1" type="string"/>
+        <element label="Can your organization achieve the same purpose without the processing?" max_length="2000" name="necessity_test_question_1" type="string"/>
         <index name="index">
             <element name="pia"/>
         </index>

@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,8 +23,11 @@
         <sys_updated_on>2023-12-14 02:11:35</sys_updated_on>
         <table/>
         <ui_policy display_value="Threshold Analysis Q5">341e4f5697037150c617b8e6f053afeb</ui_policy>
+        <value/>
+        <value_action/>
         <variable>question_order_3000</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f41e4f5697037150c617b8e6f053aff4"/>
 </record_update>

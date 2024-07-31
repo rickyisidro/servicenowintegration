@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4fae65d197012110c617b8e6f053af13" label="Questionnaire" max_length="40" name="x_935283_pia_questionnaire" type="collection">
+        <element label="Questionnaire" max_length="8000" name="questionnaire" type="html"/>
         <element choice="3" label="Type" max_length="40" name="pia_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Triage" sequence="100" value="Triage"/>
-                <element inactive_on_update="false" label="PIA" sequence="200" value="PIA"/>
                 <element inactive_on_update="false" label="Declaration &amp; Warranty - Owner" sequence="300" value="dec_and_war_owner"/>
                 <element inactive_on_update="false" label="Declaration &amp; Warranty - Sponsor" sequence="400" value="dec_and_war_sponsor"/>
+                <element inactive_on_update="false" label="PIA" sequence="200" value="PIA"/>
+                <element inactive_on_update="false" label="Triage" sequence="100" value="Triage"/>
             </choice>
         </element>
-        <element label="Questionnaire" max_length="8000" name="questionnaire" type="html"/>
     </element>
 </database>

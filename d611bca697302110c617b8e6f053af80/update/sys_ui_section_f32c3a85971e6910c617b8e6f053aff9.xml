@@ -4,23 +4,23 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>ralmeyda</sys_created_by>
             <sys_created_on>2023-04-18 06:55:12</sys_created_on>
-            <sys_id>6761d41d9792a910c617b8e6f053afef</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-18 06:55:12</sys_updated_on>
-            <text>This Section is applicable only in cases where Personal Data is shared or disclosed to a third-party, including Subsidiary and Affiliate companies of your organization.</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-18 06:55:12</sys_created_on>
             <sys_id>2b61d41d9792a910c617b8e6f053afef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ralmeyda</sys_updated_by>
             <sys_updated_on>2023-04-18 06:55:12</sys_updated_on>
             <text>CHECKPOINT #1 : Please answer below question.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-18 06:55:12</sys_created_on>
+            <sys_id>6761d41d9792a910c617b8e6f053afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-18 06:55:12</sys_updated_on>
+            <text>This Section is applicable only in cases where Personal Data is shared or disclosed to a third-party, including Subsidiary and Affiliate companies of your organization.</text>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>

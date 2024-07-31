@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e4efa32097333d10c617b8e6f053af48" label="Stakeholder" max_length="40" name="x_935283_pia_external_stakeholder" type="collection">
-        <element display="true" label="Business Name" max_length="40" name="business_name" type="string"/>
         <element label="Description" max_length="40" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Point Person" max_length="40" name="point_person" reference="sys_user" type="reference"/>
+        <element display="true" label="Business Name" max_length="40" name="business_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Internal" sequence="100" value="internal"/>
                 <element inactive_on_update="false" label="Third Party" sequence="200" value="third_party"/>
                 <element inactive_on_update="false" label="Business Partner" sequence="300" value="business_partner"/>
+                <element inactive_on_update="false" label="Internal" sequence="100" value="internal"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="point_person"/>
+        </index>
     </element>
 </database>

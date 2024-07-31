@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0001de7397e12110c617b8e6f053af08" label="Privacy Assessment Memo (PAM)" max_length="40" name="x_935283_pia_pam" type="collection">
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="1st PAM Issuance" max_length="40" name="first_pam_issuance" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Reviewed by" max_length="32" name="u_reviewed_by" reference="sys_user" type="reference"/>
         <element label="Name of Project" max_length="32" name="name_of_project" reference="x_935283_pia_project" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" default="pam_draft" label="Phase" max_length="40" name="phase" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="PAM Draft" sequence="100" value="pam_draft"/>
-                <element inactive_on_update="false" label="PAM Review" sequence="200" value="pam_review"/>
-                <element inactive_on_update="false" label="PAM Issued" sequence="300" value="pam_issued"/>
-                <element inactive_on_update="false" label="PAM Reassessment" sequence="400" value="pam_reassessment"/>
-                <element inactive_on_update="false" label="PAM Review - Audited" sequence="500" value="pam_review_audited"/>
-                <element inactive_on_update="false" label="Compliance Order" sequence="600" value="compliance_order"/>
-            </choice>
-        </element>
-        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
         <element label="2nd PAM Issuance" max_length="40" name="second_pam_issuance" type="glide_date"/>
-        <element label="Observations" max_length="65536" name="section3_exercise_rights" type="html"/>
-        <element label="Observations" max_length="65536" name="section4_data_retention" type="html"/>
-        <element label="Observations" max_length="65536" name="section5_data_integrity" type="html"/>
-        <element label="Observations" max_length="65536" name="section6_organizational_security" type="html"/>
-        <element label="Observations" max_length="65536" name="section6_physical_security" type="html"/>
-        <element label="Observations" max_length="65536" name="section6_technical_security" type="html"/>
-        <element label="Observations" max_length="65536" name="section7_accountability" type="html"/>
-        <element label="Observations" max_length="65536" name="section7_project_updates" type="html"/>
-        <element label="Observations" mandatory="true" max_length="10000" name="section_1_observation" type="html"/>
-        <element label="Observations" max_length="10000" name="section_2_legitimate_purpose_observation" type="html"/>
-        <element label="Observations" max_length="10000" name="section_2_proportionality_observation" type="html"/>
-        <element label="Observations" max_length="10000" name="section_2_transparency_observation" type="html"/>
         <element choice="3" default="new" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Draft" sequence="100" value="draft"/>
                 <element inactive_on_update="false" label="Review - with COP" sequence="200" value="review_cop"/>
-                <element inactive_on_update="false" label="Review - with PPRM Head" sequence="300" value="review_pprm_head"/>
-                <element inactive_on_update="false" label="Issued" sequence="400" value="issued"/>
-                <element inactive_on_update="false" label="Review Audited - with RML" sequence="500" value="review_audited_rml"/>
-                <element inactive_on_update="false" label="Review Audited - with COP" sequence="600" value="review_audited_cop"/>
-                <element inactive_on_update="false" label="Review Audited - with PPRM Head" sequence="700" value="review_audited_pprm_head"/>
                 <element inactive_on_update="false" label="Compliance Order" sequence="800" value="compliance_order"/>
+                <element inactive_on_update="false" label="Review Audited - with COP" sequence="600" value="review_audited_cop"/>
+                <element inactive_on_update="false" label="Issued" sequence="400" value="issued"/>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="draft"/>
+                <element inactive_on_update="false" label="Review Audited - with PPRM Head" sequence="700" value="review_audited_pprm_head"/>
+                <element inactive_on_update="false" label="Review Audited - with RML" sequence="500" value="review_audited_rml"/>
+                <element inactive_on_update="false" label="Review - with PPRM Head" sequence="300" value="review_pprm_head"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Approved by COP" max_length="32" name="u_approved_by_cop" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Approved by PPRM Head" max_length="32" name="u_approved_by_pprm_head" reference="sys_user" type="reference"/>
+        <element label="Observations" max_length="65536" name="section6_physical_security" type="html"/>
+        <element attributes="encode_utf8=false" label="Approved by PPRM Head" max_length="32" name="u_approved_by_pprm_head" reference="sys_user" type="reference"/>
+        <element label="Observations" mandatory="true" max_length="10000" name="section_1_observation" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Observations" max_length="65536" name="section3_exercise_rights" type="html"/>
+        <element label="Observations" max_length="10000" name="section_2_legitimate_purpose_observation" type="html"/>
+        <element label="Observations" max_length="65536" name="section6_technical_security" type="html"/>
         <element attributes="encode_utf8=false" label="Examined by" max_length="32" name="u_examined_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Date of PAM Issuance" max_length="40" name="u_glide_date_1" type="glide_date"/>
-        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;return current.name_of_project.entity_name.getDisplayValue();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" label="Organization" max_length="32" name="u_organization" type="choice">
+        <element choice="3" default="pam_draft" label="Phase" max_length="40" name="phase" type="choice">
             <choice>
-                <element inactive_on_update="false" label="ePLDT" value="ePLDT"/>
-                <element inactive_on_update="false" label="PLDT" value="PLDT"/>
-                <element inactive_on_update="false" label="PLDT Global Corporation" value="PLDT Global Corporation"/>
-                <element inactive_on_update="false" label="Smart" value="Smart"/>
+                <element inactive_on_update="false" label="Compliance Order" sequence="600" value="compliance_order"/>
+                <element inactive_on_update="false" label="PAM Reassessment" sequence="400" value="pam_reassessment"/>
+                <element inactive_on_update="false" label="PAM Review" sequence="200" value="pam_review"/>
+                <element inactive_on_update="false" label="PAM Review - Audited" sequence="500" value="pam_review_audited"/>
+                <element inactive_on_update="false" label="PAM Issued" sequence="300" value="pam_issued"/>
+                <element inactive_on_update="false" label="PAM Draft" sequence="100" value="pam_draft"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Reviewed by" max_length="32" name="u_reviewed_by" reference="sys_user" type="reference"/>
+        <element label="Observations" max_length="65536" name="section7_accountability" type="html"/>
+        <element label="Observations" max_length="65536" name="section4_data_retention" type="html"/>
+        <element label="Observations" max_length="10000" name="section_2_proportionality_observation" type="html"/>
+        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;&#10;&#9;return current.name_of_project.entity_name.getDisplayValue();  // return the calculated value&#10;&#10;})(current);" choice="3" label="Organization" max_length="32" name="u_organization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Smart" value="Smart"/>
+                <element inactive_on_update="false" label="PLDT" value="PLDT"/>
+                <element inactive_on_update="false" label="PLDT Global Corporation" value="PLDT Global Corporation"/>
+                <element inactive_on_update="false" label="ePLDT" value="ePLDT"/>
+            </choice>
+        </element>
+        <element label="1st PAM Issuance" max_length="40" name="first_pam_issuance" type="glide_date"/>
+        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Observations" max_length="65536" name="section6_organizational_security" type="html"/>
+        <element attributes="encode_utf8=false" label="Approved by COP" max_length="32" name="u_approved_by_cop" reference="sys_user" type="reference"/>
+        <element label="Observations" max_length="65536" name="section7_project_updates" type="html"/>
+        <element label="Observations" max_length="65536" name="section5_data_integrity" type="html"/>
+        <element label="Observations" max_length="10000" name="section_2_transparency_observation" type="html"/>
         <index name="index">
             <element name="name_of_project"/>
         </index>

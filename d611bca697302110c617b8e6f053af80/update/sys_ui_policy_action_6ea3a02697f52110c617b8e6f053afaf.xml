@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>project.division_department</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>risidro</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:37:49</sys_updated_on>
         <table>x_935283_pia_privacy_impact_assessment</table>
         <ui_policy display_value="Lock Project Fields">5561206297f52110c617b8e6f053af50</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ea3a02697f52110c617b8e6f053afaf"/>
 </record_update>

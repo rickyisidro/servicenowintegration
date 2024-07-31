@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cfabfa8c97fd6110c617b8e6f053af02" label="Project Point Persons" max_length="40" name="x_935283_pia_section_7_project_point_persons_stakeholders" type="collection">
-        <element label="Contact Information" max_length="40" name="contact_information" type="string"/>
-        <element label="Division/Department" max_length="40" name="division_department" type="string"/>
         <element label="Point Person" max_length="32" name="point_person" reference="sys_user" type="reference"/>
-        <element label="Referenced PIA" max_length="32" name="referenced_pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
-        <element label="Role in Project" max_length="40" name="role_in_project" type="string"/>
-        <element attributes="encode_utf8=false" label="Stakeholder" max_length="32" name="stakeholder" reference="x_935283_pia_external_stakeholder" type="reference"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Third Party Processor" value="third_party"/>
                 <element inactive_on_update="false" label="Business Partners" value="business_partners"/>
                 <element inactive_on_update="false" label="Stakeholder" value="stakeholder"/>
-                <element inactive_on_update="false" label="Third Party Processor" value="third_party"/>
             </choice>
         </element>
+        <element label="Referenced PIA" max_length="32" name="referenced_pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Contact Information" max_length="40" name="contact_information" type="string"/>
+        <element label="Role in Project" max_length="40" name="role_in_project" type="string"/>
+        <element label="Division/Department" max_length="40" name="division_department" type="string"/>
+        <element attributes="encode_utf8=false" label="Stakeholder" max_length="32" name="stakeholder" reference="x_935283_pia_external_stakeholder" type="reference"/>
         <index name="index">
             <element name="point_person"/>
         </index>

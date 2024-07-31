@@ -21,6 +21,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_935283_pia.privacy_impact_assessment_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>jlim</sys_created_by>

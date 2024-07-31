@@ -79,7 +79,7 @@
         <sys_id>495e771997632110c617b8e6f053af7e</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Connected Processing Activities</sys_name>
-        <sys_package/>
+        <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
         <sys_update_name>item_option_new_495e771997632110c617b8e6f053af7e</sys_update_name>

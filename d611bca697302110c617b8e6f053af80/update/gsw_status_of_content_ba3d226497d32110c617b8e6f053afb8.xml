@@ -2,12 +2,12 @@
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
         <checksum/>
-        <content display_value="Configure Content Types for a Forum">ff328f5257630300d873ac71ef94f99a</content>
+        <content display_value="">ff328f5257630300d873ac71ef94f99a</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2023-06-05 11:23:16">723d226497d32110c617b8e6f053afb8</related_log_entry>
+        <related_log_entry display_value="2023-06-04 20:23:16">723d226497d32110c617b8e6f053afb8</related_log_entry>
         <status>0</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>risidro</sys_created_by>

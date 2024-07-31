@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="db35f52697e12510c617b8e6f053af95" label="ROPA" max_length="40" name="x_935283_pia_ropa" type="collection">
-        <element display="true" label="Core Processing Activity" max_length="100" name="core_processing_activity" type="string"/>
-        <element label="Core Processing Activity Owner" max_length="32" name="core_processing_activity_owner" reference="cmn_department" type="reference"/>
         <element label="DPS Category" max_length="32" name="dps_category" reference="x_935283_pia_data_processing_category" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="Core Processing Activity" max_length="100" name="core_processing_activity" type="string"/>
         <element label="DPS Name" max_length="100" name="dps_name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" hint="Does the System Process Personal Data Manually (i.e., with human intervention), Electronically, or Both?" label="Personal Data - Process Type" max_length="100" name="personal_data_process_type" type="string">
             <choice>
+                <element inactive_on_update="false" label="Both" sequence="300" value="both"/>
                 <element inactive_on_update="false" label="Manual" sequence="100" value="manual"/>
                 <element inactive_on_update="false" label="Electronic" sequence="200" value="electronic"/>
-                <element inactive_on_update="false" label="Both" sequence="300" value="both"/>
             </choice>
         </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Core Processing Activity Owner" max_length="32" name="core_processing_activity_owner" reference="cmn_department" type="reference"/>
         <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
         <index name="index">
             <element name="core_processing_activity_owner"/>

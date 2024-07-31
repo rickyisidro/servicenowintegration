@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5a7d077097992110c617b8e6f053af36" label="Revision History" max_length="40" name="x_935283_pia_revision_history" type="collection">
-        <element label="Phase" max_length="40" name="phase" type="string"/>
         <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
         <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Phase" max_length="40" name="phase" type="string"/>
         <element label="Summary of Changes" max_length="400" name="summary_of_changes" type="string"/>
         <index name="index">
             <element name="pia"/>

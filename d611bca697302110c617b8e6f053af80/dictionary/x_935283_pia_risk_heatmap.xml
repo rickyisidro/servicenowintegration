@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cd4951be977d6110c617b8e6f053af28" label="Risk Heatmap" max_length="40" name="x_935283_pia_risk_heatmap" type="collection">
-        <element choice="1" label="Impact" mandatory="true" max_length="20" name="impact" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
-                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
-                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
-                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
-                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
-            </choice>
-        </element>
         <element choice="1" label="Likelihood" mandatory="true" max_length="20" name="likelihood" type="string">
             <choice>
                 <element inactive_on_update="false" label="Remote" sequence="100" value="remote"/>
-                <element inactive_on_update="false" label="Unlikely" sequence="200" value="unlikely"/>
+                <element inactive_on_update="false" label="High Likely" sequence="500" value="high_likely"/>
                 <element inactive_on_update="false" label="Possible" sequence="300" value="possible"/>
                 <element inactive_on_update="false" label="Probable" sequence="400" value="probable"/>
-                <element inactive_on_update="false" label="High Likely" sequence="500" value="high_likely"/>
+                <element inactive_on_update="false" label="Unlikely" sequence="200" value="unlikely"/>
+            </choice>
+        </element>
+        <element choice="1" label="Impact" mandatory="true" max_length="20" name="impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
+                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
+                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
             </choice>
         </element>
         <element choice="3" label="Risk Score" max_length="40" name="risk_score" type="string">
             <choice>
-                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
-                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
-                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
                 <element inactive_on_update="false" label="High" sequence="400" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
                 <element inactive_on_update="false" label="Severe" sequence="600" value="severe"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
+                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
             </choice>
         </element>
         <element label="Risk Value" max_length="10" name="risk_value" type="integer"/>

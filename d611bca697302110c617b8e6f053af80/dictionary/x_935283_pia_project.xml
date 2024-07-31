@@ -1,142 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="df81b8e697302110c617b8e6f053af97" label="Project" max_length="40" name="x_935283_pia_project" text_index="true" type="collection">
-        <element attributes="ref_contributions" label="Risk Mgt Lead" mandatory="true" max_length="32" name="assessment_lead" reference="sys_user" type="reference"/>
-        <element label="Risk Mgt Specialist" mandatory="true" max_length="32" name="assessment_specialist" reference="sys_user" type="reference"/>
-        <element attributes="ref_contributions=addMe" choice="3" label="Assessment Type" mandatory="true" max_length="50" name="assessment_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="PIA Triage" sequence="100" value="PIA Triage"/>
-                <element inactive_on_update="false" label="Privacy Impact Assessment" sequence="200" value="Privacy Impact Assessment"/>
-            </choice>
-        </element>
-        <element label="Compliance Officer for Privacy" mandatory="true" max_length="32" name="compliance_officer_for_privacy" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element label="Core Process Activity" mandatory="true" max_length="32" name="core_process_activity" reference="x_935283_pia_ropa" type="reference"/>
-        <element label="Date of 1st PAM Issuance" max_length="40" name="date_of_1st_pam_issuance" read_only="true" type="glide_date"/>
-        <element label="Date of 2nd PAM Issuance" max_length="40" name="date_of_2nd_pam_issuance" read_only="true" type="glide_date"/>
-        <element label="Date of Actual Discovery Session" mandatory="true" max_length="40" name="date_of_consultation" type="glide_date"/>
-        <element label="Date of Endorsement to PO-RCM" max_length="40" name="date_of_endorsement_to_po_rcm" type="glide_date"/>
-        <element label="Date of PIA Finalization" max_length="40" name="date_of_pia_finalization" type="glide_date"/>
-        <element label="Date of PIA Submission" max_length="40" name="date_of_pia_submission" read_only="true" type="glide_date"/>
-        <element label="Date of Project Brief Submission" mandatory="true" max_length="40" name="date_of_project_brief_submission" type="glide_date"/>
-        <element label="Division / Department" mandatory="true" max_length="32" name="division_department" reference="cmn_department" type="reference"/>
-        <element choice="3" default="PLDT" hint="test - hint" label="Entity Name" mandatory="true" max_length="50" name="entity_name" type="string">
-            <choice>
-                <element inactive_on_update="false" label="PLDT" sequence="100" value="PLDT"/>
-                <element inactive_on_update="false" label="Smart" sequence="200" value="Smart"/>
-                <element inactive_on_update="false" label="ePLDT" sequence="300" value="ePLDT"/>
-                <element inactive_on_update="false" label="PLDT Global Corporation" sequence="400" value="PLDT Global Corporation"/>
-            </choice>
-        </element>
-        <element label="1st PAM Due Date" mandatory="true" max_length="40" name="first_pam_due_date" type="glide_date"/>
-        <element label="This is the first time the project will undergo a PIA. " max_length="40" name="first_time_pia" type="boolean"/>
-        <element choice="3" default="no" label="With Notice of Deficiencies" max_length="40" name="for_prioritization" type="string">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
-                <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
-            </choice>
-        </element>
-        <element label="The existing scheme has undergone a PIA before; this PIA is for an update. " max_length="40" name="has_existing_pia" type="boolean"/>
-        <element label="Target Date of PIA Finalization Date" max_length="40" name="ideal_finalization_date" type="glide_date"/>
-        <element label="Target Date of PIA Submission" mandatory="true" max_length="40" name="ideal_submission_date" type="glide_date"/>
-        <element label="Launch date of Proponent" max_length="40" name="launch_date_of_proponent" type="glide_date"/>
-        <element label="Line of Business" mandatory="true" max_length="32" name="line_of_business" reference="x_935283_pia_line_of_business" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="ref_contributions=addMe" dependent="line_of_business" dependent_on_field="line_of_business" label="Line of Business Category" mandatory="true" max_length="32" name="lob_category" reference="x_935283_pia_line_of_business_category" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Operational Process" max_length="40" name="operational_process" type="boolean"/>
-        <element label="Others" max_length="40" name="others" type="boolean"/>
         <element choice="1" default="initiated" label="Phase" max_length="100" name="phase" type="string">
             <choice>
-                <element inactive_on_update="false" label="Initiated" sequence="0" value="initiated"/>
-                <element inactive_on_update="false" label="Ready for PAM Draft" sequence="1" value="pam_draft_ready"/>
-                <element inactive_on_update="false" label="Risk Identification" sequence="2" value="risk_identification"/>
                 <element inactive_on_update="false" label="PAM Issued" sequence="3" value="pam_issued"/>
+                <element inactive_on_update="false" label="Ready for PAM Draft" sequence="1" value="pam_draft_ready"/>
                 <element inactive_on_update="false" label="Privacy Impact Assessment" sequence="4" value="pia_created"/>
-            </choice>
-        </element>
-        <element choice="1" label="Complexity" max_length="100" name="pia_complexity" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Simple" sequence="100" value="simple"/>
-                <element inactive_on_update="false" label="Complex" sequence="200" value="complex"/>
-            </choice>
-        </element>
-        <element choice="3" default="no" label="PIA Is Inactive?" max_length="40" name="pia_is_inactive" type="string">
-            <choice>
-                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
-                <element inactive_on_update="false" label="Yes - With proponents" sequence="200" value="yes_with_proponents"/>
-                <element inactive_on_update="false" label="Yes - With PPRM" sequence="300" value="yes_with_pprm"/>
-            </choice>
-        </element>
-        <element label="Placeholder Tag 4" max_length="40" name="placeholder_tag_4" type="boolean"/>
-        <element label="Placeholder Tag 5" max_length="40" name="placeholder_tag_5" type="boolean"/>
-        <element label="PLDT Group Entity" max_length="80" name="pldt_group_entity" type="field_name"/>
-        <element label="PLDT Group Entity is a PIC" max_length="40" name="pldt_group_entity_is_a_pic" type="boolean"/>
-        <element label="PLDT Group Entity is a PIP" max_length="40" name="pldt_group_entity_is_a_pip" type="boolean"/>
-        <element label="PPRM Head" mandatory="true" max_length="32" name="pprm_head" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element choice="1" label="Primary Tag" mandatory="true" max_length="40" name="primary_tag" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="SC1" value="sc1"/>
-                <element inactive_on_update="false" label="SC2" value="sc2"/>
+                <element inactive_on_update="false" label="Risk Identification" sequence="2" value="risk_identification"/>
+                <element inactive_on_update="false" label="Initiated" sequence="0" value="initiated"/>
             </choice>
         </element>
         <element attributes="is_multi_text= true" label="Prioritization Reason" max_length="255" name="prioritization_reason" type="string"/>
-        <element label="Others:" max_length="40" name="processing_activity_others" type="boolean"/>
-        <element label="Please Specify" max_length="100" name="processing_activity_others_please_specify" type="string"/>
-        <element label="Product / Service / Program" max_length="40" name="product_service_program" type="boolean"/>
+        <element label="Placeholder Tag 5" max_length="40" name="placeholder_tag_5" type="boolean"/>
         <element choice="1" label="Project Classification" mandatory="true" max_length="100" name="project_classification" type="string">
             <choice>
-                <element inactive_on_update="false" label="New Initiative" sequence="100" value="New Initiative"/>
                 <element inactive_on_update="false" label="Existing / Business-As-Usual (“BAU”)" sequence="200" value="Existing BAU"/>
+                <element inactive_on_update="false" label="New Initiative" sequence="100" value="New Initiative"/>
             </choice>
         </element>
-        <element label="Project Control Number" max_length="50" name="project_control_number" read_only="true" type="string"/>
-        <element label="Project Executive Sponsor" mandatory="true" max_length="32" name="project_executive_sponsor" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
-        <element attributes="ref_contributions=addMe" label="Project Owner" mandatory="true" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
-        <element attributes="ref_contributions=addMe" label="Project SPOC" mandatory="true" max_length="32" name="project_spoc" reference="sys_user" type="reference"/>
-        <element choice="1" hint="Please provide information on the scope of the Project vis-à-vis the PIA:&#13;&#10;(1) Connected Processing Activities – the processes connected to the Project, or processes that the Project may be a part of&#13;&#10;(2) In-Scope – the processes that will be documented in the PIA for assessment&#13;&#10;(3) Out-of-Scope – the processes that may be connected to the Project, but are not for assessment under the PIA&#13;&#10;" label="Project Type" mandatory="true" max_length="50" name="project_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Processing Activity" sequence="100" value="Processing Activity"/>
-                <element inactive_on_update="false" label="Asset" sequence="200" value="Asset"/>
-            </choice>
-        </element>
+        <element label="PPRM Head" mandatory="true" max_length="32" name="pprm_head" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Date of Target Launch / Ready for Service (“RFS”)" mandatory="true" max_length="40" name="rfs" type="glide_date"/>
-        <element label="Risk Acceptance" max_length="40" name="risk_acceptance" read_only="true" type="boolean"/>
-        <element label="With Privacy Risk Undertaking" max_length="40" name="risk_undertaking_tag" type="boolean"/>
-        <element choice="1" label="Secondary Tag" max_length="40" name="secondary_tag" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="SC1A (Audit)" sequence="100" value="sc1a"/>
-                <element inactive_on_update="false" label="For Re-Assessment" sequence="200" value="reassess"/>
-            </choice>
-        </element>
-        <element label="2nd PAM Due Date" max_length="40" name="second_pam_due_date" type="glide_date"/>
-        <element label="Compliance &amp; Portfolio Mgt" mandatory="true" max_length="32" name="stakeholder" reference="sys_user" type="reference"/>
-        <element label="State" max_length="100" name="state" read_only="true" type="string"/>
-        <element label="Tag name 4" max_length="40" name="tag_name_4" type="string"/>
-        <element label="Tag name 5" max_length="40" name="tag_name_5" type="string"/>
-        <element label="Target Date of 1st RTP Submission" max_length="40" name="target_date_of_1st_rtp_submission" read_only="true" type="glide_date"/>
         <element label="Target Date of 2nd RTP Submission" max_length="40" name="target_date_of_2nd_rtp_submission" read_only="true" type="glide_date"/>
-        <element label="Temporary Assessment" max_length="40" name="temporary_assessment" type="boolean"/>
-        <element label="With Contract Review - PLDT Group Entity is PIC" max_length="40" name="u_boolean_contract_review_pic" type="boolean"/>
-        <element label="With Contract Review - PLDT Group Entity is PIP" max_length="40" name="u_boolean_contract_review_pip" type="boolean"/>
+        <element label="2nd PAM Due Date" max_length="40" name="second_pam_due_date" type="glide_date"/>
         <element label="Placeholder Tag 1" max_length="40" name="u_boolean_tag1" type="boolean"/>
-        <element label="Placeholder Tag 2" max_length="40" name="u_boolean_tag2" type="boolean"/>
-        <element label="Placeholder Tag 3" max_length="40" name="u_boolean_tag3" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Tag name 1" max_length="40" name="u_string_tag1_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Tag name 2" max_length="40" name="u_string_tag2_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,ref_contributions" label="Tag name 3" max_length="40" name="u_string_tag3_name" type="string"/>
         <element choice="1" label="With CC/RU Path" max_length="40" name="with_cc_ru_path" type="string">
             <choice>
-                <element inactive_on_update="false" label="Risk Undertaking" sequence="100" value="risk_undertaking"/>
                 <element inactive_on_update="false" label="Conditional Clearance" sequence="200" value="conditional_clearance"/>
+                <element inactive_on_update="false" label="Risk Undertaking" sequence="100" value="risk_undertaking"/>
             </choice>
         </element>
+        <element label="Placeholder Tag 3" max_length="40" name="u_boolean_tag3" type="boolean"/>
+        <element label="Date of 2nd PAM Issuance" max_length="40" name="date_of_2nd_pam_issuance" read_only="true" type="glide_date"/>
+        <element label="Date of PIA Submission" max_length="40" name="date_of_pia_submission" read_only="true" type="glide_date"/>
+        <element label="Core Process Activity" mandatory="true" max_length="32" name="core_process_activity" reference="x_935283_pia_ropa" type="reference"/>
+        <element label="1st PAM Due Date" mandatory="true" max_length="40" name="first_pam_due_date" type="glide_date"/>
+        <element label="Target Date of PIA Finalization Date" max_length="40" name="ideal_finalization_date" type="glide_date"/>
+        <element label="Target Date of PIA Submission" mandatory="true" max_length="40" name="ideal_submission_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Complexity" max_length="100" name="pia_complexity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Complex" sequence="200" value="complex"/>
+                <element inactive_on_update="false" label="Simple" sequence="100" value="simple"/>
+            </choice>
+        </element>
+        <element label="Others:" max_length="40" name="processing_activity_others" type="boolean"/>
+        <element label="PLDT Group Entity" max_length="80" name="pldt_group_entity" type="field_name"/>
+        <element label="Project Control Number" max_length="50" name="project_control_number" read_only="true" type="string"/>
+        <element attributes="ref_contributions=addMe" label="Project Owner" mandatory="true" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
+        <element label="Tag name 4" max_length="40" name="tag_name_4" type="string"/>
+        <element label="Risk Acceptance" max_length="40" name="risk_acceptance" read_only="true" type="boolean"/>
+        <element label="Temporary Assessment" max_length="40" name="temporary_assessment" type="boolean"/>
+        <element label="Compliance &amp; Portfolio Mgt" mandatory="true" max_length="32" name="stakeholder" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tag name 1" max_length="40" name="u_string_tag1_name" type="string"/>
         <element label="With Conditional Clearance" max_length="40" name="with_conditional_clearance" type="boolean"/>
+        <element label="Placeholder Tag 2" max_length="40" name="u_boolean_tag2" type="boolean"/>
+        <element label="Date of 1st PAM Issuance" max_length="40" name="date_of_1st_pam_issuance" read_only="true" type="glide_date"/>
+        <element label="This is the first time the project will undergo a PIA." max_length="40" name="first_time_pia" type="boolean"/>
+        <element label="Date of Actual Discovery Session" mandatory="true" max_length="40" name="date_of_consultation" type="glide_date"/>
+        <element label="Risk Mgt Specialist" mandatory="true" max_length="32" name="assessment_specialist" reference="sys_user" type="reference"/>
+        <element label="Date of Project Brief Submission" mandatory="true" max_length="40" name="date_of_project_brief_submission" type="glide_date"/>
+        <element label="PLDT Group Entity is a PIC" max_length="40" name="pldt_group_entity_is_a_pic" type="boolean"/>
+        <element label="Launch date of Proponent" max_length="40" name="launch_date_of_proponent" type="glide_date"/>
+        <element label="Operational Process" max_length="40" name="operational_process" type="boolean"/>
+        <element choice="3" default="no" label="PIA Is Inactive?" max_length="40" name="pia_is_inactive" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes - With proponents" sequence="200" value="yes_with_proponents"/>
+                <element inactive_on_update="false" label="Yes - With PPRM" sequence="300" value="yes_with_pprm"/>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
+            </choice>
+        </element>
+        <element label="Please Specify" max_length="100" name="processing_activity_others_please_specify" type="string"/>
+        <element label="Project Executive Sponsor" mandatory="true" max_length="32" name="project_executive_sponsor" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="ref_contributions=addMe" label="Project SPOC" mandatory="true" max_length="32" name="project_spoc" reference="sys_user" type="reference"/>
+        <element label="Tag name 5" max_length="40" name="tag_name_5" type="string"/>
+        <element label="With Privacy Risk Undertaking" max_length="40" name="risk_undertaking_tag" type="boolean"/>
+        <element label="With Contract Review - PLDT Group Entity is PIC" max_length="40" name="u_boolean_contract_review_pic" type="boolean"/>
+        <element label="State" max_length="100" name="state" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tag name 2" max_length="40" name="u_string_tag2_name" type="string"/>
         <element choice="1" label="With Contract Review (Yes or No)" max_length="40" name="with_contract_review" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="100" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="200" value="no"/>
             </choice>
         </element>
+        <element attributes="ref_contributions=addMe" choice="3" label="Assessment Type" mandatory="true" max_length="50" name="assessment_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Privacy Impact Assessment" sequence="200" value="Privacy Impact Assessment"/>
+                <element inactive_on_update="false" label="PIA Triage" sequence="100" value="PIA Triage"/>
+            </choice>
+        </element>
+        <element label="Division / Department" mandatory="true" max_length="32" name="division_department" reference="cmn_department" type="reference"/>
+        <element choice="3" default="no" label="With Notice of Deficiencies" max_length="40" name="for_prioritization" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="200" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="100" value="no"/>
+            </choice>
+        </element>
+        <element label="Date of Endorsement to PO-RCM" max_length="40" name="date_of_endorsement_to_po_rcm" type="glide_date"/>
+        <element label="Placeholder Tag 4" max_length="40" name="placeholder_tag_4" type="boolean"/>
+        <element label="Product / Service / Program" max_length="40" name="product_service_program" type="boolean"/>
+        <element label="PLDT Group Entity is a PIP" max_length="40" name="pldt_group_entity_is_a_pip" type="boolean"/>
+        <element label="Line of Business" mandatory="true" max_length="32" name="line_of_business" reference="x_935283_pia_line_of_business" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Others" max_length="40" name="others" type="boolean"/>
+        <element choice="1" label="Primary Tag" mandatory="true" max_length="40" name="primary_tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SC1" value="sc1"/>
+                <element inactive_on_update="false" label="SC2" value="sc2"/>
+            </choice>
+        </element>
+        <element label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
+        <element choice="1" hint="Please provide information on the scope of the Project vis-à-vis the PIA:&#13;&#10;(1) Connected Processing Activities – the processes connected to the Project, or processes that the Project may be a part of&#13;&#10;(2) In-Scope – the processes that will be documented in the PIA for assessment&#13;&#10;(3) Out-of-Scope – the processes that may be connected to the Project, but are not for assessment under the PIA&#13;&#10;" label="Project Type" mandatory="true" max_length="50" name="project_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Asset" sequence="200" value="Asset"/>
+                <element inactive_on_update="false" label="Processing Activity" sequence="100" value="Processing Activity"/>
+            </choice>
+        </element>
+        <element label="Target Date of 1st RTP Submission" max_length="40" name="target_date_of_1st_rtp_submission" read_only="true" type="glide_date"/>
+        <element choice="1" label="Secondary Tag" max_length="40" name="secondary_tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="For Re-Assessment" sequence="200" value="reassess"/>
+                <element inactive_on_update="false" label="SC1A (Audit)" sequence="100" value="sc1a"/>
+            </choice>
+        </element>
+        <element label="With Contract Review - PLDT Group Entity is PIP" max_length="40" name="u_boolean_contract_review_pip" type="boolean"/>
+        <element attributes="ref_contributions" label="Risk Mgt Lead" mandatory="true" max_length="32" name="assessment_lead" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,ref_contributions" label="Tag name 3" max_length="40" name="u_string_tag3_name" type="string"/>
         <element label="With Non-Compliance Memo" max_length="40" name="with_non_compliance_memo" type="boolean"/>
+        <element label="Date of PIA Finalization" max_length="40" name="date_of_pia_finalization" type="glide_date"/>
+        <element label="Compliance Officer for Privacy" mandatory="true" max_length="32" name="compliance_officer_for_privacy" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="3" default="PLDT" hint="test - hint" label="Entity Name" mandatory="true" max_length="50" name="entity_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PLDT Global Corporation" sequence="400" value="PLDT Global Corporation"/>
+                <element inactive_on_update="false" label="Smart" sequence="200" value="Smart"/>
+                <element inactive_on_update="false" label="ePLDT" sequence="300" value="ePLDT"/>
+                <element inactive_on_update="false" label="PLDT" sequence="100" value="PLDT"/>
+            </choice>
+        </element>
+        <element label="The existing scheme has undergone a PIA before; this PIA is for an update." max_length="40" name="has_existing_pia" type="boolean"/>
         <index name="index">
             <element name="assessment_lead"/>
         </index>

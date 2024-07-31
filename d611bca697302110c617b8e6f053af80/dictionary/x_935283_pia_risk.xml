@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0bf32a7797652110c617b8e6f053afb2" label="Open Risks" max_length="40" name="x_935283_pia_risk" type="collection">
-        <element label="Control Details" max_length="4000" name="control_details" type="string"/>
-        <element choice="1" label="Impact" mandatory="true" max_length="40" name="impact" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
-                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
-                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
-                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
-                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
-            </choice>
-        </element>
         <element choice="1" label="Likelihood" mandatory="true" max_length="40" name="likelihood" type="string">
             <choice>
-                <element inactive_on_update="false" label="Remote" sequence="100" value="remote"/>
                 <element inactive_on_update="false" label="Unlikely" sequence="200" value="unlikely"/>
                 <element inactive_on_update="false" label="Possible" sequence="300" value="possible"/>
                 <element inactive_on_update="false" label="Probable" sequence="400" value="probable"/>
+                <element inactive_on_update="false" label="Remote" sequence="100" value="remote"/>
                 <element inactive_on_update="false" label="High Likely" sequence="500" value="high_likely"/>
             </choice>
         </element>
-        <element label="PAM" max_length="32" name="pam" reference="x_935283_pia_pam" reference_floats="true" type="reference"/>
-        <element label="Rationale" max_length="4000" name="rationale" type="string"/>
-        <element label="Recommended Control" max_length="32" name="recommended_control" reference="sn_compliance_policy_statement" type="reference"/>
         <element choice="3" label="Risk Category 1" max_length="100" name="risk_category_1" type="string">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="Compliance" value="compliance"/>
-                <element inactive="true" inactive_on_update="true" label="Cross-Functional Dependency" value="cross_functional+dependency"/>
-                <element inactive="true" inactive_on_update="true" label="Privacy by Design" value="privacy_by_design"/>
-                <element inactive_on_update="false" label="Privacy Compliance without Cross Functional Risk Impact" value="privacy_compliance_without_cross_functional_risk_impact"/>
-                <element inactive_on_update="false" label="Privacy by Design with Cross Functional Risk Impact" sequence="100" value="privacy_by_design_with_cross_functional_risk_impact"/>
                 <element inactive_on_update="false" label="Privacy by Design without Cross Functional Risk Impact" sequence="200" value="privacy_by_design_without_cross_functional_risk_impact"/>
+                <element inactive_on_update="false" label="Privacy Compliance without Cross Functional Risk Impact" value="privacy_compliance_without_cross_functional_risk_impact"/>
+                <element inactive="true" inactive_on_update="true" label="Cross-Functional Dependency" value="cross_functional+dependency"/>
                 <element inactive_on_update="false" label="Privacy Compliance with Cross Functional Risk Impact" sequence="300" value="privacy_compliance_with_cross_functional_risk_impact"/>
+                <element inactive_on_update="false" label="Privacy by Design with Cross Functional Risk Impact" sequence="100" value="privacy_by_design_with_cross_functional_risk_impact"/>
+                <element inactive="true" inactive_on_update="true" label="Privacy by Design" value="privacy_by_design"/>
+                <element inactive="true" inactive_on_update="true" label="Compliance" value="compliance"/>
             </choice>
         </element>
+        <element label="Risk No." max_length="40" name="risk_number" read_only="true" type="string"/>
+        <element label="RTP" max_length="32" name="rtp" reference="x_935283_pia_rtp" type="reference"/>
+        <element label="PAM" max_length="32" name="pam" reference="x_935283_pia_pam" reference_floats="true" type="reference"/>
         <element active="false" choice="1" label="Risk Category 2" max_length="100" name="risk_category_2" type="string">
             <choice>
-                <element inactive_on_update="false" label="Compliance" sequence="100" value="compliance"/>
                 <element inactive_on_update="false" label="Privacy By Design" sequence="200" value="privacy_by_design"/>
+                <element inactive_on_update="false" label="Compliance" sequence="100" value="compliance"/>
                 <element inactive_on_update="false" label="Cross-Functional Dependency" sequence="300" value="cross_functional_dependency"/>
             </choice>
         </element>
-        <element label="Risk Details" max_length="4000" name="risk_details" type="string"/>
-        <element label="Risk Event" max_length="32" name="risk_event" reference="sn_risk_definition" reference_qual="javascript: new x_935283_pia.pamUtils().sectionRiskMapping(current.section);" type="reference" use_reference_qualifier="advanced"/>
-        <element label="Risk No." max_length="40" name="risk_number" read_only="true" type="string"/>
         <element choice="1" label="Risk Response" max_length="40" name="risk_response" type="string">
             <choice>
                 <element inactive_on_update="false" label="Accept" sequence="100" value="accept"/>
-                <element inactive_on_update="false" label="Avoid" sequence="200" value="avoid"/>
                 <element inactive_on_update="false" label="Mitigate" sequence="300" value="mitigate"/>
                 <element inactive_on_update="false" label="Transfer" sequence="400" value="transfer"/>
+                <element inactive_on_update="false" label="Avoid" sequence="200" value="avoid"/>
             </choice>
         </element>
-        <element choice="1" label="Risk Score" max_length="40" name="risk_score" read_only="true" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
-                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
-                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
-                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
-                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
-            </choice>
-        </element>
-        <element label="Risk Value" max_length="40" name="risk_value" type="integer"/>
-        <element label="RTP" max_length="32" name="rtp" reference="x_935283_pia_rtp" type="reference"/>
         <element choice="1" label="Section" max_length="100" name="section" type="string">
             <choice>
                 <element inactive_on_update="false" label="Processing Relationships" sequence="100" value="processing_relationships"/>
-                <element inactive_on_update="false" label="Adherence to Data Privacy Principles" sequence="200" value="adherence_data_drivacy_principles"/>
-                <element inactive_on_update="false" label="Exercise of Rights" sequence="300" value="exercise_of_rights"/>
-                <element inactive_on_update="false" label="Data Retention and Disposal" sequence="400" value="data_retention_and_disposal"/>
-                <element inactive_on_update="false" label="Data Integrity" sequence="500" value="data_integrity"/>
-                <element inactive_on_update="false" label="Security Measures" sequence="600" value="security_measures"/>
                 <element inactive_on_update="false" label="Principle of Accountability – Artifacts of Compliance" sequence="700" value="principle_accountability"/>
+                <element inactive_on_update="false" label="Data Integrity" sequence="500" value="data_integrity"/>
+                <element inactive_on_update="false" label="Exercise of Rights" sequence="300" value="exercise_of_rights"/>
+                <element inactive_on_update="false" label="Security Measures" sequence="600" value="security_measures"/>
+                <element inactive_on_update="false" label="Data Retention and Disposal" sequence="400" value="data_retention_and_disposal"/>
+                <element inactive_on_update="false" label="Adherence to Data Privacy Principles" sequence="200" value="adherence_data_drivacy_principles"/>
+            </choice>
+        </element>
+        <element label="Rationale" max_length="4000" name="rationale" type="string"/>
+        <element label="Risk Details" max_length="4000" name="risk_details" type="string"/>
+        <element choice="1" label="Risk Score" max_length="40" name="risk_score" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
+                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
+                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" dependent="section" dependent_on_field="section" label="Subsection" max_length="100" name="subsection" type="string" use_dependent_field="true">
             <choice>
-                <element dependent_value="adherence_data_drivacy_principles" inactive_on_update="false" label="Transparency" sequence="100" value="transparency"/>
                 <element dependent_value="adherence_data_drivacy_principles" inactive_on_update="false" label="Legitimate Purpose" sequence="200" value="legitimate_purpose"/>
                 <element dependent_value="adherence_data_drivacy_principles" inactive_on_update="false" label="Proportionality" sequence="300" value="proportionality"/>
+                <element dependent_value="adherence_data_drivacy_principles" inactive_on_update="false" label="Transparency" sequence="100" value="transparency"/>
             </choice>
         </element>
+        <element label="Control Details" max_length="4000" name="control_details" type="string"/>
+        <element label="Risk Event" max_length="32" name="risk_event" reference="sn_risk_definition" reference_qual="javascript: new x_935283_pia.pamUtils().sectionRiskMapping(current.section);" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" label="Impact" mandatory="true" max_length="40" name="impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="400" value="high"/>
+                <element inactive_on_update="false" label="Very Low" sequence="100" value="very_low"/>
+                <element inactive_on_update="false" label="Severe" sequence="500" value="severe"/>
+                <element inactive_on_update="false" label="Low" sequence="200" value="low"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="moderate"/>
+            </choice>
+        </element>
+        <element label="Recommended Control" max_length="32" name="recommended_control" reference="sn_compliance_policy_statement" type="reference"/>
+        <element label="Risk Value" max_length="40" name="risk_value" type="integer"/>
         <element label="Timeline" max_length="40" name="timeline" type="glide_date"/>
         <index name="index">
             <element name="pam"/>

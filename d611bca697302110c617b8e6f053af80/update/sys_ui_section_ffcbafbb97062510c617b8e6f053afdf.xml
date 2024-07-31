@@ -4,6 +4,19 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>8cc0ce539777b950c617b8e6f053af52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
+            <text>1. The retention period of files and document containing Personal Information is clearly defined. Personal Information held by the entity beyond its retention period are securely disposed. 
+
+2. Personal Information no longer retained is anonymized, disposed of or destroyed in a manner that prevents loss, theft, misuse or unauthorized access.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
             <sys_id>c8c0ce539777b950c617b8e6f053af52</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
@@ -15,19 +28,6 @@ a. For the fulfillment of the declared, specified, and legitimate purpose, or wh
 b. For the establishment, exercise, or defense of legal claims; or 
 
 c. For legitimate business purposes, which must be consistent with standards followed by the applicable industry or approved by an appropriate government agency.</text>
-            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>jlim</sys_created_by>
-            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
-            <sys_id>8cc0ce539777b950c617b8e6f053af52</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jlim</sys_updated_by>
-            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
-            <text>1. The retention period of files and document containing Personal Information is clearly defined. Personal Information held by the entity beyond its retention period are securely disposed. 
-
-2. Personal Information no longer retained is anonymized, disposed of or destroyed in a manner that prevents loss, theft, misuse or unauthorized access.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">

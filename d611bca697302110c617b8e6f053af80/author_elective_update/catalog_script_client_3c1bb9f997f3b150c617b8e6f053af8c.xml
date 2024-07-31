@@ -96,7 +96,7 @@
         <update_guid_history>d67d8275c377b1506446a87c01bfb505:-2032373631,035dca358d77b1508e076ea889c3edc7:-2036652252,3ed7467d1d37b150dc58ee3ba106a01a:-233668415,9f7606f98537b150ab7c24e3103a93a5:727617151,dbdefd313c37b1502b7f22efe8be6f52:-962817159,2a8bb53de5f3b1500be002bf96c769ce:670411039</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Populate PIA Guide">7ae55e3197b7b150c617b8e6f053af54</sys_audit_delete>
+        <sys_audit_delete display_value="">7ae55e3197b7b150c617b8e6f053af54</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>blopez</sys_created_by>
         <sys_created_on>2024-01-18 15:36:22</sys_created_on>

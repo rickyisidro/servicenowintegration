@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e59597be97422110c617b8e6f053af55" label="Risks" max_length="40" name="x_935283_pia_risk_rtp" type="collection">
-        <element label="Actual Completion Date" max_length="40" name="actual_completion_date" type="glide_date"/>
-        <element label="Actual evidences of completion" max_length="2000" name="actual_evidences_of_completion" type="string"/>
-        <element label="Actual Start Date" max_length="40" name="actual_start_date" type="glide_date"/>
-        <element label="Date of post-treatment analysis" max_length="40" name="date_of_post_treatment_analysis" type="glide_date"/>
-        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
-        <element label="Existing Controls" max_length="32" name="existing_controls" reference="sn_compliance_policy_statement" type="reference"/>
-        <element label="Rationale of residual risk rating" max_length="2000" name="rationale_of_residual_risk_rating" type="string"/>
-        <element label="Residual Risk Rating" max_length="40" name="residual_risk_rating" type="string"/>
-        <element label="Resources needed/dependency" max_length="32" name="resources_needed_dependency" reference="sys_user" type="reference"/>
-        <element label="Responsible Stakeholder" max_length="32" name="responsible_stakeholder" reference="sys_user" type="reference"/>
-        <element label="Risk" mandatory="true" max_length="32" name="risk" reference="sn_risk_definition" type="reference"/>
-        <element display="true" label="Risk No." mandatory="true" max_length="40" name="risk_number" read_only="true" type="string"/>
-        <element choice="1" label="Risk Rating" max_length="40" name="risk_rating" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Low" sequence="100" value="low"/>
-                <element inactive_on_update="false" label="Medium" sequence="200" value="medium"/>
-                <element inactive_on_update="false" label="High" sequence="300" value="high"/>
-            </choice>
-        </element>
-        <element choice="1" label="Risk Response" max_length="40" name="risk_response" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Accept" sequence="100" value="accept"/>
-                <element inactive_on_update="false" label="Avoid" sequence="200" value="avoid"/>
-                <element inactive_on_update="false" label="Mitigate" sequence="300" value="mitigate"/>
-                <element inactive_on_update="false" label="Transfer" sequence="400" value="transfer"/>
-            </choice>
-        </element>
-        <element label="Risk Treatment" max_length="4000" name="risk_treatment" type="string"/>
-        <element label="Risk Treatment Acknowledgement Date" max_length="40" name="risk_treatment_acknowledgement_date" type="glide_date"/>
-        <element label="Risk Treatment Validation Date" max_length="40" name="risk_treatment_validation_date" type="glide_date"/>
-        <element label="RTP" max_length="32" name="rtp" reference="x_935283_pia_rtp" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="In Progress" sequence="100" value="in_progress"/>
-                <element inactive_on_update="false" label="Completed" sequence="200" value="completed"/>
                 <element inactive_on_update="false" label="Delayed" sequence="300" value="delayed"/>
-            </choice>
-        </element>
-        <element label="Success Metrics" max_length="2000" name="success_metrics" type="string"/>
-        <element label="Target Completion Date" max_length="40" name="target_completion_date" type="glide_date"/>
-        <element choice="1" label="Target Risk Reduction" max_length="40" name="target_risk_reduction" type="string">
-            <choice>
-                <element inactive_on_update="false" label="High to Medium" sequence="100" value="high_to_medium"/>
-                <element inactive_on_update="false" label="High to Low" sequence="200" value="high_to_low"/>
-                <element inactive_on_update="false" label="Medium to Low" sequence="300" value="medium_to_low"/>
-                <element inactive_on_update="false" label="Not Applicable" sequence="400" value="not_applicable"/>
+                <element inactive_on_update="false" label="Completed" sequence="200" value="completed"/>
             </choice>
         </element>
         <element label="Target Start Date" max_length="40" name="target_start_date" type="glide_date"/>
+        <element label="Resources needed/dependency" max_length="32" name="resources_needed_dependency" reference="sys_user" type="reference"/>
+        <element label="Actual Start Date" max_length="40" name="actual_start_date" type="glide_date"/>
+        <element choice="1" label="Risk Rating" max_length="40" name="risk_rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="200" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="300" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="100" value="low"/>
+            </choice>
+        </element>
+        <element label="Success Metrics" max_length="2000" name="success_metrics" type="string"/>
         <element label="Timeline" max_length="40" name="timeline" type="glide_date"/>
+        <element label="Existing Controls" max_length="32" name="existing_controls" reference="sn_compliance_policy_statement" type="reference"/>
+        <element label="Risk Treatment Acknowledgement Date" max_length="40" name="risk_treatment_acknowledgement_date" type="glide_date"/>
+        <element label="Actual Completion Date" max_length="40" name="actual_completion_date" type="glide_date"/>
+        <element label="Responsible Stakeholder" max_length="32" name="responsible_stakeholder" reference="sys_user" type="reference"/>
+        <element label="Date of post-treatment analysis" max_length="40" name="date_of_post_treatment_analysis" type="glide_date"/>
+        <element choice="1" label="Risk Response" max_length="40" name="risk_response" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mitigate" sequence="300" value="mitigate"/>
+                <element inactive_on_update="false" label="Accept" sequence="100" value="accept"/>
+                <element inactive_on_update="false" label="Transfer" sequence="400" value="transfer"/>
+                <element inactive_on_update="false" label="Avoid" sequence="200" value="avoid"/>
+            </choice>
+        </element>
+        <element label="Risk Treatment Validation Date" max_length="40" name="risk_treatment_validation_date" type="glide_date"/>
+        <element label="Target Completion Date" max_length="40" name="target_completion_date" type="glide_date"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Risk Treatment" max_length="4000" name="risk_treatment" type="string"/>
+        <element label="Rationale of residual risk rating" max_length="2000" name="rationale_of_residual_risk_rating" type="string"/>
+        <element label="Risk" mandatory="true" max_length="32" name="risk" reference="sn_risk_definition" type="reference"/>
+        <element choice="1" label="Target Risk Reduction" max_length="40" name="target_risk_reduction" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medium to Low" sequence="300" value="medium_to_low"/>
+                <element inactive_on_update="false" label="High to Medium" sequence="100" value="high_to_medium"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="400" value="not_applicable"/>
+                <element inactive_on_update="false" label="High to Low" sequence="200" value="high_to_low"/>
+            </choice>
+        </element>
+        <element label="RTP" max_length="32" name="rtp" reference="x_935283_pia_rtp" type="reference"/>
+        <element label="Actual evidences of completion" max_length="2000" name="actual_evidences_of_completion" type="string"/>
+        <element display="true" label="Risk No." mandatory="true" max_length="40" name="risk_number" read_only="true" type="string"/>
+        <element label="Residual Risk Rating" max_length="40" name="residual_risk_rating" type="string"/>
         <index name="index">
             <element name="department"/>
         </index>

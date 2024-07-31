@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>u_reference_dps4d</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:38:05</sys_updated_on>
         <table>x_935283_pia_dps_operation</table>
         <ui_policy display_value="Read-only fields on load">837018aa97bea110c617b8e6f053afad</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=93a01caa97bea110c617b8e6f053afe7"/>
 </record_update>

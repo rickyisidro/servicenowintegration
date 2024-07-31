@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9dbb80fc97062110c617b8e6f053af78" label="Data Lifecycle" max_length="40" name="x_935283_pia_dps_operation" type="collection">
-        <element label="Basis for Retention period" max_length="500" name="basis_for_retention_period" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Collecting personal data as a PIC or PIP?" max_length="40" name="collecting_personal_data_as_a_pic_or_pip" type="string">
+        <element choice="1" label="Will the personal data be transferred outside PH" max_length="40" name="will_the_personal_data_be_transferred_outside_ph" type="choice">
             <choice>
-                <element inactive_on_update="false" label="PIC" sequence="0" value="pic"/>
-                <element inactive_on_update="false" label="PIP" sequence="1" value="pip"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Collection" max_length="32" name="collection" reference="x_935283_pia_dps_operation" reference_qual="data_lifecycle_type=collection^piaSAMEASpia^EQ" reference_qual_condition="data_lifecycle_type=collection^piaSAMEASpia^EQ" type="glide_list"/>
-        <element attributes="encode_utf8=false" label="Collection medium" max_length="32" name="collection_mediums" reference="x_935283_pia_collection_medium" reference_qual="javascript:&quot;pia=&quot; + current.pia" type="reference" use_reference_qualifier="advanced"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Collection method" max_length="40" name="collection_method" type="string">
+        <element choice="1" label="File Type" max_length="40" name="file_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Physical form" sequence="0" value="physical form"/>
-                <element inactive_on_update="false" label="Digital / Electronic" sequence="1" value="digital / electronic"/>
+                <element inactive_on_update="false" label="Digital/ Electronic" value="digital_electronic"/>
+                <element inactive_on_update="false" label="Physical" value="physical"/>
             </choice>
         </element>
-        <element label="Compliance with a Legal Obligation" max_length="40" name="compliance_with_a_legal_obligation" type="boolean"/>
+        <element display="true" label="Name of data processing system" max_length="32" name="name_of_data_processing_system" reference="x_935283_pia_ropa" type="reference"/>
         <element label="Consent" max_length="40" name="consent" type="boolean"/>
-        <element label="Contract" max_length="40" name="contract" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Lifecycle Type" mandatory="true" max_length="40" name="data_lifecycle_type" reference_qual="null" reference_qual_condition="null" type="string">
-            <choice>
-                <element inactive_on_update="false" label="4A:Collection" value="collection"/>
-                <element inactive_on_update="false" label="4B: Use and Disclosure" value="use_disclosure"/>
-                <element inactive_on_update="false" label="4C:Retention" value="retention"/>
-                <element inactive_on_update="false" label="4D: Disposal" value="disposal"/>
-            </choice>
-        </element>
-        <element label="Data Processing System Category" mandatory="true" max_length="32" name="data_processing_system_category" reference="x_935283_pia_data_processing_category" type="reference"/>
+        <element label="Lawful basis of contract" max_length="2000" name="lawful_basis_contract" type="string"/>
         <element choice="1" label="Disposal Method" max_length="40" name="disposal_method" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Automated" value="automated"/>
                 <element inactive_on_update="false" label="Manual" value="manual"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="External or internal facing medium?" max_length="40" name="external_or_internal_facing_medium" type="string">
+        <element label="Legitimate Interests" max_length="40" name="legitimate_interests" type="boolean"/>
+        <element choice="1" label="Type of processing" max_length="40" name="type_of_processing" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Manual" value="manual"/>
+                <element inactive_on_update="false" label="Electronic" value="electronic"/>
             </choice>
         </element>
-        <element choice="1" label="File Type" max_length="40" name="file_type" type="choice">
+        <element label="Place of disposal" max_length="500" name="place_of_disposal" type="string"/>
+        <element label="Purpose of the Processing" max_length="500" name="purpose_of_the_processing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_retention" type="string"/>
+        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4d" reference="x_935283_pia_ropa" type="reference"/>
+        <element label="Step-By-Step Articulation of the Data Collection" max_length="65536" name="step_by_step_articulation_4a" type="html"/>
+        <element choice="1" label="Storage Type" max_length="50" name="storage_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Digital/ Electronic" value="digital_electronic"/>
-                <element inactive_on_update="false" label="Physical" value="physical"/>
+                <element inactive_on_update="false" label="Digital / Electronic" value="digital_electronic"/>
+                <element inactive_on_update="false" label="Physical Documents" value="physical"/>
+            </choice>
+        </element>
+        <element choice="1" label="With automated decision making" max_length="40" name="with_automated_decision_making" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Collection medium" max_length="32" name="collection_mediums" reference="x_935283_pia_collection_medium" reference_qual="javascript:&quot;pia=&quot; + current.pia" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Collecting personal data as a PIC or PIP?" max_length="40" name="collecting_personal_data_as_a_pic_or_pip" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PIP" sequence="1" value="pip"/>
+                <element inactive_on_update="false" label="PIC" sequence="0" value="pic"/>
             </choice>
         </element>
         <element choice="1" label="Is the Data processing sytem owned or outsourced" max_length="40" name="is_the_data_processing_sytem_owned_or_outsourced" type="choice">
@@ -51,103 +59,95 @@
                 <element inactive_on_update="false" label="Owned" value="owned"/>
             </choice>
         </element>
-        <element label="Lawful basis of compliance with Legal Obligation" max_length="2000" name="lawful_basis_compliance" type="string"/>
-        <element label="Lawful basis of consent" max_length="2000" name="lawful_basis_consent" type="string"/>
-        <element label="Lawful basis of contract" max_length="2000" name="lawful_basis_contract" type="string"/>
-        <element label="Lawful basis of legitimate interest" max_length="2000" name="lawful_basis_legitimate" type="string"/>
-        <element label="Lawful Basis of Public Interests" max_length="2000" name="lawful_basis_public" type="string"/>
-        <element label="Lawful Basis of Vital Interests" max_length="2000" name="lawful_basis_vital" type="string"/>
-        <element label="Legitimate Interests" max_length="40" name="legitimate_interests" type="boolean"/>
-        <element choice="1" label="Manual or Electronic" max_length="40" name="manual_or_electronic" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="yes"/>
-            </choice>
-        </element>
-        <element display="true" label="Name of data processing system" max_length="32" name="name_of_data_processing_system" reference="x_935283_pia_ropa" type="reference"/>
         <element label="Personal Data Processed" max_length="4000" name="personal_data_processed" type="glide_list"/>
-        <element label="PIA" mandatory="true" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
-        <element choice="3" default="pic" label="PIC-PIP Ecosystem" max_length="40" name="pic_pip_ecosystem" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="PIC" value="pic"/>
-                <element inactive_on_update="false" label="PIP" value="pip"/>
-            </choice>
-        </element>
-        <element label="Place of disposal" max_length="500" name="place_of_disposal" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="yes" label="Publicly-facing medium?" max_length="40" name="publicly_facing_medium" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-            </choice>
-        </element>
-        <element label="Public Interests" max_length="40" name="public_interests" type="boolean"/>
-        <element label="Purpose of Collection" max_length="200" name="purpose_of_collection" type="string"/>
-        <element label="Purpose of the Processing" max_length="500" name="purpose_of_the_processing" type="string"/>
-        <element attributes="encode_utf8=false" label="Retention" max_length="32" name="retention" reference="x_935283_pia_dps_operation" reference_qual="data_lifecycle_type=retention^piaSAMEASpia^EQ" reference_qual_condition="data_lifecycle_type=retention^piaSAMEASpia^EQ" type="reference"/>
-        <element label="Retention period" max_length="40" name="retention_period" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Stakeholder" max_length="1024" name="stakeholder" reference="x_935283_pia_external_stakeholder" reference_qual="type=internal^EQ" reference_qual_condition="type=internal^EQ" type="glide_list"/>
-        <element label="Step-By-Step Articulation of the Data Collection" max_length="65536" name="step_by_step_articulation_4a" type="html"/>
-        <element label="Step-By-Step Articulation of the Data Use and Disclosure" max_length="65536" name="step_by_step_articulation_4b" type="html"/>
-        <element label="Step-By-Step Articulation of the Data Disposal" max_length="65536" name="step_by_step_articulation_4d" type="html"/>
-        <element label="Storage location" max_length="500" name="storage_location" type="string"/>
-        <element choice="1" label="Storage Type" max_length="50" name="storage_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Digital / Electronic" value="digital_electronic"/>
-                <element inactive_on_update="false" label="Physical Documents" value="physical"/>
-            </choice>
-        </element>
+        <element label="Contract" max_length="40" name="contract" type="boolean"/>
+        <element label="Lawful basis of legitimate interest" max_length="2000" name="lawful_basis_legitimate" type="string"/>
         <element choice="1" label="Type of Digital/Electronic" max_length="40" name="type_of_digital_electronic" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cloud Storage" value="cloud_storage"/>
                 <element inactive_on_update="false" label="On-Premise" value="on_premise"/>
             </choice>
         </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Use and Disclosure" max_length="1024" name="use_and_disclosure" reference="x_935283_pia_dps_operation" reference_qual="data_lifecycle_type=use_disclosure^piaSAMEASpia^EQ" reference_qual_condition="data_lifecycle_type=use_disclosure^piaSAMEASpia^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="yes" label="Publicly-facing medium?" max_length="40" name="publicly_facing_medium" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Retention" max_length="32" name="retention" reference="x_935283_pia_dps_operation" reference_qual="data_lifecycle_type=retention^piaSAMEASpia^EQ" reference_qual_condition="data_lifecycle_type=retention^piaSAMEASpia^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_use_disclosure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are you sharing Personal Data with another PIC?" max_length="40" name="u_sharing_personal_data_pic" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element label="Step-By-Step Articulation of the Data Use and Disclosure" max_length="65536" name="step_by_step_articulation_4b" type="html"/>
+        <element choice="1" label="With profiling" max_length="40" name="with_profiling" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
+            </choice>
+        </element>
+        <element label="Vital Interests" max_length="40" name="vital_interests" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Collection method" max_length="40" name="collection_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Digital / Electronic" sequence="1" value="digital / electronic"/>
+                <element inactive_on_update="false" label="Physical form" sequence="0" value="physical form"/>
+            </choice>
+        </element>
+        <element label="Lawful basis of compliance with Legal Obligation" max_length="2000" name="lawful_basis_compliance" type="string"/>
+        <element label="PIA" mandatory="true" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Lifecycle Type" mandatory="true" max_length="40" name="data_lifecycle_type" reference_qual="null" reference_qual_condition="null" type="string">
+            <choice>
+                <element inactive_on_update="false" label="4A:Collection" value="collection"/>
+                <element inactive_on_update="false" label="4C:Retention" value="retention"/>
+                <element inactive_on_update="false" label="4B: Use and Disclosure" value="use_disclosure"/>
+                <element inactive_on_update="false" label="4D: Disposal" value="disposal"/>
+            </choice>
+        </element>
+        <element label="Lawful Basis of Public Interests" max_length="2000" name="lawful_basis_public" type="string"/>
+        <element label="Step-By-Step Articulation of the Data Disposal" max_length="65536" name="step_by_step_articulation_4d" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_collection" type="string"/>
+        <element label="Public Interests" max_length="40" name="public_interests" type="boolean"/>
+        <element label="Retention period" max_length="40" name="retention_period" type="string"/>
+        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4b" reference="x_935283_pia_ropa" type="reference"/>
+        <element label="What decisions relating to the data subject are made based on the processed data" max_length="2000" name="what_decisions_relating" type="string"/>
+        <element label="Basis for Retention period" max_length="500" name="basis_for_retention_period" type="string"/>
+        <element label="Compliance with a Legal Obligation" max_length="40" name="compliance_with_a_legal_obligation" type="boolean"/>
+        <element label="Data Processing System Category" mandatory="true" max_length="32" name="data_processing_system_category" reference="x_935283_pia_data_processing_category" type="reference"/>
+        <element label="Lawful Basis of Vital Interests" max_length="2000" name="lawful_basis_vital" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="External or internal facing medium?" max_length="40" name="external_or_internal_facing_medium" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Manual or Electronic" max_length="40" name="manual_or_electronic" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
+            </choice>
+        </element>
+        <element label="Lawful basis of consent" max_length="2000" name="lawful_basis_consent" type="string"/>
+        <element label="Purpose of Collection" max_length="200" name="purpose_of_collection" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Stakeholder" max_length="1024" name="stakeholder" reference="x_935283_pia_external_stakeholder" reference_qual="type=internal^EQ" reference_qual_condition="type=internal^EQ" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4c" reference="x_935283_pia_ropa" type="reference"/>
+        <element label="Storage location" max_length="500" name="storage_location" type="string"/>
         <element choice="1" label="Type of Digital/Electronic" max_length="40" name="type_of_digital_electronic_dis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cloud Storage" value="cloud_storage"/>
                 <element inactive_on_update="false" label="On-premise" value="on_premise"/>
             </choice>
         </element>
-        <element choice="1" label="Type of processing" max_length="40" name="type_of_processing" type="choice">
+        <element choice="3" default="pic" label="PIC-PIP Ecosystem" max_length="40" name="pic_pip_ecosystem" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Electronic" value="electronic"/>
-                <element inactive_on_update="false" label="Manual" value="manual"/>
+                <element inactive_on_update="false" label="PIP" value="pip"/>
+                <element inactive_on_update="false" label="PIC" value="pic"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Use and Disclosure" max_length="1024" name="use_and_disclosure" reference="x_935283_pia_dps_operation" reference_qual="data_lifecycle_type=use_disclosure^piaSAMEASpia^EQ" reference_qual_condition="data_lifecycle_type=use_disclosure^piaSAMEASpia^EQ" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_collection" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_disposal" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_retention" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="High-Level Description of the Data Processing System" max_length="400" name="u_hl_use_disclosure" type="string"/>
-        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4b" reference="x_935283_pia_ropa" type="reference"/>
-        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4c" reference="x_935283_pia_ropa" type="reference"/>
-        <element attributes="encode_utf8=false" label="Name of Data Processing System" max_length="32" name="u_reference_dps4d" reference="x_935283_pia_ropa" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Are you sharing Personal Data with another PIC?" max_length="40" name="u_sharing_personal_data_pic" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-            </choice>
-        </element>
-        <element label="Vital Interests" max_length="40" name="vital_interests" type="boolean"/>
-        <element label="What decisions relating to the data subject are made based on the processed data" max_length="2000" name="what_decisions_relating" type="string"/>
-        <element choice="1" label="Will the personal data be transferred outside PH" max_length="40" name="will_the_personal_data_be_transferred_outside_ph" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="yes"/>
-            </choice>
-        </element>
-        <element choice="1" label="With automated decision making" max_length="40" name="with_automated_decision_making" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="yes"/>
-            </choice>
-        </element>
-        <element choice="1" label="With profiling" max_length="40" name="with_profiling" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="yes"/>
-            </choice>
-        </element>
         <index name="index">
             <element name="collection"/>
         </index>

@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>consent</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:37:24</sys_updated_on>
         <table>x_935283_pia_dps_operation</table>
         <ui_policy display_value="Show automated decision-making fields">13cb404597b6a510c617b8e6f053af88</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=37cc848597b6a510c617b8e6f053af51"/>
 </record_update>

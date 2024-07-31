@@ -4,23 +4,12 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>risidro</sys_created_by>
             <sys_created_on>2023-04-27 16:06:31</sys_created_on>
-            <sys_id>cfe5e89097666510c617b8e6f053af8e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>risidro</sys_updated_by>
-            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
-            <text>PURPOSE TEST</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>risidro</sys_created_by>
-            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
             <sys_id>0be5e89097666510c617b8e6f053af8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>risidro</sys_updated_by>
             <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
             <text>NECESSITY TEST</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
@@ -31,7 +20,18 @@
             <sys_updated_by>risidro</sys_updated_by>
             <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
             <text>BALANCING TEST</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>risidro</sys_created_by>
+            <sys_created_on>2023-04-27 16:06:31</sys_created_on>
+            <sys_id>cfe5e89097666510c617b8e6f053af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>risidro</sys_updated_by>
+            <sys_updated_on>2023-04-27 16:06:31</sys_updated_on>
+            <text>PURPOSE TEST</text>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cfe5e89097666510c617b8e6f053af8e</element>

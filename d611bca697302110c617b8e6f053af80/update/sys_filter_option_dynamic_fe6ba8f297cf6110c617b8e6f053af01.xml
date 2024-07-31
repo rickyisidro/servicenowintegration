@@ -5,7 +5,6 @@
         <available_for_filter>false</available_for_filter>
         <available_for_ref_qual>false</available_for_ref_qual>
         <field_type/>
-        <filter_by_schedule/>
         <label>Current PIA</label>
         <order/>
         <roles/>

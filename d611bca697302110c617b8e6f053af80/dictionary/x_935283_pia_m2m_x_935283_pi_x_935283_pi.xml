@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fc7ca44a977ba110c617b8e6f053af6a" label="x_935283_pia_m2m_Data Subject Personal Data Processed_Personal Data Processed" max_length="40" name="x_935283_pia_m2m_x_935283_pi_x_935283_pi" type="collection">
-        <element attributes="encode_utf8=false" label="Data Subject Personal Data Processed" max_length="32" name="x_935283_pia_data_subject_personal_data" reference="x_935283_pia_data_subject_personal_data_processed" type="reference"/>
         <element attributes="encode_utf8=false" label="Personal Data Processed" max_length="32" name="x_935283_pia_personal_data_processed" reference="x_935283_pia_personal_data_processed" type="reference"/>
+        <element attributes="encode_utf8=false" label="Data Subject Personal Data Processed" max_length="32" name="x_935283_pia_data_subject_personal_data" reference="x_935283_pia_data_subject_personal_data_processed" type="reference"/>
     </element>
 </database>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="bbd8fb5e97f12110c617b8e6f053af0c" label="Data Collection" max_length="40" name="x_935283_pia_4a_collection" type="collection">
-        <element label="Collection Medium" max_length="40" name="collection_medium" type="string"/>
         <element label="Referenced PIA" max_length="32" name="referenced_pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Collection Medium" max_length="40" name="collection_medium" type="string"/>
         <index name="index">
             <element name="referenced_pia"/>
         </index>

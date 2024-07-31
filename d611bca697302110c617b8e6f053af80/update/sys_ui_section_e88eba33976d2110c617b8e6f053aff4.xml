@@ -4,12 +4,23 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 11:02:15</sys_created_on>
-            <sys_id>926af1f8973f3d10c617b8e6f053af64</sys_id>
+            <sys_id>1a6af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
-            <text>Legitimate Interest Assessment</text>
-            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+            <text>PURPOSE TEST</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
+            <sys_id>526af1f8973f3d10c617b8e6f053af65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
+            <text>Once Processing purposes is completed, proceed to Lawful Basis below.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
@@ -26,23 +37,12 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 11:02:15</sys_created_on>
-            <sys_id>1a6af1f8973f3d10c617b8e6f053af64</sys_id>
+            <sys_id>926af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
-            <text>PURPOSE TEST</text>
-            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>jlim</sys_created_by>
-            <sys_created_on>2024-01-15 11:02:15</sys_created_on>
-            <sys_id>da6af1f8973f3d10c617b8e6f053af64</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jlim</sys_updated_by>
-            <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
-            <text>NECESSITY TEST</text>
-            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+            <text>Legitimate Interest Assessment</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
@@ -59,12 +59,12 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 11:02:15</sys_created_on>
-            <sys_id>526af1f8973f3d10c617b8e6f053af65</sys_id>
+            <sys_id>da6af1f8973f3d10c617b8e6f053af64</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 11:02:15</sys_updated_on>
-            <text>Once Processing purposes is completed, proceed to Lawful Basis below.</text>
-            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+            <text>NECESSITY TEST</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>summary_of_the_processing_purposes</element>

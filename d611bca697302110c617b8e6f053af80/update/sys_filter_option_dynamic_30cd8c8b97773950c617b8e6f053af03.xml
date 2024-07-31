@@ -5,7 +5,6 @@
         <available_for_filter>false</available_for_filter>
         <available_for_ref_qual>true</available_for_ref_qual>
         <field_type display_value="List">e3f24e9cc0a80166007d6acccef476e9</field_type>
-        <filter_by_schedule/>
         <label>DataSubjectList</label>
         <order/>
         <roles/>

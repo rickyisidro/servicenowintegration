@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="95ecdfb3975ee110c617b8e6f053afcb" label="Personal Data Processed Element" max_length="40" name="x_935283_pia_personal_data_processed_element" type="collection">
-        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element choice="3" label="Category" max_length="40" name="category" type="string">
             <choice>
                 <element inactive_on_update="false" label="Personal Identifiers" sequence="100" value="personal_identifiers"/>
-                <element inactive_on_update="false" label="Contact Information" sequence="200" value="contact_information"/>
-                <element inactive_on_update="false" label="Special Categories of Personal Data" sequence="300" value="special_categories_of_personal_data"/>
-                <element inactive_on_update="false" label="Biometric Identifiers and Similar Physical-Based Data" sequence="400" value="biometric_identifiers"/>
-                <element inactive_on_update="false" label="Device-based or Account-related data" sequence="500" value="device-based"/>
-                <element inactive_on_update="false" label="Website / Mobile Apps or Platform-Related Data" sequence="600" value="website_mobile_apps"/>
                 <element inactive_on_update="false" label="Others" sequence="700" value="others"/>
+                <element inactive_on_update="false" label="Device-based or Account-related data" sequence="500" value="device-based"/>
+                <element inactive_on_update="false" label="Special Categories of Personal Data" sequence="300" value="special_categories_of_personal_data"/>
+                <element inactive_on_update="false" label="Website / Mobile Apps or Platform-Related Data" sequence="600" value="website_mobile_apps"/>
+                <element inactive_on_update="false" label="Biometric Identifiers and Similar Physical-Based Data" sequence="400" value="biometric_identifiers"/>
+                <element inactive_on_update="false" label="Contact Information" sequence="200" value="contact_information"/>
             </choice>
         </element>
         <element label="Element Name" max_length="255" name="element_name" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
     </element>
 </database>

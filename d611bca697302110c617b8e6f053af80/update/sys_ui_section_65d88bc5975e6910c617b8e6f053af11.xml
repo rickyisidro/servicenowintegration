@@ -9,7 +9,7 @@
             <sys_updated_by>fbautista</sys_updated_by>
             <sys_updated_on>2023-04-18 01:38:56</sys_updated_on>
             <text>Access to Internal Entity Systems</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>

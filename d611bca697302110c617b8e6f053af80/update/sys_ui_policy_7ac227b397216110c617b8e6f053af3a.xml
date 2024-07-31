@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_935283_pia_section_5_lawful_basis">lawful_basis=7bfc8bf397ad2110c617b8e6f053af5d^EQ<item display_table="x_935283_pia_lawful_basis" display_value="The processing is necessary to fulfill the Legitimate Interests of your organization" endquery="false" field="lawful_basis" goto="false" newquery="false" operator="=" or="false" value="7bfc8bf397ad2110c617b8e6f053af5d"/>
+        <conditions table="x_935283_pia_section_5_lawful_basis">lawful_basis=7bfc8bf397ad2110c617b8e6f053af5d^EQ<item endquery="false" field="lawful_basis" goto="false" newquery="false" operator="=" or="false" value="7bfc8bf397ad2110c617b8e6f053af5d"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cae30f8f97ebf110c617b8e6f053af59" label="Declaration and Warranties" max_length="40" name="x_935283_pia_declaration_and_warranties" type="collection">
-        <element label="Declaration and Warranties" max_length="8000" name="declaration_and_warranties" read_only="true" type="html"/>
-        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
-        <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Project Sponsor" max_length="32" name="project_sponsor" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
             <choice>
@@ -10,6 +7,9 @@
                 <element inactive_on_update="false" label="Sponsor" sequence="200" value="sponsor"/>
             </choice>
         </element>
+        <element label="Declaration and Warranties" max_length="8000" name="declaration_and_warranties" read_only="true" type="html"/>
+        <element label="PIA" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="Project Owner" max_length="32" name="project_owner" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="pia"/>
         </index>

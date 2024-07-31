@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,8 +23,11 @@
         <sys_updated_on>2023-09-27 15:37:25</sys_updated_on>
         <table/>
         <ui_policy display_value="Exercise of Rights Q1">f80c0d8097b3e110c617b8e6f053afe4</ui_policy>
+        <value/>
+        <value_action/>
         <variable>right_to_erasure_or_blocking</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e04d10c97b3e110c617b8e6f053af1e"/>
 </record_update>

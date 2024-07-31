@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-01-30 01:55:48">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-07-31 14:12:44">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -38,7 +38,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>1dfe7cd797c26110c617b8e6f053af76</sys_id>
@@ -49,7 +49,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>59fe7cd797c26110c617b8e6f053af76</sys_id>
@@ -60,7 +60,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>91fe7cd797c26110c617b8e6f053af77</sys_id>
@@ -71,7 +71,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>95fe7cd797c26110c617b8e6f053af76</sys_id>
@@ -82,7 +82,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>9dfe7cd797c26110c617b8e6f053af75</sys_id>
@@ -93,7 +93,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>d1fe7cd797c26110c617b8e6f053af76</sys_id>
@@ -104,7 +104,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>d5fe7cd797c26110c617b8e6f053af77</sys_id>
@@ -115,7 +115,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:16">1dfe7cd797c26110c617b8e6f053af75</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:16</sys_created_on>
                         <sys_id>ddfe7cd797c26110c617b8e6f053af76</sys_id>
@@ -140,7 +140,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>22e0fc9797826110c617b8e6f053af5f</sys_id>
@@ -151,7 +151,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>2ee0fc9797826110c617b8e6f053af5f</sys_id>
@@ -162,7 +162,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>6ae0fc9797826110c617b8e6f053af5f</sys_id>
@@ -173,7 +173,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>a6e0fc9797826110c617b8e6f053af5e</sys_id>
@@ -184,7 +184,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>a6e0fc9797826110c617b8e6f053af5f</sys_id>
@@ -195,7 +195,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>aae0fc9797826110c617b8e6f053af60</sys_id>
@@ -206,7 +206,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>e2e0fc9797826110c617b8e6f053af5f</sys_id>
@@ -217,7 +217,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 12:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
+                        <portal_section display_value="Created 2023-04-11 21:04:55">22e0fc9797826110c617b8e6f053af5e</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 04:04:55</sys_created_on>
                         <sys_id>eee0fc9797826110c617b8e6f053af5f</sys_id>
@@ -242,7 +242,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>34cca45397826110c617b8e6f053af2c</sys_id>
@@ -253,7 +253,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>70cca45397826110c617b8e6f053af2c</sys_id>
@@ -264,7 +264,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>7ccca45397826110c617b8e6f053af2c</sys_id>
@@ -275,7 +275,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>b4cca45397826110c617b8e6f053af2b</sys_id>
@@ -286,7 +286,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>b8cca45397826110c617b8e6f053af2c</sys_id>
@@ -297,7 +297,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 11:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:46:46">30cca45397826110c617b8e6f053af2b</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:46:46</sys_created_on>
                         <sys_id>f4cca45397826110c617b8e6f053af2c</sys_id>
@@ -322,7 +322,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>330868db97426110c617b8e6f053af71</sys_id>
@@ -333,7 +333,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>7f0868db97426110c617b8e6f053af70</sys_id>
@@ -344,7 +344,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>b30868db97426110c617b8e6f053af70</sys_id>
@@ -355,7 +355,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>b70868db97426110c617b8e6f053af71</sys_id>
@@ -366,7 +366,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>bb0868db97426110c617b8e6f053af70</sys_id>
@@ -377,7 +377,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>f30868db97426110c617b8e6f053af71</sys_id>
@@ -388,7 +388,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>f70868db97426110c617b8e6f053af70</sys_id>
@@ -399,7 +399,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-04-12 11:26:13">330868db97426110c617b8e6f053af70</portal_section>
+                        <portal_section display_value="Created 2023-04-11 20:26:13">330868db97426110c617b8e6f053af70</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 03:26:13</sys_created_on>
                         <sys_id>fb0868db97426110c617b8e6f053af71</sys_id>
@@ -424,7 +424,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>25eef01b97c26110c617b8e6f053af41</sys_id>
@@ -435,7 +435,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>61eef01b97c26110c617b8e6f053af41</sys_id>
@@ -446,7 +446,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>6deef01b97c26110c617b8e6f053af41</sys_id>
@@ -457,7 +457,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>a5ee341b97c26110c617b8e6f053afe9</sys_id>
@@ -468,7 +468,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>a9eef01b97c26110c617b8e6f053af41</sys_id>
@@ -479,7 +479,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>adeef01b97c26110c617b8e6f053af40</sys_id>
@@ -490,7 +490,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>e1eef01b97c26110c617b8e6f053af40</sys_id>
@@ -501,7 +501,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:00">6deef01b97c26110c617b8e6f053af3f</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:00</sys_created_on>
                         <sys_id>e5eef01b97c26110c617b8e6f053af41</sys_id>
@@ -526,7 +526,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:26:01</sys_created_on>
                         <sys_id>24063f1f9702a110c617b8e6f053af0e</sys_id>
@@ -537,7 +537,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:26:01</sys_created_on>
                         <sys_id>2c063f1f9702a110c617b8e6f053af0e</sys_id>
@@ -548,7 +548,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:26:01</sys_created_on>
                         <sys_id>60063f1f9702a110c617b8e6f053af0f</sys_id>
@@ -559,7 +559,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_border</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>63e6b79f9702a110c617b8e6f053af79</sys_id>
@@ -570,7 +570,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>real_time</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>63e6b79f9702a110c617b8e6f053af7a</sys_id>
@@ -581,7 +581,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_title</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>67e63f1f9702a110c617b8e6f053afd1</sys_id>
@@ -592,7 +592,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>publisher_widget</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>67e6b79f9702a110c617b8e6f053af79</sys_id>
@@ -603,7 +603,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:26:01</sys_created_on>
                         <sys_id>68063f1f9702a110c617b8e6f053af0e</sys_id>
@@ -614,7 +614,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_header</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>6be6b79f9702a110c617b8e6f053af78</sys_id>
@@ -625,7 +625,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>subscriber_widget</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>6be6b79f9702a110c617b8e6f053af79</sys_id>
@@ -636,7 +636,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_align</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>6fe6b79f9702a110c617b8e6f053af78</sys_id>
@@ -647,7 +647,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>filter_indicator</name>
-                        <portal_section display_value="Created 2023-04-13 02:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
+                        <portal_section display_value="Created 2023-04-12 11:26:01">a0063f1f9702a110c617b8e6f053af0e</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 18:30:03</sys_created_on>
                         <sys_id>6fe6b79f9702a110c617b8e6f053af79</sys_id>
@@ -672,7 +672,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>25ca615f97866110c617b8e6f053af09</sys_id>
@@ -683,7 +683,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>25ca615f97866110c617b8e6f053af0a</sys_id>
@@ -694,7 +694,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>61ca615f97866110c617b8e6f053af0a</sys_id>
@@ -705,7 +705,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>a9ca615f97866110c617b8e6f053af0a</sys_id>
@@ -716,7 +716,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>adca615f97866110c617b8e6f053af09</sys_id>
@@ -727,7 +727,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 16:17:42">adca615f97866110c617b8e6f053af08</portal_section>
+                        <portal_section display_value="Created 2023-04-12 01:17:42">adca615f97866110c617b8e6f053af08</portal_section>
                         <sys_created_by>risidro</sys_created_by>
                         <sys_created_on>2023-04-12 08:17:42</sys_created_on>
                         <sys_id>e5ca615f97866110c617b8e6f053af0a</sys_id>
@@ -752,7 +752,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>27ee341b97c26110c617b8e6f053afff</sys_id>
@@ -763,7 +763,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>63ee341b97c26110c617b8e6f053afff</sys_id>
@@ -774,7 +774,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>6bee341b97c26110c617b8e6f053affe</sys_id>
@@ -785,7 +785,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>6fee341b97c26110c617b8e6f053afff</sys_id>
@@ -796,7 +796,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>a3ee741b97c26110c617b8e6f053af00</sys_id>
@@ -807,7 +807,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>abee341b97c26110c617b8e6f053afff</sys_id>
@@ -818,7 +818,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>afee341b97c26110c617b8e6f053affe</sys_id>
@@ -829,7 +829,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-04-12 13:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
+                        <portal_section display_value="Created 2023-04-11 22:06:09">e7ee341b97c26110c617b8e6f053affe</portal_section>
                         <sys_created_by>ralmeyda</sys_created_by>
                         <sys_created_on>2023-04-12 05:06:09</sys_created_on>
                         <sys_id>e7ee341b97c26110c617b8e6f053afff</sys_id>

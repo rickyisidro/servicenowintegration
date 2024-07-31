@@ -4,13 +4,34 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-23 05:54:46</sys_created_on>
-            <sys_id>d8c0ce539777b950c617b8e6f053af67</sys_id>
+            <sys_id>14c0ce539777b950c617b8e6f053af68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
-            <text>Personal Information Controllers and Personal Information Processors shall implement reasonable and appropriate organizational, physical, and technical security measures for the protection of personal data. The Personal Information Controller and Personal Information Processor shall take steps to ensure that any natural person acting under their authority and who has access to personal data, does not process them except upon their instructions, or as required by law. 
+            <text>Technical Security:
 
-The security measures shall aim to maintain the availability, integrity, and confidentiality of personal data and are intended for the protection of personal data against any accidental or unlawful destruction, alteration, and disclosure, as well as against any other unlawful processing. These measures shall be implemented to protect personal data against natural dangers such as accidental loss or destruction, and human dangers such as unlawful access, fraudulent misuse, unlawful destruction, alteration and contamination.</text>
+1. The entity has implemented safeguards to protect its network against accidental, unlawful or unauthorized usage, any interference which will affect data integrity or hinder the functioning or availability of the system, and unauthorized access.  
+
+2. The entity has the ability to ensure and maintain the confidentiality, integrity, availability, and resilience of their processing systems and services. 
+
+3. The entity has enabled regular monitoring for security breaches and a process both for identifying and accessing reasonably foreseeable vulnerabilities in its systems, and for taking preventive, corrective, and mitigating action against security incidents that can lead to a personal data breach. 
+
+4. The entity has enabled (a) encryption of personal data during storage and while in transit, (b) authentication processes, and (c) other technical security measures that control and limit access.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
+            <sys_id>50c0ce539777b950c617b8e6f053af68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
+            <text>Physical Security: 
+1. The entity has established policies, procedures, and mechanisms that monitor and limit access to and activities in physical workplaces or facilities where personal data is processed. The duties and responsibilities of individuals involved in the processing of personal data are clearly defined to ensure that only such individuals actually performing such official duties are given access to physical workplaces or facilities. 
+
+
+2. The entity has established policies and procedures regarding the proper use of and access of media containing personal data, including the transfer, removal, disposal, and re-use of electronic media.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
@@ -33,34 +54,13 @@ The security measures shall aim to maintain the availability, integrity, and con
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-23 05:54:46</sys_created_on>
-            <sys_id>50c0ce539777b950c617b8e6f053af68</sys_id>
+            <sys_id>d8c0ce539777b950c617b8e6f053af67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
-            <text>Physical Security: 
-1. The entity has established policies, procedures, and mechanisms that monitor and limit access to and activities in physical workplaces or facilities where personal data is processed. The duties and responsibilities of individuals involved in the processing of personal data are clearly defined to ensure that only such individuals actually performing such official duties are given access to physical workplaces or facilities. 
+            <text>Personal Information Controllers and Personal Information Processors shall implement reasonable and appropriate organizational, physical, and technical security measures for the protection of personal data. The Personal Information Controller and Personal Information Processor shall take steps to ensure that any natural person acting under their authority and who has access to personal data, does not process them except upon their instructions, or as required by law. 
 
-
-2. The entity has established policies and procedures regarding the proper use of and access of media containing personal data, including the transfer, removal, disposal, and re-use of electronic media.</text>
-            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>jlim</sys_created_by>
-            <sys_created_on>2024-01-23 05:54:46</sys_created_on>
-            <sys_id>14c0ce539777b950c617b8e6f053af68</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jlim</sys_updated_by>
-            <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
-            <text>Technical Security:
-
-1. The entity has implemented safeguards to protect its network against accidental, unlawful or unauthorized usage, any interference which will affect data integrity or hinder the functioning or availability of the system, and unauthorized access.  
-
-2. The entity has the ability to ensure and maintain the confidentiality, integrity, availability, and resilience of their processing systems and services. 
-
-3. The entity has enabled regular monitoring for security breaches and a process both for identifying and accessing reasonably foreseeable vulnerabilities in its systems, and for taking preventive, corrective, and mitigating action against security incidents that can lead to a personal data breach. 
-
-4. The entity has enabled (a) encryption of personal data during storage and while in transit, (b) authentication processes, and (c) other technical security measures that control and limit access.</text>
+The security measures shall aim to maintain the availability, integrity, and confidentiality of personal data and are intended for the protection of personal data against any accidental or unlawful destruction, alteration, and disclosure, as well as against any other unlawful processing. These measures shall be implemented to protect personal data against natural dangers such as accidental loss or destruction, and human dangers such as unlawful access, fraudulent misuse, unlawful destruction, alteration and contamination.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">

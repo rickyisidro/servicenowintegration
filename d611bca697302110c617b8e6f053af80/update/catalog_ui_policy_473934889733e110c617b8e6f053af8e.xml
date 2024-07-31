@@ -45,6 +45,7 @@
         <sys_updated_on>2023-09-27 15:37:30</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
+        <va_supported>false</va_supported>
         <variable_set/>
         <view/>
     </catalog_ui_policy>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
+        <active>false</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -47,7 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>project.line_of_business</field>
         <field_list>project.project_control_number,project.lob_category,project.division_department,project.entity_name,project.project_name,project.project_owner,project.project_spoc</field_list>
-        <filter table="x_935283_pia_privacy_impact_assessment">project.line_of_business=81850c0c97b16110c617b8e6f053af3f<item display_table="x_935283_pia_line_of_business" display_value="Others" endquery="false" field="project.line_of_business" goto="false" newquery="false" operator="=" or="false" value="81850c0c97b16110c617b8e6f053af3f"/>
+        <filter table="x_935283_pia_privacy_impact_assessment">project.line_of_business=81850c0c97b16110c617b8e6f053af3f<item endquery="false" field="project.line_of_business" goto="false" newquery="false" operator="=" or="false" value="81850c0c97b16110c617b8e6f053af3f"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>
@@ -72,6 +73,7 @@
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
+        <no_bulk_migration>false</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>

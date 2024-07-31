@@ -4,23 +4,23 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>crrillera</sys_created_by>
             <sys_created_on>2024-01-16 05:25:12</sys_created_on>
-            <sys_id>ead6b9499773bd10c617b8e6f053af4d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>crrillera</sys_updated_by>
-            <sys_updated_on>2024-01-16 05:25:12</sys_updated_on>
-            <text>*Cross Examination may only proceed if your project is selected for audit.</text>
-            <type display_value="Yellow info box">8707bdf0973f3d10c617b8e6f053afcc</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>crrillera</sys_created_by>
-            <sys_created_on>2024-01-16 05:25:12</sys_created_on>
             <sys_id>66d6b9499773bd10c617b8e6f053af4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>crrillera</sys_updated_by>
             <sys_updated_on>2024-01-16 05:25:12</sys_updated_on>
             <text>&lt;span id="my_annotation"&gt;Basic Information&lt;/span&gt;</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>crrillera</sys_created_by>
+            <sys_created_on>2024-01-16 05:25:12</sys_created_on>
+            <sys_id>ead6b9499773bd10c617b8e6f053af4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>crrillera</sys_updated_by>
+            <sys_updated_on>2024-01-16 05:25:12</sys_updated_on>
+            <text>*Cross Examination may only proceed if your project is selected for audit.</text>
+            <type display_value="">8707bdf0973f3d10c617b8e6f053afcc</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>

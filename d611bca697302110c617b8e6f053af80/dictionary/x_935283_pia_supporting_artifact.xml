@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fcfa0bbc97592110c617b8e6f053af32" label="Supporting Artifact" max_length="40" name="x_935283_pia_supporting_artifact" type="collection">
-        <element label="Description" max_length="2000" name="description" type="string"/>
-        <element label="Document Title" mandatory="true" max_length="100" name="document_title" type="string"/>
         <element label="File Attachment" max_length="40" name="file_attachment" type="file_attachment"/>
         <element display="true" label="Pia" max_length="32" name="pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
-        <element label="Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
         <element label="Triage Reference" max_length="32" name="triage_reference" reference="x_935283_pia_triage" type="reference"/>
+        <element label="Description" max_length="2000" name="description" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
+        <element label="Document Title" mandatory="true" max_length="100" name="document_title" type="string"/>
         <index name="index">
             <element name="pia"/>
         </index>

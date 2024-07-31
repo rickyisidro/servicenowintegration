@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3ca64bfb976d2110c617b8e6f053afab" label="Lawful Basis" max_length="40" name="x_935283_pia_lawful_basis" type="collection">
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sensitive Personal Information" value="sensitive_information"/>
+                <element inactive_on_update="false" label="Personal Information" value="personal_information"/>
+            </choice>
+        </element>
         <element choice="1" default="1" label="Classification" max_length="40" name="classification" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Comply" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Consent" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Contract" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Legitimate Interests" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Public Interest" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Vital Interests" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="Existing laws and regulations" sequence="6" value="7"/>
                 <element inactive_on_update="false" label="Protect the life and health of the Data Subject" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="Achieve the lawful and non-commercial objectives of public organizations" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Vital Interests" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Legitimate Interests" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Consent" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="The establishment, exercise, or defense of legal claims in court proceedings" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Existing laws and regulations" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Public Interest" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Contract" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Comply" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Achieve the lawful and non-commercial objectives of public organizations" sequence="8" value="9"/>
             </choice>
         </element>
         <element display="true" label="Description" max_length="4000" name="description" type="string"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Personal Information" value="personal_information"/>
-                <element inactive_on_update="false" label="Sensitive Personal Information" value="sensitive_information"/>
-            </choice>
-        </element>
     </element>
 </database>

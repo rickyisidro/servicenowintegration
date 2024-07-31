@@ -9,7 +9,7 @@
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 01:37:16</sys_updated_on>
             <text>Provide details on the storage medium used for the Personal Data retention</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ce197fac97333d10c617b8e6f053af1d</element>

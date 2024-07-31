@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4948cb85975e6910c617b8e6f053af6f" label="Access to Internal Entity Systems" max_length="40" name="x_935283_pia_access_to_internal_entity_systems" type="collection">
-        <element label="Description of Processing to be performed" max_length="200" name="description_of_processing_to_be_performed" type="string"/>
         <element label="Existence of Sub-Contractors" max_length="40" name="existence_of_sub_contractors" type="string"/>
         <element label="Purpose of Access" max_length="40" name="purpose_of_access" type="string"/>
         <element label="Reference PIP" max_length="32" name="reference_pip" reference="x_935283_pia_pip_data_outsourcing_arrangements" type="reference"/>
         <element label="System Name" max_length="40" name="system_name" type="string"/>
+        <element label="Description of Processing to be performed" max_length="200" name="description_of_processing_to_be_performed" type="string"/>
         <index name="index">
             <element name="reference_pip"/>
         </index>

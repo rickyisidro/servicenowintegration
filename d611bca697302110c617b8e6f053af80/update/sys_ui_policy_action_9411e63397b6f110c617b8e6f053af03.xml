@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>pldt_group_entity_is_a_pip</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-12-06 04:30:29</sys_updated_on>
         <table>x_935283_pia_project</table>
         <ui_policy display_value="Show/Hide fields for Contract Review">38c0aeff9776f110c617b8e6f053afef</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=9411e63397b6f110c617b8e6f053af03"/>
 </record_update>

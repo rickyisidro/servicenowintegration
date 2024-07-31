@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a5c507bb976d2110c617b8e6f053afdc" label="Lawful Basis" max_length="40" name="x_935283_pia_section_5_lawful_basis" type="collection">
-        <element label="Is your organization capable of explaining the processing " max_length="500" name="is_your_organization_capable_of_explaining_the_processing" type="string"/>
-        <element label="Is your organization's intended purpose and method" max_length="500" name="is_your_organization_s_intended_purpose_and_method" type="string"/>
         <element label="Lawful Basis" max_length="32" name="lawful_basis" reference="x_935283_pia_lawful_basis" type="reference"/>
+        <element label="Can your organization achieve the same purpose without the processing?" max_length="500" name="u_5b_can_your_organization_achieve" type="string"/>
+        <element label="What would the impact" max_length="500" name="what_would_the_impact" type="string"/>
         <element label="Please explain your selected lawful basis" max_length="8000" name="please_explain_your_selected_lawful_basis" type="html"/>
+        <element label="Can your organization achieve the same purpose less data" max_length="500" name="u_5b_can_your_organization_achieve_the_same_purpose" type="string"/>
+        <element label="Is your organization capable of explaining the processing" max_length="500" name="is_your_organization_capable_of_explaining_the_processing" type="string"/>
         <element label="Referenced PIA" max_length="32" name="referenced_pia" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
+        <element label="What legitimate Interest are you pursuing through this Project?" max_length="500" name="what_legitimate_interest_are_you_pursuing_through_this_project" type="string"/>
+        <element label="Is your organization's intended purpose and method" max_length="500" name="is_your_organization_s_intended_purpose_and_method" type="string"/>
         <element choice="3" default="1" display="true" label="Type of Processing" max_length="40" name="type_of_processing" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Processing of Personal Information" value="1"/>
                 <element inactive_on_update="false" label="Processing of Sensitive Personal Information" value="2"/>
             </choice>
         </element>
-        <element label="Can your organization achieve the same purpose without the processing?" max_length="500" name="u_5b_can_your_organization_achieve" type="string"/>
-        <element label="Can your organization achieve the same purpose less data" max_length="500" name="u_5b_can_your_organization_achieve_the_same_purpose" type="string"/>
-        <element label="What legitimate Interest are you pursuing through this Project?" max_length="500" name="what_legitimate_interest_are_you_pursuing_through_this_project" type="string"/>
-        <element label="What would the impact " max_length="500" name="what_would_the_impact" type="string"/>
         <index name="index">
             <element name="lawful_basis"/>
         </index>

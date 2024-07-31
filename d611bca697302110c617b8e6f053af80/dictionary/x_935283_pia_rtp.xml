@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="44743a8497fd6110c617b8e6f053afe8" label="Risk Treatment Plan" max_length="40" name="x_935283_pia_rtp" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="PAM" max_length="32" name="pam" reference="x_935283_pia_pam" type="reference"/>
         <element label="Project" max_length="32" name="project" reference="x_935283_pia_project" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="pam"/>
         </index>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2023-06-05 03:22:41</change_date>
-        <changed_by display_value="Ricardo Isidro">da30b5f197282110c617b8e6f053af80</changed_by>
+        <changed_by display_value="">da30b5f197282110c617b8e6f053af80</changed_by>
         <content display_value="Create major incident candidate">a9fa6b7af918d300964fd82f4d2b2dbf</content>
         <related_change_log_entry/>
         <related_task_entry/>

@@ -4,22 +4,22 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 11:02:14</sys_created_on>
-            <sys_id>4a6af1f8973f3d10c617b8e6f053af41</sys_id>
+            <sys_id>0e6af1f8973f3d10c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
-            <text>COLLECTION</text>
+            <text>Once Data lifecycle narrative is completed, proceed to Data Lifecycle below.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 11:02:14</sys_created_on>
-            <sys_id>0e6af1f8973f3d10c617b8e6f053af41</sys_id>
+            <sys_id>4a6af1f8973f3d10c617b8e6f053af41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 11:02:14</sys_updated_on>
-            <text>Once Data lifecycle narrative is completed, proceed to Data Lifecycle below.</text>
+            <text>COLLECTION</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">

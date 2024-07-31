@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_string_tag3_name</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:37:22</sys_updated_on>
         <table>x_935283_pia_project</table>
         <ui_policy display_value="Display Tag name 3">6ecfdc48977e6110c617b8e6f053afe7</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ecf1488977e6110c617b8e6f053af49"/>
 </record_update>

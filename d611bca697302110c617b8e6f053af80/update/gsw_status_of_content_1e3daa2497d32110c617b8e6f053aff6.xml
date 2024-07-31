@@ -2,12 +2,12 @@
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
         <checksum>F4JeDsCEPMKE/H57K7daFv02umM=</checksum>
-        <content display_value="Welcome to Communities Guided Setup">7ca2be1e57230300d873ac71ef94f985</content>
+        <content display_value="">7ca2be1e57230300d873ac71ef94f985</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2023-06-05 11:23:42">dd5dea2497d32110c617b8e6f053af41</related_log_entry>
+        <related_log_entry display_value="2023-06-04 20:23:42">dd5dea2497d32110c617b8e6f053af41</related_log_entry>
         <status>1</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>risidro</sys_created_by>

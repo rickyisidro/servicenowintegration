@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="496b4b7297422110c617b8e6f053afef" label="Stakeholders" max_length="40" name="x_935283_pia_stakeholders" type="collection">
-        <element label="Referenced collection medium" max_length="32" name="referenced_collection_medium" reference="x_935283_pia_collection_medium" type="reference"/>
-        <element display="true" label="Referenced DPS Operation" max_length="32" name="referenced_dps_operation" reference="x_935283_pia_dps_operation" type="reference"/>
-        <element label="Role/s in the Data Use/Disclosure" max_length="500" name="roles_in_the_data_use_disclosure" type="string"/>
-        <element label="Triage Reference" max_length="32" name="triage_reference" reference="x_935283_pia_triage" type="reference"/>
         <element choice="1" label="Type of Stakeholder" max_length="40" name="type_of_stakeholder" type="choice">
             <choice>
-                <element inactive_on_update="false" label="External Stakeholder" value="external_stakeholder"/>
                 <element inactive_on_update="false" label="Internal Stakeholder" value="internal_stakeholder"/>
+                <element inactive_on_update="false" label="External Stakeholder" value="external_stakeholder"/>
             </choice>
         </element>
+        <element display="true" label="Referenced DPS Operation" max_length="32" name="referenced_dps_operation" reference="x_935283_pia_dps_operation" type="reference"/>
         <element choice="1" label="With automated decision making?" max_length="40" name="with_automated_decision_making" type="choice">
             <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
                 <element inactive_on_update="false" label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
             </choice>
         </element>
+        <element label="Role/s in the Data Use/Disclosure" max_length="500" name="roles_in_the_data_use_disclosure" type="string"/>
+        <element label="Triage Reference" max_length="32" name="triage_reference" reference="x_935283_pia_triage" type="reference"/>
+        <element label="Referenced collection medium" max_length="32" name="referenced_collection_medium" reference="x_935283_pia_collection_medium" type="reference"/>
         <index name="index">
             <element name="referenced_collection_medium"/>
         </index>

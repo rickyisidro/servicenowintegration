@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2023-06-05 03:23:14</change_date>
-        <changed_by display_value="Ricardo Isidro">da30b5f197282110c617b8e6f053af80</changed_by>
-        <content display_value="Create a Badge">48a5e31e57630300d873ac71ef94f988</content>
+        <changed_by display_value="">da30b5f197282110c617b8e6f053af80</changed_by>
+        <content display_value="">48a5e31e57630300d873ac71ef94f988</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

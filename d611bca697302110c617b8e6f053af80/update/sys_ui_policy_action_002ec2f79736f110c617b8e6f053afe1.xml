@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>date_of_2nd_pam_issuance</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ralmeyda</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-12-06 03:07:35</sys_updated_on>
         <table>x_935283_pia_project</table>
         <ui_policy display_value="Show/Hide SC1A fields">c5adc6b79736f110c617b8e6f053afb3</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=002ec2f79736f110c617b8e6f053afe1"/>
 </record_update>

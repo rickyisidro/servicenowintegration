@@ -9,7 +9,7 @@
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-23 05:54:46</sys_updated_on>
             <text>PAM will only go through PAM review, PAM Issued and PAM Re-assessment if Primary tag is SC1.</text>
-            <type display_value="Yellow info box">8707bdf0973f3d10c617b8e6f053afcc</type>
+            <type display_value="">8707bdf0973f3d10c617b8e6f053afcc</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>

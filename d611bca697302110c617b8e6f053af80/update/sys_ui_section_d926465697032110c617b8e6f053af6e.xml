@@ -4,22 +4,22 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-14 22:31:45</sys_created_on>
-            <sys_id>ecae4760977ff910c617b8e6f053af3d</sys_id>
+            <sys_id>60ae4760977ff910c617b8e6f053afa2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
-            <text>Once this Section is completed, proceed to Processing Purposes.</text>
+            <text>After completing the form, Save the form to view Stakeholder tab</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-14 22:31:45</sys_created_on>
-            <sys_id>60ae4760977ff910c617b8e6f053afa2</sys_id>
+            <sys_id>ecae4760977ff910c617b8e6f053af3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-14 22:31:45</sys_updated_on>
-            <text>After completing the form, Save the form to view Stakeholder tab</text>
+            <text>Once this Section is completed, proceed to Processing Purposes.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">

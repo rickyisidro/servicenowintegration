@@ -4,17 +4,6 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>ralmeyda</sys_created_by>
             <sys_created_on>2023-04-18 06:55:12</sys_created_on>
-            <sys_id>6361d41d9792a910c617b8e6f053afdc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ralmeyda</sys_updated_by>
-            <sys_updated_on>2023-04-18 06:55:12</sys_updated_on>
-            <text>This Section is a self-assessment for you to determine or confirm the existence of privacy implications in your Project.</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>ralmeyda</sys_created_by>
-            <sys_created_on>2023-04-18 06:55:12</sys_created_on>
             <sys_id>2761d41d9792a910c617b8e6f053afdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ralmeyda</sys_updated_by>
@@ -22,6 +11,17 @@
             <text>Pseudonymized data is a result of a pseudonymization process. Pseudonymization consists of replacing one attribute (typically a unique attribute) in a record by another. Personal data which have undergone pseudonymization remains to be personal data. [From: National Privacy Commission Advisory Opinion No. 2018-16]
   Anonymized data refers to an information that does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable. [From: National Privacy Commission Advisory Opinion No. 2018-068]</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>ralmeyda</sys_created_by>
+            <sys_created_on>2023-04-18 06:55:12</sys_created_on>
+            <sys_id>6361d41d9792a910c617b8e6f053afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ralmeyda</sys_updated_by>
+            <sys_updated_on>2023-04-18 06:55:12</sys_updated_on>
+            <text>This Section is a self-assessment for you to determine or confirm the existence of privacy implications in your Project.</text>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>6361d41d9792a910c617b8e6f053afdc</element>

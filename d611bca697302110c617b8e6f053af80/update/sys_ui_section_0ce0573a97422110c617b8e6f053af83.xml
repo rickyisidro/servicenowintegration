@@ -4,23 +4,13 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 00:47:15</sys_created_on>
-            <sys_id>55ade72c97fff910c617b8e6f053af9c</sys_id>
+            <sys_id>15ade72c97fff910c617b8e6f053af9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
-            <text>PIC-PIP Ecosystem</text>
+            <text>What is the lawful basis for the processing of personal data through automated decision-making?
+** Select the most appropriate Lawful Basis.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>jlim</sys_created_by>
-            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
-            <sys_id>9dade72c97fff910c617b8e6f053af9c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jlim</sys_updated_by>
-            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
-            <text>4.2 Automated Decision-Making</text>
-            <type display_value="Header">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
@@ -37,13 +27,23 @@
             <is_plain_text>false</is_plain_text>
             <sys_created_by>jlim</sys_created_by>
             <sys_created_on>2024-01-15 00:47:15</sys_created_on>
-            <sys_id>15ade72c97fff910c617b8e6f053af9d</sys_id>
+            <sys_id>55ade72c97fff910c617b8e6f053af9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>jlim</sys_updated_by>
             <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
-            <text>What is the lawful basis for the processing of personal data through automated decision-making?
-** Select the most appropriate Lawful Basis.</text>
+            <text>PIC-PIP Ecosystem</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jlim</sys_created_by>
+            <sys_created_on>2024-01-15 00:47:15</sys_created_on>
+            <sys_id>9dade72c97fff910c617b8e6f053af9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jlim</sys_updated_by>
+            <sys_updated_on>2024-01-15 00:47:15</sys_updated_on>
+            <text>4.2 Automated Decision-Making</text>
+            <type display_value="">accb50bb675333001409624ad585ef72</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collection</element>

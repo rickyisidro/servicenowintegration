@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2af50bc1975e6910c617b8e6f053af5a" label="PIP / DATA OUTSOURCING ARRANGEMENTS" max_length="40" name="x_935283_pia_pip_data_outsourcing_arrangements" type="collection">
+        <element label="Purpose of the Data Processing" max_length="200" name="purpose_of_the_data_processing" type="string"/>
         <element label="Duration of the Data Processing" max_length="200" name="duration_of_the_data_processing" type="string"/>
+        <element label="Reference Triage" max_length="32" name="reference_triage" reference="x_935283_pia_triage" type="reference"/>
         <element label="Method/s of the Personal Data Processing" max_length="200" name="method_s_of_the_personal_data_processing" type="string"/>
         <element label="Please provide the Legal Business Name of your business partner" max_length="50" name="please_provide_the_legal_business_name_of_your_business_partner" type="string"/>
-        <element label="Purpose of the Data Processing" max_length="200" name="purpose_of_the_data_processing" type="string"/>
-        <element label="Reference Triage" max_length="32" name="reference_triage" reference="x_935283_pia_triage" type="reference"/>
         <index name="index">
             <element name="reference_triage"/>
         </index>

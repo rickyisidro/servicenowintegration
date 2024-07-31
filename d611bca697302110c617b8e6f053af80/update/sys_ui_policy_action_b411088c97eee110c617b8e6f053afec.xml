@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>false</disabled>
         <field>element_name</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>risidro</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:38:18</sys_updated_on>
         <table>x_935283_pia_personal_data_processed</table>
         <ui_policy display_value="Set Element Name to ReadOnly">f9b0408c97eee110c617b8e6f053aff5</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b411088c97eee110c617b8e6f053afec"/>
 </record_update>

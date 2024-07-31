@@ -5,11 +5,13 @@
         <can_write>false</can_write>
         <dashboard display_value="Privacy Impact Assessment">8424f8aadc302110bcd74b9bfc839e93</dashboard>
         <group/>
+        <owner>false</owner>
         <role display_value="x_935283_pia.pia_user" name="x_935283_pia.pia_user">ac413ca697302110c617b8e6f053af35</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-06 17:05:05</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c5243caa97302110c617b8e6f053af90</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>8424f8aadc302110bcd74b9bfc839e93</sys_name>

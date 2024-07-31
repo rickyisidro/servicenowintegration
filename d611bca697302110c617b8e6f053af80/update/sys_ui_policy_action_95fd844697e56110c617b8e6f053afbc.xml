@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_state_reason_gov</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>fbautista</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2023-09-27 15:38:06</sys_updated_on>
         <table>x_935283_pia_privacy_impact_assessment</table>
         <ui_policy display_value="government issued ID">1cbd804697e56110c617b8e6f053af45</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=95fd844697e56110c617b8e6f053afbc"/>
 </record_update>

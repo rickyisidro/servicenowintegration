@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="likelihood" table="x_935283_pia_risk" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>likelihood</element>
+            <name>x_935283_pia_risk</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_id>c2ce46a8c33302101d0dd60d0501311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>likelihood</sys_name>
+            <sys_package display_value="Privacy Impact Assessment" source="x_935283_pia">d611bca697302110c617b8e6f053af80</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Impact Assessment">d611bca697302110c617b8e6f053af80</sys_scope>
+            <sys_update_name>sys_choice_x_935283_pia_risk_likelihood</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remote</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cace46a8c33302101d0dd60d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+            <value>remote</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unlikely</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ece46a8c33302101d0dd60d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+            <value>unlikely</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Possible</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ece46a8c33302101d0dd60d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+            <value>possible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Probable</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ece46a8c33302101d0dd60d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+            <value>probable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High Likely</label>
+            <language>en</language>
+            <name>x_935283_pia_risk</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cece46a8c33302101d0dd60d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:03:55</sys_updated_on>
+            <value>high_likely</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

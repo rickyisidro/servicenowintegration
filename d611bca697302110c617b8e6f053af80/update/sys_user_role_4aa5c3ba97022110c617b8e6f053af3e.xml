@@ -7,7 +7,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_935283_pia.step_by_step_articulation_user</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>step_by_step_articulation_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

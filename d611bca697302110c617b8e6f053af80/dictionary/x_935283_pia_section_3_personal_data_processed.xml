@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7226fd7f97212110c617b8e6f053afff" label="Personal Data Processed" max_length="40" name="x_935283_pia_section_3_personal_data_processed" type="collection">
-        <element choice="1" label="Category" max_length="4000" name="category" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Biometric Identifiers and Similar Physical-Based Data" value="4"/>
-                <element inactive_on_update="false" label="Contact Information" value="2"/>
-                <element inactive_on_update="false" label="Device-based or Account-related data" value="5"/>
-                <element inactive_on_update="false" label="Others" value="7"/>
-                <element inactive_on_update="false" label="Personal Identifiers" value="1"/>
-                <element inactive_on_update="false" label="Special Categories of Personal Data" value="3"/>
-                <element inactive_on_update="false" label="Website / Mobile Apps or Platform-Related Data" value="6"/>
-            </choice>
-        </element>
         <element label="Other Data Element" max_length="40" name="other_data_element" type="string"/>
-        <element label="PIA Reference" max_length="32" name="pia_reference" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
-        <element label="Please state reason/s for processing." max_length="8000" name="please_state_reason_s_for_processing" type="html"/>
-        <element label="Reference CO-PIC" max_length="32" name="reference_co_pic" reference="x_935283_pia_co_pic_data_sharing_arrangements" type="reference"/>
         <element label="Reference PIP" max_length="32" name="reference_pip" reference="x_935283_pia_pip_data_outsourcing_arrangements" type="reference"/>
+        <element label="PIA Reference" max_length="32" name="pia_reference" reference="x_935283_pia_privacy_impact_assessment" type="reference"/>
         <element label="Reference Triage" max_length="32" name="reference_triage" reference="x_935283_pia_triage" type="reference"/>
+        <element label="Please state reason/s for processing." max_length="8000" name="please_state_reason_s_for_processing" type="html"/>
         <element choice="1" label="Personal Identifiers" max_length="40" name="type_of_personal_identifiers" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Age" value="age"/>
-                <element inactive_on_update="false" label="Audio / Video Data" value="audio_video"/>
-                <element inactive_on_update="false" label="Birthdate" value="birthdate"/>
                 <element inactive_on_update="false" label="Business Address" value="business_address"/>
-                <element inactive_on_update="false" label="Camera controls" value="camera"/>
-                <element inactive_on_update="false" label="Cell tower records" value="cell_tower"/>
-                <element inactive_on_update="false" label="Citizenship" value="citizen"/>
-                <element inactive_on_update="false" label="Contact Lists and Directories" value="contact_list"/>
-                <element inactive_on_update="false" label="Criminal History" value="criminal"/>
-                <element inactive_on_update="false" label="Device settings or preferences" value="device_settings"/>
-                <element inactive_on_update="false" label="DNA Markers of any Form" value="dna"/>
-                <element inactive_on_update="false" label="Education Information / Background" value="education"/>
-                <element inactive_on_update="false" label="Email Address" value="email_address"/>
-                <element inactive_on_update="false" label="Employment Information / Background" value="employment"/>
-                <element inactive_on_update="false" label="Financial Data" value="financial_data"/>
-                <element inactive_on_update="false" label="Fingerprints, Handprints" value="fingerprints"/>
-                <element inactive_on_update="false" label="Gender" value="gender"/>
-                <element inactive_on_update="false" label="Government-Issued ID" value="gov_id"/>
-                <element inactive_on_update="false" label="Health, insurance, treatment, or medical information" value="health"/>
-                <element inactive_on_update="false" label="Location / GPS Data" value="location"/>
-                <element inactive_on_update="false" label="Log data" value="log_data"/>
-                <element inactive_on_update="false" label="Marital Status / Number of Children / Other Family-related Information" value="marital_status"/>
-                <element inactive_on_update="false" label="Microphone Controls" value="microphone"/>
-                <element inactive_on_update="false" label="Mobile Number" value="mobile_number"/>
-                <element inactive_on_update="false" label="Mother’s Maiden Name" value="mothers_maiden_name"/>
-                <element inactive_on_update="false" label="Name" value="name"/>
-                <element inactive_on_update="false" label="Other physical descriptors" value="other_physical"/>
                 <element inactive_on_update="false" label="Other Unique ID" value="other_id"/>
-                <element inactive_on_update="false" label="Passwords" value="password"/>
-                <element inactive_on_update="false" label="Photo Gallery" value="photo_gallery"/>
-                <element inactive_on_update="false" label="Photo, Facial Recognition, Retinal Scans" value="photo"/>
-                <element inactive_on_update="false" label="Physical movements (e.g., finger swipes, keystrokes)" value="physical"/>
-                <element inactive_on_update="false" label="Race / Ethnicity" value="race"/>
-                <element inactive_on_update="false" label="Religion" value="religion"/>
                 <element inactive_on_update="false" label="Residential Address" value="residential_address"/>
-                <element inactive_on_update="false" label="SD Card or other Stored Data" value="sd_card"/>
+                <element inactive_on_update="false" label="Mother’s Maiden Name" value="mothers_maiden_name"/>
+                <element inactive_on_update="false" label="Race / Ethnicity" value="race"/>
+                <element inactive_on_update="false" label="Contact Lists and Directories" value="contact_list"/>
+                <element inactive_on_update="false" label="Photo Gallery" value="photo_gallery"/>
+                <element inactive_on_update="false" label="Cell tower records" value="cell_tower"/>
+                <element inactive_on_update="false" label="Passwords" value="password"/>
                 <element inactive_on_update="false" label="Service Account Numbers" value="service"/>
+                <element inactive_on_update="false" label="Audio / Video Data" value="audio_video"/>
+                <element inactive_on_update="false" label="Financial Data" value="financial_data"/>
+                <element inactive_on_update="false" label="Microphone Controls" value="microphone"/>
                 <element inactive_on_update="false" label="Signature / e-Signature" value="signature"/>
-                <element inactive_on_update="false" label="Telephone Number" value="tel_no"/>
-                <element inactive_on_update="false" label="Tracking data" value="tracking_data"/>
-                <element inactive_on_update="false" label="Unique Device Identifiers" value="unique_device"/>
+                <element inactive_on_update="false" label="Email Address" value="email_address"/>
+                <element inactive_on_update="false" label="Log data" value="log_data"/>
+                <element inactive_on_update="false" label="DNA Markers of any Form" value="dna"/>
+                <element inactive_on_update="false" label="Health, insurance, treatment, or medical information" value="health"/>
                 <element inactive_on_update="false" label="Usernames" value="username"/>
+                <element inactive_on_update="false" label="Criminal History" value="criminal"/>
+                <element inactive_on_update="false" label="Gender" value="gender"/>
+                <element inactive_on_update="false" label="Tracking data" value="tracking_data"/>
+                <element inactive_on_update="false" label="Name" value="name"/>
+                <element inactive_on_update="false" label="Religion" value="religion"/>
+                <element inactive_on_update="false" label="Mobile Number" value="mobile_number"/>
+                <element inactive_on_update="false" label="Physical movements (e.g., finger swipes, keystrokes)" value="physical"/>
+                <element inactive_on_update="false" label="Citizenship" value="citizen"/>
+                <element inactive_on_update="false" label="Photo, Facial Recognition, Retinal Scans" value="photo"/>
+                <element inactive_on_update="false" label="Camera controls" value="camera"/>
+                <element inactive_on_update="false" label="Other physical descriptors" value="other_physical"/>
+                <element inactive_on_update="false" label="SD Card or other Stored Data" value="sd_card"/>
+                <element inactive_on_update="false" label="Birthdate" value="birthdate"/>
+                <element inactive_on_update="false" label="Age" value="age"/>
+                <element inactive_on_update="false" label="Employment Information / Background" value="employment"/>
+                <element inactive_on_update="false" label="Marital Status / Number of Children / Other Family-related Information" value="marital_status"/>
+                <element inactive_on_update="false" label="Education Information / Background" value="education"/>
+                <element inactive_on_update="false" label="Location / GPS Data" value="location"/>
                 <element inactive_on_update="false" label="Voice Recordings" value="voice"/>
+                <element inactive_on_update="false" label="Device settings or preferences" value="device_settings"/>
+                <element inactive_on_update="false" label="Government-Issued ID" value="gov_id"/>
+                <element inactive_on_update="false" label="Unique Device Identifiers" value="unique_device"/>
+                <element inactive_on_update="false" label="Fingerprints, Handprints" value="fingerprints"/>
+                <element inactive_on_update="false" label="Telephone Number" value="tel_no"/>
+            </choice>
+        </element>
+        <element label="Reference CO-PIC" max_length="32" name="reference_co_pic" reference="x_935283_pia_co_pic_data_sharing_arrangements" type="reference"/>
+        <element choice="1" label="Category" max_length="4000" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Personal Identifiers" value="1"/>
+                <element inactive_on_update="false" label="Website / Mobile Apps or Platform-Related Data" value="6"/>
+                <element inactive_on_update="false" label="Device-based or Account-related data" value="5"/>
+                <element inactive_on_update="false" label="Special Categories of Personal Data" value="3"/>
+                <element inactive_on_update="false" label="Others" value="7"/>
+                <element inactive_on_update="false" label="Biometric Identifiers and Similar Physical-Based Data" value="4"/>
+                <element inactive_on_update="false" label="Contact Information" value="2"/>
             </choice>
         </element>
         <index name="index">

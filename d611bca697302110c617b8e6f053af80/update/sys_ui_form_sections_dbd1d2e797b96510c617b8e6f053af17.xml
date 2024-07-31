@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="dbd1d2e797b96510c617b8e6f053af17" sys_domain="global" table="x_935283_pia_risk" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:11:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98805ee0c37302101d0dd60d050131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_935283_pia_risk" name="x_935283_pia_risk" sys_domain="global" view="120a826f97796510c617b8e6f053afd1">dbd1d2e797b96510c617b8e6f053af17</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_935283_pia_risk" sys_domain="global" view="120a826f97796510c617b8e6f053afd1">de0a826f97796510c617b8e6f053afd4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:11:27</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_935283_pia_risk</name>
             <roles/>
